@@ -24,3 +24,7 @@ Each document is prepared and published in both Turkish and English.
 - Sızma Testi ve Araçları / Penetration Testing and Tools
 - Protokoller ve Standartlar / Protocols and Standards
 - Mobil Haberleşme Sistemleri / Mobile Communication Systems
+
+---
+
+Lisans / License: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)

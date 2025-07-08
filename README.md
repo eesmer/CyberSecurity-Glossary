@@ -23,3 +23,4 @@ Each document is prepared and published in both Turkish and English.
 - Güvenli Sistem Yapılandırmaları / Secure System Configurations
 - Sızma Testi ve Araçları / Penetration Testing and Tools
 - Protokoller ve Standartlar / Protocols and Standards
+- Mobil Haberleşme Sistemleri / Mobile Communication Systems

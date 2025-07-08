@@ -18,3 +18,8 @@ Each document is prepared and published in both Turkish and English.
 - Kablosuz Ağlar / Wireless Networks
 - Kimlik Doğrulama ve Yetkilendirme / Authentication and Authorization
 - Kriptoloji / Cryptology
+- E-İmza ve Sertifikalar / Electronic Signature and Certificates
+- Siber Savunma Bileşenleri / Cyber Defense Components
+- Güvenli Sistem Yapılandırmaları / Secure System Configurations
+- Sızma Testi ve Araçları / Penetration Testing and Tools
+- Protokoller ve Standartlar / Protocols and Standards

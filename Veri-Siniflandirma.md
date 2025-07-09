@@ -3,8 +3,12 @@
 ## Tanım
 Veri sınıflandırma; bir kurumun sahip olduğu bilgilerin **hassasiyet derecesine**, **yasal yükümlülüklerine**, **iş değeri** ve **risk düzeyine** göre mantıklı kategorilere ayrılması işlemidir.<br>
 Amaç, tüm veri türlerinin korunması için uygun güvenlik önleminin uygulanmasının sağlanmasıdır.<br>
-Veri sınıflandırma, kurum içindeki bilgi varlıklarının önem derecesine göre ayrılmasını sağlayarak; Hangi bilginin kimlerle, nasıl ve hangi seviyede paylaşılabileceği belirler.<br>
-Veriye erişim, saklama, iletim ve imha süreçleri de bu sınıflara göre düzenlenir.
+
+Veri sınıflandırması ile;
+- Hangi bilginin **kimlerle paylaşılabileceği**,
+- Bilginin **nasıl saklanacağı** ve **kimler tarafından erişilebileceği**,
+- Hangi verilerin **özel koruma yöntemlerine** tabi olacağı
+belirlenir ve erişim, saklama, iletim ve imha süreçleri de bu sınıflara göre düzenlenir.
 
 Kurumlara veya mevzuatlara göre farklı sınıflandırma düzeyleri olabilir.<br>
 Yaygın sınıflandırma seviyeleri şunlardır:
@@ -18,7 +22,7 @@ Sınıflandırma işlemi; verinin kaynağı, içeriği, değeri, yasal gereksini
 
 ## Örnek Senaryo
 
-Bir kamu kurumunda çalışanların T.C. Kimlik Numaraları, **Gizli** seviyede sınıflandırılabilir.<br>
+Bir kamu kurumunda çalışanların T.C. Kimlik Numaraları, **Gizli** seviyede sınıflandırılmalıdır.<br>
 Bu bilgiler yalnızca belirli sistem kullanıcıları tarafından erişilebilir olmalıdır.<br>
 Aynı kurumun yayımladığı eğitim takvimi ise **Genel** düzeydedir ve web sitesinden herkese açıktır.<br>
 Bu fark, bilgilerin saklanma, erişim ve imha kurallarını da belirler.

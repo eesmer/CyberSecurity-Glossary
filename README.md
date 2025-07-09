@@ -4,7 +4,7 @@ open-source knowledge base that explains key concepts in the field of cybersecur
 ---
 
 **Cyber-Glossary**, siber güvenlik alanında kullanılan kavramları teknik ve uygulanabilir biçimde açıklayan açık kaynaklı bir bilgi deposudur.
-Amaç; kablosuz ağlar, kriptoloji, sistem güvenliği, kimlik doğrulama, sızma testleri gibi başlıklarda sade, anlaşılır ve aynı zamanda teknik doğruluğu yüksek içerikler sunmaktır.
+Amaç; kablosuz ağlar, kriptoloji, sistem güvenliği, kimlik doğrulama, sızma testleri gibi başlıklarda sade, anlaşılır ve aynı zamanda teknik doğruluğu yüksek içerikler sunmaktır.<br>
 Her belge Türkçe ve İngilizce olarak hazırlanır ve yayınlanır.
  
 **Cyber-Glossary** is an open-source knowledge base that explains key concepts in the field of cybersecurity with practical and technical clarity.

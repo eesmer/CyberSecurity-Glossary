@@ -25,7 +25,7 @@ Bazı veri türleri, yalnızca şirket içi süreçlerde kullanılırken; bazıl
 Yanlış sınıflandırma durumunda, verinin fazla korunması operasyonel yük yaratabilir ve sürdürülebilirlik için buna dikkat edilmelidir.
 Ay şekilde verinin yetersiz korunması da ciddi güvenlik ihlallerine yol açabilir ve yine operasyonel verimliliği yönetememenin bir sonucu olarak karşımıza çıkabilir.
 Buna göre; sınıflandırma çalışması gerçekçi, uygulanabilir olmalı ve kaynaklar bu sınıflandırmayı işletebilecek şekilde yapılandırılmalıdır.<br>
-Özellikle bu noktada yapılan hatalar verilerin korunması veya uygun erişim politikalarının uygulanması konusunda hatalara yol açtığından bu çalışmalar, organizasyonel bir düzenleme yerine bir IT yükü olarak algınabilmektedir.
+Özellikle bu noktada yapılan hatalar verilerin korunması veya uygun erişim politikalarının uygulanması konusunda hatalara yol açtığından bu çalışmalar, organizasyonel bir düzenleme yerine bir IT yükü olarak algılanabilmektedir.
 
 ### Sınıflandırma Seviyeleri
 Yaygın sınıflandırma seviyeleri şunlardır;

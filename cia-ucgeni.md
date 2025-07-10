@@ -41,3 +41,20 @@ Bilgiye erişimin engellenmesi, sistemlerin çökmesi veya ağın kesilmesi bu i
 - Yedekleme stratejileri
 - Güç kaynağı yedekleme (UPS)
 - DoS/DDoS koruma sistemleri
+
+### Örnek Senaryo
+Bir hastanenin hasta bilgi sistemi düşünelim:
+
+- Hastanın tıbbi geçmişine sadece yetkili doktorlar ulaşabilmelidir. (**Gizlilik**)  
+- Reçeteler, teşhis raporları üzerinde değişiklik yapılmamalıdır. (**Bütünlük**)  
+- Acil servis personeli, sisteme her an ulaşabilmelidir. (**Erişilebilirlik**)
+
+Bu ilkelerden biri bile ihlal edilirse, hasta güvenliği ve kurumun itibarı ciddi şekilde zarar görür.
+
+---
+
+### İlgili Sayfalar
+
+- [Bilgi Güvenliği](giris.md)
+- [Veri Sınıflandırma](veri-siniflandirma.md)
+- [Erişim Kontrolü](../04-kimlik-dogrulama/erisim-kontrol.md)

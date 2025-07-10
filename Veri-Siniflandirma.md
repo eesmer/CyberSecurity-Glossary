@@ -1,7 +1,13 @@
 # Veri Sınıflandırma
 
 ## Tanım
-Veri sınıflandırma; bir kurumun sahip olduğu bilgilerin **hassasiyet derecesine**, **yasal yükümlülüklerine**, **iş değeri** ve **risk düzeyine** göre mantıklı kategorilere ayrılması çalışmasıdır.<br>
+Veri sınıflandırma; bir kurumun sahip olduğu bilgilerin;
+- hassasiyet derecesine,
+- yasal yükümlülüklerine,
+- iş değeri,
+- risk düzeyine<br>
+<br>
+göre kategorilere ayrılması çalışmasıdır.<br>
 Amaç, tüm veri türlerinin korunması için uygun güvenlik önlemlerinin uygulanmasını sağlanmaktır.<br>
 
 Veri sınıflandırması ile;

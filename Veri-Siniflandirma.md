@@ -2,12 +2,14 @@
 
 ### Tanım
 Veri sınıflandırma; bir kurumun sahip olduğu bilgilerin;
-- hassasiyet derecesine,
-- yasal yükümlülüklerine,
-- veri değerine,
-- risk düzeyine<br>
+Veri sınıflandırma, bilgi varlıklarını riske göre analiz edip güvenlik seviyelerine ayırma yöntemidir.
+Bilgilerin;
+- hassasiyet derecesini,
+- yasal yükümlülüklerini,
+- veri değerini,
+- risk düzeyini<br>
 <br>
-göre kategorilere ayrılması çalışmasıdır.<br>
+belirler ve buna göre kategorilere ayırır.<br>
 Amaç, tüm veri türlerinin korunması için uygun güvenlik önlemlerinin uygulanmasını sağlamaktır.<br>
 
 Veri sınıflandırma yalnızca teknik bir süreç değildir. Aynı zamanda **organizasyonel güvenlik politikalarının temelini** oluşturan bir çalışmadır.<br>
@@ -23,8 +25,8 @@ Bu nedenle sınıflandırma, **kaynakların doğru kullanımı** açısından da
 
 Bazı veri türleri, yalnızca şirket içi süreçlerde kullanılırken; bazıları üçüncü taraflarla veya kamuoyuyla paylaşılabilir.<br>
 Yanlış sınıflandırma durumunda, verinin fazla korunması operasyonel yük yaratabilir ve sürdürülebilirlik için buna dikkat edilmelidir.
-Ay şekilde verinin yetersiz korunması da ciddi güvenlik ihlallerine yol açabilir ve yine operasyonel verimliliği yönetememenin bir sonucu olarak karşımıza çıkabilir.
-Buna göre; sınıflandırma çalışması gerçekçi, uygulanabilir olmalı ve kaynaklar bu sınıflandırmayı işletebilecek şekilde yapılandırılmalıdır.<br>
+Aynı şekilde verinin yetersiz korunması da ciddi güvenlik ihlallerine yol açabilir ve yine operasyonel verimliliği yönetememenin bir sonucu olarak karşımıza çıkabilir.<br>
+Buna göre; sınıflandırma çalışması, hem gerçekçi hem de kurumun teknik ve yönetsel kaynaklarıyla sürdürülebilir olmalıdır.<br>
 Özellikle bu noktada yapılan hatalar verilerin korunması veya uygun erişim politikalarının uygulanması konusunda hatalara yol açtığından bu çalışmalar, organizasyonel bir düzenleme yerine bir IT yükü olarak algılanabilmektedir.
 
 ### Sınıflandırma Seviyeleri

@@ -2,12 +2,11 @@
 > Bu belge, bilgi güvenliği kapsamında veri sınıflandırma süreçlerini ve seviyelerini açıklamaktadır.<br>
 
 ### Tanım
-Veri sınıflandırma; bir kurumun sahip olduğu bilgilerin;
-Veri sınıflandırma, bilgi varlıklarını riske göre analiz edip güvenlik seviyelerine ayırma yöntemidir.
+Veri sınıflandırma, bir kurumun bilgi varlıklarını risk analizini yapıp güvenlik seviyelerine göre ayırma yöntemidir.
 Bilgilerin;
-- hassasiyet derecesini,
-- yasal yükümlülüklerini,
-- veri değerini,
+- hassasiyet derecesini
+- yasal yükümlülüklerini
+- veri değerini
 - risk düzeyini<br>
 <br>
 belirler ve buna göre kategorilere ayırır.<br>

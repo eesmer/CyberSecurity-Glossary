@@ -1,4 +1,5 @@
 # Veri Sınıflandırma
+> Bu belge, bilgi güvenliği kapsamında veri sınıflandırma süreçlerini ve seviyelerini açıklamaktadır.<br>
 
 ### Tanım
 Veri sınıflandırma; bir kurumun sahip olduğu bilgilerin;

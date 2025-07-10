@@ -21,3 +21,13 @@ Amaç; yetkisiz kişilerin verilere ulaşmasını, görüntülemesini, kopyalama
 - Erişim kontrol listeleri (ACL)
 - Şifreleme (örn: AES)
 - Güvenli iletim protokolleri (VPN, HTTPS)
+
+## Bütünlük (Integrity)
+Bütünlük, bilginin doğruluğunun ve tutarlılığının korunmasıdır.  
+Bilginin yetkisiz kişilerce değiştirilmemesi, bozulmaması ve üzerinde izinsiz oynama yapılmaması için uygulanan önlemlerdir.
+
+**Bütünlüğü sağlamaya yönelik önlemler:**
+- Hash algoritmaları (örn: SHA-256)
+- Dijital imza
+- Dosya bütünlük kontrolleri
+- Yetkilendirme politikaları

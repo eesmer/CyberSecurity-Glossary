@@ -31,3 +31,13 @@ Bilginin yetkisiz kişilerce değiştirilmemesi, bozulmaması ve üzerinde izins
 - Dijital imza
 - Dosya bütünlük kontrolleri
 - Yetkilendirme politikaları
+
+## Erişilebilirlik (Availability)
+Erişilebilirlik, bilginin yetkili kişiler tarafından ihtiyaç duyulduğu anda ulaşılabilir olmasını sağlar.  
+Bilgiye erişimin engellenmesi, sistemlerin çökmesi veya ağın kesilmesi bu ilkenin ihlali anlamına gelir.
+
+**Erişilebilirliği sağlamaya yönelik önlemler:**
+- Sistem yedekliliği (failover, cluster)
+- Yedekleme stratejileri
+- Güç kaynağı yedekleme (UPS)
+- DoS/DDoS koruma sistemleri

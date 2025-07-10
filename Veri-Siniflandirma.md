@@ -7,16 +7,19 @@ Veri sınıflandırma çalışması, bilgilerin;
 - hassasiyet derecesini
 - yasal yükümlülüklerini
 - veri değerini
-- risk düzeyini<br>
-<br>
+- risk düzeyini
+
 belirler ve buna göre kategorilere ayırır.<br>
 Amaç, tüm veri türlerinin korunması için uygun güvenlik önlemlerinin uygulanmasını sağlamaktır.<br>
-
+<br>
 Veri sınıflandırma yalnızca teknik bir süreç değildir. Aynı zamanda **organizasyonel güvenlik politikalarının temelini** oluşturan bir çalışmadır.<br>
-Veri sınıflandırması ile;
-- Hangi bilginin **kimlerle paylaşılabileceği**,
-- Bilginin **nasıl saklanacağı** ve **kimler tarafından erişilebileceği**,
+<br>
+Veri sınıflandırması ile;<br>
+
+- Hangi bilginin **kimlerle paylaşılabileceği**
+- Bilginin **nasıl saklanacağı** ve **kimler tarafından erişilebileceği**
 - Hangi verilerin **özel koruma yöntemlerine** tabi olacağı
+
 belirlenir ve erişim, saklama, iletim ve imha süreçleri de bu sınıflara göre düzenlenir.
 
 ### Kaynakların Doğru Kullanımı ve Operasyonel Verimlilik

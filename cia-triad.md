@@ -44,3 +44,9 @@ System crashes, outages, or attacks like DoS may violate this principle.
 
 ### Example Scenario
 Consider a hospital's patient information system:
+
+- Only authorized doctors can access patient records. (**Confidentiality**)
+- Prescriptions and diagnoses must remain unchanged. (**Integrity**)
+- Emergency room staff must have immediate access to the system. (**Availability**)
+
+If any of these principles are violated, both patient safety and institutional reputation are at risk.

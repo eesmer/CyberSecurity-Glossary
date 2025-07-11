@@ -8,3 +8,6 @@ The CIA Triad consists of three core principles that form the basis of all infor
 - **Confidentiality**
 - **Integrity**
 - **Availability**
+
+Together, these principles ensure that information is protected from unauthorized access, remains accurate and trustworthy, and is accessible when needed.<br>
+All security policies, systems, and controls—directly or indirectly—aim to uphold these three principles.

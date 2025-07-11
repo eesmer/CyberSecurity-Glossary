@@ -12,3 +12,5 @@ Erişim kontrolü bilgi güvenliğinin **gizlilik** ilkesini doğrudan destekler
 Ancak aynı zamanda sistem kaynaklarının verimli kullanımı, izleme ve hesap verebilirlik açısından da kritik öneme sahiptir.
 
 ---
+
+## Erişim Kontrol Türleri

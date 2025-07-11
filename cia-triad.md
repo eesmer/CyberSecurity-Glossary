@@ -52,3 +52,9 @@ Consider a hospital's patient information system:
 If any of these principles are violated, both patient safety and institutional reputation are at risk.
 
 ---
+
+### Related Pages
+
+- [Information Security](giris.md)
+- [Data Classification](data-classification.md)
+- [Access Control](../04-authentication/access-control.md)

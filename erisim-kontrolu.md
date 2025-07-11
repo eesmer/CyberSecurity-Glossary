@@ -23,7 +23,6 @@ Esnektir ama merkezi yönetim zayıftır. Genelde küçük/orta ölçekli sistem
 **Örnek 1 – Windows File Server:**
 - Bir kullanıcı, kendi klasöründe Paylasim adında bir klasör oluşturur.
 - Sağ tıklama yapıp “Sharing” → “Permissions” sekmesinden kimin erişebileceğini belirler.
-<br>
 Yani dosya sahibi erişim yetkisini belirliyor. Bu, DAC erişim kontrol türüdür.
 
 **Örnek 2 – Linux sistemde chmod:**

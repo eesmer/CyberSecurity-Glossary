@@ -23,5 +23,5 @@ The goal is to prevent unauthorized users from viewing, copying, transferring, o
 - Secure transmission protocols (VPN, HTTPS)
 
 ## Integrity
-Integrity refers to the accuracy and consistency of data.
+Integrity refers to the accuracy and consistency of data.<br>
 The goal is to prevent data from being changed, corrupted, or tampered with without proper authorization.

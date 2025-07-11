@@ -35,3 +35,9 @@ The goal is to prevent data from being changed, corrupted, or tampered with with
 ## Availability
 Availability ensures that authorized individuals can access data whenever it’s needed.<br>
 System crashes, outages, or attacks like DoS may violate this principle.
+
+**Measures to ensure availability:**
+- Redundancy (failover systems, clusters)
+- Backup strategies
+- Power backups (UPS)
+- DoS/DDoS protection

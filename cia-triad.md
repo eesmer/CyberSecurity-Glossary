@@ -25,3 +25,9 @@ The goal is to prevent unauthorized users from viewing, copying, transferring, o
 ## Integrity
 Integrity refers to the accuracy and consistency of data.<br>
 The goal is to prevent data from being changed, corrupted, or tampered with without proper authorization.
+
+**Measures to ensure integrity:**
+- Hashing algorithms (e.g., SHA-256)
+- Digital signatures
+- File integrity monitoring
+- Authorization policies

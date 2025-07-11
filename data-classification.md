@@ -44,3 +44,9 @@ Factors that affect classification:
 - Who might be harmed if leaked?
 - Legal obligations (KVKK, GDPR, sectoral regulations)
 - Potential impact if breached
+
+### Example Scenario
+A government agency classifies employees' national ID numbers as **Confidential**.<br>
+Only authorized system users should be able to access this information.<br>
+On the other hand, its training schedule is **Public** and can be shared via the institution’s website.<br>
+This distinction determines the rules for storage, access, and disposal.

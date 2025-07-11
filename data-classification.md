@@ -37,3 +37,10 @@ Common classification levels include:
 - **Confidential:** Only specific personnel can access. (e.g., employee records, customer data)
 - **Internal Use Only:** Not intended for external sharing, but not highly sensitive.
 - **Public:** Open to everyone. (e.g., public announcements, published schedules)
+
+Factors that affect classification:
+- Who created the data?
+- What kind of content does it have?
+- Who might be harmed if leaked?
+- Legal obligations (KVKK, GDPR, sectoral regulations)
+- Potential impact if breached

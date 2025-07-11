@@ -21,3 +21,7 @@ The goal is to prevent unauthorized users from viewing, copying, transferring, o
 - Access control lists (ACLs)
 - Encryption (e.g., AES)
 - Secure transmission protocols (VPN, HTTPS)
+
+## Integrity
+Integrity refers to the accuracy and consistency of data.
+The goal is to prevent data from being changed, corrupted, or tampered with without proper authorization.

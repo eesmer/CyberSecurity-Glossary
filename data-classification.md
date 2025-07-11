@@ -20,3 +20,13 @@ Through data classification, an organization determines:<br>
 - **What kind of protection methods must apply**
 
 These factors affect access, storage, transmission, and disposal procedures.
+
+### Efficient Use of Resources and Operational Sustainability
+In large organizations where the volume of data is high, applying the same level of security to all data is not feasible.<br>
+That’s why classification is critical for **efficient use of resources**.<br>
+
+Some data is used only within internal operations, while some can be shared with third parties or publicly.<br>
+If classification is done incorrectly, overprotecting some data may create unnecessary operational overhead.
+Likewise, under-protection of sensitive data may lead to serious security breaches and indicate poor risk/resource alignment.<br>
+Therefore, classification must be **realistic and feasible**, aligned with both technical and administrative capabilities.<br>
+When done poorly, it’s often perceived not as an organizational strategy but as an IT burden.

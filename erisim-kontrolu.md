@@ -34,5 +34,5 @@ Bu örneklerden de anlaşılacağı üzere sistemdeki kaynağa erişim yetkisi o
 Bu metod, küçük organizasyonlar için uygulanmalıdır. Erişim yapılandırmaları, merkezi olarak yönetilmediğinden yetkilendirme ayarlarının kontrolü ve denetimi periyodik olarak yapılmalıdır.<br>
 
 ### MAC (Mandatory Access Control)
-Erişim hakları, sistem tarafından merkezi olarak tanımlanır. Kullanıcının yetkisi olsa bile belirli sınıflandırmalara uymuyorsa erişemez.<br>
-Askerî sistemler ve devlet kurumlarında tercih edilir.<br>
+MAC modeli, erişim haklarının sistem veya politika tarafından merkezi olarak belirlendiği, kullanıcının inisiyatifinin olmadığı bir erişim kontrol yöntemidir.<br>
+Kullanıcının yetkisi olsa bile, tanımlanmış sınıflandırmalara (etiket, seviye, kategori) uymuyorsa erişim engellenir. Askerî sistemler ve devlet kurumlarında tercih edilir.<br>

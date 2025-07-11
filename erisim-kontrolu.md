@@ -25,3 +25,6 @@ Esnektir ama merkezi yönetim zayıftır. Genelde küçük/orta ölçekli sistem
 - Sağ tıklama yapıp “Sharing” → “Permissions” sekmesinden kimin erişebileceğini belirler.
 <br>
 Yani dosya sahibi erişim yetkisini belirliyor. Bu, DAC erişim kontrol türüdür.
+
+**Örnek 2 – Linux sistemde chmod:**
+Kullanıcı, kendi home dizinindeki dosyaya chmod 700 ile yetkilendirme verir.

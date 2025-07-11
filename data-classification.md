@@ -30,3 +30,10 @@ If classification is done incorrectly, overprotecting some data may create unnec
 Likewise, under-protection of sensitive data may lead to serious security breaches and indicate poor risk/resource alignment.<br>
 Therefore, classification must be **realistic and feasible**, aligned with both technical and administrative capabilities.<br>
 When done poorly, it’s often perceived not as an organizational strategy but as an IT burden.
+
+### Classification Levels
+Common classification levels include:
+- **Critical / Top Secret:** Exposure would cause major damage. (e.g., military plans, encryption keys)
+- **Confidential:** Only specific personnel can access. (e.g., employee records, customer data)
+- **Internal Use Only:** Not intended for external sharing, but not highly sensitive.
+- **Public:** Open to everyone. (e.g., public announcements, published schedules)

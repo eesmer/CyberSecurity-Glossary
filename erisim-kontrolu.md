@@ -26,4 +26,8 @@ Esnektir ama merkezi yönetim zayıftır. Genelde küçük/orta ölçekli sistem
 Yani dosya sahibi erişim yetkisini belirliyor. Bu, DAC erişim kontrol türüdür.
 
 **Örnek 2 – Linux sistemde chmod:**
-Kullanıcı, kendi home dizinindeki dosyaya chmod 700 ile yetkilendirme verir.
+- Kullanıcı, kendi home dizinindeki dosyaya chmod 700 ile yetkilendirme verir.
+- Böylece sadece dosya sahibi okuma/yazma/çalıştırma iznine sahip olur.
+Yani yetkiyi belirleyen kullanıcının kendisidir. Bu, DAC erişim kontrol türüdür.
+
+Bu örneklerden de anlaşılacağı üzere sistemdeki kaynağa erişim yetkisi olan hesaplar, yetkilendirildikleri alanda (FileServer paylaşımı veya Linux sistemdeki kendi home dizin) yeni dizin ve dosyalar oluşturup veya mevcut dizin veya dosyalara başka hesaplar için yetkilendirmeler yaparlar.<br>

@@ -14,3 +14,4 @@ Ancak aynı zamanda sistem kaynaklarının verimli kullanımı, izleme ve hesap 
 ---
 
 ## Erişim Kontrol Türleri
+Farklı organizasyonel yapılar ve ihtiyaçlara göre aşağıdaki erişim kontrol modelleri yaygın olarak kullanılır.

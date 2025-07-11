@@ -20,7 +20,7 @@ Farklı organizasyonel yapılar ve ihtiyaçlara göre aşağıdaki erişim kontr
 Kullanıcı tabanlı bir modeldir. *Kaynağın sahibi, kimlerin erişebileceğine kendisi karar verir.*<br>
 Esnektir ama merkezi yönetim zayıftır. Genelde küçük/orta ölçekli sistemlerde görülür.<br>
 
-**Örnek 1 – Windows File Server:**
+**Örnek 1 – Windows File Server veya SMB Paylaşımı:**
 - Bir kullanıcı, kendi klasöründe Paylasim adında bir klasör oluşturur.
 - Sağ tıklama yapıp “Sharing” → “Permissions” sekmesinden kimin erişebileceğini belirler.
 Yani dosya sahibi erişim yetkisini belirliyor. Bu, DAC erişim kontrol türüdür.

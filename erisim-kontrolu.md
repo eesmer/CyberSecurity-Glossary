@@ -15,3 +15,7 @@ Ancak aynı zamanda sistem kaynaklarının verimli kullanımı, izleme ve hesap 
 
 ## Erişim Kontrol Türleri
 Farklı organizasyonel yapılar ve ihtiyaçlara göre aşağıdaki erişim kontrol modelleri yaygın olarak kullanılır.
+
+### DAC (Discretionary Access Control)
+Kullanıcı tabanlı bir modeldir. *Kaynağın sahibi, kimlerin erişebileceğine kendisi karar verir.*<br>
+Esnektir ama merkezi yönetim zayıftır. Genelde küçük/orta ölçekli sistemlerde görülür.<br>

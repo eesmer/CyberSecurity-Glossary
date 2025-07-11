@@ -33,5 +33,5 @@ The goal is to prevent data from being changed, corrupted, or tampered with with
 - Authorization policies
 
 ## Availability
-Availability ensures that authorized individuals can access data whenever it’s needed.
+Availability ensures that authorized individuals can access data whenever it’s needed.<br>
 System crashes, outages, or attacks like DoS may violate this principle.

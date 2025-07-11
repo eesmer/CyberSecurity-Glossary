@@ -50,3 +50,5 @@ Consider a hospital's patient information system:
 - Emergency room staff must have immediate access to the system. (**Availability**)
 
 If any of these principles are violated, both patient safety and institutional reputation are at risk.
+
+---

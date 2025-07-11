@@ -31,4 +31,4 @@ Yani dosya sahibi erişim yetkisini belirliyor. Bu, DAC erişim kontrol türüd�
 Yani yetkiyi belirleyen kullanıcının kendisidir. Bu, DAC erişim kontrol türüdür.
 
 Bu örneklerden de anlaşılacağı üzere sistemdeki kaynağa erişim yetkisi olan hesaplar, yetkilendirildikleri alanda (FileServer paylaşımı veya Linux sistemdeki kendi home dizin) yeni dizin ve dosyalar oluşturup veya mevcut dizin veya dosyalara başka hesaplar için yetkilendirmeler yaparlar.<br>
-Bu metod, küçük organizasyonlar için uygulanmalıdır. Erişim yapılandırmalarının merkezi olarak yönetilmemesi sonucu periyodik olarak yetkilendirme ayarlarının kontrolü ve denetimi yapılmalıdır.<br>
+Bu metod, küçük organizasyonlar için uygulanmalıdır. Erişim yapılandırmaları, merkezi olarak yönetilmediğinden yetkilendirme ayarlarının kontrolü ve denetimi periyodik olarak yapılmalıdır.<br>

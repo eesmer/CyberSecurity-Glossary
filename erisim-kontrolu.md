@@ -32,3 +32,7 @@ Yani yetkiyi belirleyen kullanıcının kendisidir. Bu, DAC erişim kontrol tür
 
 Bu örneklerden de anlaşılacağı üzere sistemdeki kaynağa erişim yetkisi olan hesaplar, yetkilendirildikleri alanda (FileServer paylaşımı veya Linux sistemdeki kendi home dizin) yeni dizin ve dosyalar oluşturup veya mevcut dizin veya dosyalara başka hesaplar için yetkilendirmeler yaparlar.<br>
 Bu metod, küçük organizasyonlar için uygulanmalıdır. Erişim yapılandırmaları, merkezi olarak yönetilmediğinden yetkilendirme ayarlarının kontrolü ve denetimi periyodik olarak yapılmalıdır.<br>
+
+### MAC (Mandatory Access Control)
+Erişim hakları, sistem tarafından merkezi olarak tanımlanır. Kullanıcının yetkisi olsa bile belirli sınıflandırmalara uymuyorsa erişemez.<br>
+Askerî sistemler ve devlet kurumlarında tercih edilir.<br>

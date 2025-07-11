@@ -41,3 +41,6 @@ System crashes, outages, or attacks like DoS may violate this principle.
 - Backup strategies
 - Power backups (UPS)
 - DoS/DDoS protection
+
+### Example Scenario
+Consider a hospital's patient information system:

@@ -15,3 +15,9 @@ All security policies, systems, and controls-directly or indirectly-aim to uphol
 ## Confidentiality
 Confidentiality means that only authorized individuals can access specific data.
 The goal is to prevent unauthorized users from viewing, copying, transferring, or tampering with data.
+
+**Measures to ensure confidentiality:**
+- Authentication (MFA, passwords, access cards)
+- Access control lists (ACLs)
+- Encryption (e.g., AES)
+- Secure transmission protocols (VPN, HTTPS)

@@ -50,7 +50,7 @@ Her süreç (process) ve her dosya bir **etiket (label)** ile tanımlanır. Eri�
 ```bash
 system_u:object_r:httpd_sys_content_t:s0
 ```
-- Kurallar /etc/selinux/targeted/contexts/ ve semanage fcontext ile tanımlanır.
+- Kurallar /etc/selinux/targeted/contexts/ ve semanage fcontext ile tanımlanır. <br>
 /var/www/html dizinine sadece httpd_t tipinde çalışan Apache servisinin erişmesine izin verilir.
 
 ```

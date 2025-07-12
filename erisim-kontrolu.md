@@ -39,8 +39,9 @@ Kullanıcının yetkisi olsa bile tanımlanmış sınıflandırmalara (etiket, s
 Bu model, özellikle **gizlilik seviyesi yüksek ortamlarda** örneğin askerî sistemler, kamu kurumları ve kritik altyapılar gibi alanlarda tercih edilir.<br>
 
 **Örnek - SELinux (Security-Enhanced Linux)** <br>
-SELinux, Linux çekirdeğine entegre edilmiş bir MAC uygulamasıdır. (RHEL tabanlı sistemlerde bulunur.)
-Her süreç (process) ve her dosya bir **etiket (label)** ile tanımlanır. Erişimler bu etiketlere göre sağlanır.<br>
+SELinux, Linux çekirdeğine entegre edilmiş bir MAC uygulamasıdır. <br>
+(RHEL tabanlı sistemlerde bulunur.) <br>
+Her **süreç (process)** ve her dosya bir **etiket (label)** ile tanımlanır. Erişimler bu etiketlere göre sağlanır.<br>
 
 **SELinux Label Kullanımı Yapılandırma Örneği:** <br>
 - system_u -> Kullanıcı Kimliği <br>

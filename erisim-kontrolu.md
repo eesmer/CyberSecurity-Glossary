@@ -37,3 +37,8 @@ Bu metod, küçük organizasyonlar için uygulanmalıdır. Erişim yapılandırm
 MAC modeli, erişim haklarının sistem veya politika tarafından merkezi olarak belirlendiği, kullanıcının inisiyatifinin olmadığı bir erişim kontrol yöntemidir.<br>
 Kullanıcının yetkisi olsa bile tanımlanmış sınıflandırmalara (etiket, seviye, kategori) uymuyorsa erişim engellenir.<br>
 Bu model, özellikle **gizlilik seviyesi yüksek ortamlarda** örneğin askerî sistemler, kamu kurumları ve kritik altyapılar gibi alanlarda tercih edilir.<br>
+
+**Örnek - SELinux (Security-Enhanced Linux)**
+SELinux, Linux çekirdeğine entegre edilmiş bir MAC uygulamasıdır. (RHEL tabanlı sistemlerde bulunur.)<br>
+Her süreç (process) ve her dosya bir **etiket (label)** ile tanımlanır. Erişimler bu etiketlere göre sağlanır.<br>
+

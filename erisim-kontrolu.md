@@ -42,10 +42,18 @@ Bu model, özellikle **gizlilik seviyesi yüksek ortamlarda** örneğin askerî 
 SELinux, Linux çekirdeğine entegre edilmiş bir MAC uygulamasıdır. (RHEL tabanlı sistemlerde bulunur.)
 Her süreç (process) ve her dosya bir **etiket (label)** ile tanımlanır. Erişimler bu etiketlere göre sağlanır.<br>
 
-**SELinux label kullanım örneği:**
+**SELinux Label Kullanımı Yapılandırma Örneği:** <br>
+- **system_u** -> Kullanıcı Kimliği <br>
+- **object_r** -> Type <br>
+- **s0** -> Güvenlik Seviyesi / Security Level <br>
+
 ```bash
 system_u:object_r:httpd_sys_content_t:s0
 ```
-**system_u** -> Kullanıcı Kimliği <br>
-**object_r** -> Type <br>
-**s0** -> Güvenlik Seviyesi / Security Level <br>
+- Kurallar /etc/selinux/targeted/contexts/ ve semanage fcontext ile tanımlanır.
+/var/www/html dizinine sadece httpd_t tipinde çalışan Apache servisinin erişmesine izin verilir.
+
+```
+ls -Z /var/www/html
+getenforce  # Enforcing / Permissive / Disabled
+```

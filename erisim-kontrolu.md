@@ -46,6 +46,6 @@ Her süreç (process) ve her dosya bir **etiket (label)** ile tanımlanır. Eri�
 ```bash
 system_u:object_r:httpd_sys_content_t:s0
 ```
-**system_u** -> Kullanıcı Kimliği
-**object_r** -> Type
-**s0** -> Güvenlik Seviyesi / Security Level
+**system_u** -> Kullanıcı Kimliği <br>
+**object_r** -> Type <br>
+**s0** -> Güvenlik Seviyesi / Security Level <br>

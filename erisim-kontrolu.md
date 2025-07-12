@@ -20,12 +20,12 @@ Farklı organizasyonel yapılar ve ihtiyaçlara göre aşağıdaki erişim kontr
 Kullanıcı tabanlı bir modeldir. *Kaynağın sahibi, kimlerin erişebileceğine kendisi karar verir.*<br>
 Esnektir ama merkezi yönetim zayıftır. Genelde küçük/orta ölçekli sistemlerde görülür.<br>
 
-**Örnek - Windows File Server veya SMB Paylaşımı:**
+**Örnek - Windows File Server veya SMB Paylaşımı**
 - Bir kullanıcı, kendi klasöründe Paylasim adında bir klasör oluşturur.
 - Sağ tıklama yapıp “Sharing” → “Permissions” sekmesinden kimin erişebileceğini belirler.
 Yani dosya sahibi erişim yetkisini belirliyor. Bu, DAC erişim kontrol türüdür.
 
-**Örnek - Linux sistemde chmod:**
+**Örnek - Linux sistemde chmod**
 - Kullanıcı, kendi home dizinindeki dosyaya chmod 700 ile yetkilendirme verir.
 - Böylece sadece dosya sahibi okuma/yazma/çalıştırma iznine sahip olur.
 Yani yetkiyi belirleyen kullanıcının kendisidir. Bu, DAC erişim kontrol türüdür.
@@ -38,7 +38,7 @@ MAC modeli, erişim haklarının sistem veya politika tarafından merkezi olarak
 Kullanıcının yetkisi olsa bile tanımlanmış sınıflandırmalara (etiket, seviye, kategori) uymuyorsa erişim engellenir.<br>
 Bu model, özellikle **gizlilik seviyesi yüksek ortamlarda** örneğin askerî sistemler, kamu kurumları ve kritik altyapılar gibi alanlarda tercih edilir.<br>
 
-**Örnek - SELinux (Security-Enhanced Linux)**
+**Örnek - SELinux (Security-Enhanced Linux)** <br>
 SELinux, Linux çekirdeğine entegre edilmiş bir MAC uygulamasıdır. (RHEL tabanlı sistemlerde bulunur.)
 Her süreç (process) ve her dosya bir **etiket (label)** ile tanımlanır. Erişimler bu etiketlere göre sağlanır.<br>
 

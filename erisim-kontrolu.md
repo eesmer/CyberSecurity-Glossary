@@ -42,3 +42,10 @@ Bu model, özellikle **gizlilik seviyesi yüksek ortamlarda** örneğin askerî 
 SELinux, Linux çekirdeğine entegre edilmiş bir MAC uygulamasıdır. (RHEL tabanlı sistemlerde bulunur.)
 Her süreç (process) ve her dosya bir **etiket (label)** ile tanımlanır. Erişimler bu etiketlere göre sağlanır.<br>
 
+**SELinux label kullanım örneği:**
+```bash
+system_u:object_r:httpd_sys_content_t:s0
+```
+**system_u** -> Kullanıcı Kimliği
+**object_r** -> Type
+**s0** -> Güvenlik Seviyesi / Security Level

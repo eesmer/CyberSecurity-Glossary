@@ -33,3 +33,27 @@ In both examples, authorized users can create or manage subfolders or files and 
 This model suits small teams or organizations. However, since it lacks centralized control, regular audits are essential.
 
 ---
+
+### 2- MAC (Mandatory Access Control)
+MAC is a centrally governed access model.
+Even if a user has apparent permissions, access is blocked if they don't meet label or classification rules.
+
+This model is used in **high-security environments** such as military systems, government agencies, and critical infrastructure.
+
+#### Example – SELinux (Security-Enhanced Linux)
+SELinux is a MAC system integrated into the Linux kernel (used in RHEL-based systems).
+Every **process** and **file** is labeled, and access decisions depend on these labels.
+
+**Label structure:**
+```bash
+system_u:object_r:httpd_sys_content_t:s0
+```
+
+- Labels define user identity, object type, and security level.
+- Only services with matching types (e.g., `httpd_t`) can access related paths (e.g., `/var/www/html`).
+
+**Check status with:**
+```bash
+ls -Z /var/www/html
+getenforce
+```

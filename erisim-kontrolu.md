@@ -83,3 +83,6 @@ RBAC (Role-Based Access Control), erişim yetkilerinin doğrudan kullanıcılara
 Kullanıcılar, rollere atanır. Böylece sahip oldukları eirşim yetkileri de roller üzerinden belirlenir.<br>
 Örneğin; group1 isimli bir gruba üye olan user1 isimli bir kullanıcı hesabı, erişimlerin gruplar üzerinden atandığı bir yapıda group1 grubunun yetkilendirildiği alanlara erişim yapabilir.
 Yani tam olarak; üye olduğu grup veya rolü üzerinden yetkilendirilir. Kullanıcı hesabına özel bir yetki tanımı kullanılmaz.<br>
+<br>
+Bu model, özellikle orta ve büyük ölçekli organizasyonlarda kullanılır.<br>
+Amacı; Yetki yönetimini basitleştirmek, merkezi kontrolü kolaylaştırmak ve yetki karmaşasını önlemektir.<br>

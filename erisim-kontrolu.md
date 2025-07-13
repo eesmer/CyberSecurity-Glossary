@@ -66,3 +66,10 @@ Profil tabanlı çalışır ve her uygulama için bir profil yapılandırması s
 **AppArmor Yapılandırma**<br>
 - /etc/apparmor.d/ altında profiller bulunur
 - Örneğin /usr/sbin/cupsd yazıcısı için AppArmor profilinde yalnızca belirli dosyalara erişim tanımlanabilir.
+<br>
+#### # Örnek - Active Directory + Classification (Windows Information Protection)
+Active Directory ortamlarında, özellikle Windows Information Protection (WIP) ve Microsoft Purview (eski adıyla AIP) kullanılarak MAC benzeri bir kontrol sağlanabilir.<br>
+- Bir Word belgesi, "Finance – Confidential" etiketi ile sınıflandırılır.
+- Yalnızca “Finance” güvenlik grubunda yer alan kullanıcılar bu belgeyi açabilir.
+- Grup dışında yer alan kişiler, belgeyi açsa bile içeriği göremez (gizlilik koruması).
+- Erişim kuralları etikete göre merkezi olarak tanımlanır, kullanıcılar değiştiremez.

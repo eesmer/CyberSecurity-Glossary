@@ -57,3 +57,4 @@ system_u:object_r:httpd_sys_content_t:s0
 ls -Z /var/www/html
 getenforce
 ```
+Policies are configured via `semanage fcontext` and related directories.

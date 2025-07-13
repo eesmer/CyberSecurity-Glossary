@@ -120,9 +120,14 @@ Böylece roller üzerinden yetki yönetimi AD gruplarıyla sağlanmaktadır. Bu 
 - erişim, kullanıcılar yerine gruplara tanımlanır. -> RBAC
 <br>
 Buna göre; pratik model, DAC + RBAC olarak yapılandırılır.<br>
-RBAC, DAC'in grup/rol düzeyinde merkezi olarak uygulanmasını sağlayan bir modeldir. Kullanıcılara bireysel değil, kurumsal roller üzerinden erişim tanımlanır. Bu sayede yetki yönetimi kolaylaşır ve izlenebilirliği sağlanır.
+RBAC, DAC'in grup/rol düzeyinde merkezi olarak uygulanmasını sağlayan bir modeldir. Kullanıcılara bireysel değil, kurumsal roller üzerinden erişim tanımlanır.<br>
+RBAC yapılandırmaya DAC'nin organizasyonel olarak sistemleştirilmiş halinin uygulanmasıdır. Bu sayede yetki yönetimi kolaylaşır ve izlenebilirlik sağlanır.
 <br>
-MAC modeli ise;
+MAC modeli ise;<br>
+Daha dar ve özel durumlar için tercih edilir. Genellikle devlet kurumları, savunma sanayi gibi yüksek gizlilik ihtiyacı olan yapılarda uygulanır.<br>
+MAC modeli, teorik olarak en yüksek güvenlik seviyesini sunar. Ancak gerçek dünyada, özellikle esnek çalışma yapıları olan şirketlerde uygulanması hem teknik hem yönetsel açıdan zorluk oluşturur.<br>
+Sistemde herhangi bir etiket (labeling), seviye (level), kategori (compartment) yapısı kurulur. Kullanıcı, sistem politikası dışında bir kararla erişim kazanır veya kaybeder.
+Daha dikine ve olası yapılandırma ayarlarında iş kesintisi olması sebeplerinden dolayı daha çok özel sektör dışındaki yüksek güvenlikli ortamlarda tercih edilir.<br>
 
 
 

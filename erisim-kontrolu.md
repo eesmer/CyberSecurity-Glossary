@@ -77,3 +77,6 @@ Active Directory ortamlarında, özellikle Windows Information Protection (WIP) 
 MAC, yüksek denetim ve merkezi kontrol gerektiren sistemlerde vazgeçilmezdir. Ancak esnek ve yapılandırması basit değildir.<br>
 Yapılandırma hatalarından hizmet kesintisi yaşanma durumları ortaya çıkabilir.<br>
 Bu nedenle; özellikle SELinux yapılandırmalarında ilk ayarlar dikkatli yapılmalı ve audit modları ile test edilmelidir.<br>
+
+### RBAC (Role-Based Access Control)
+RBAC (Role-Based Access Control), erişim yetkilerinin doğrudan kullanıcılara değil, rollere tanımlandığı bir erişim kontrol modelidir.<br>

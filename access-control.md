@@ -58,3 +58,25 @@ ls -Z /var/www/html
 getenforce
 ```
 Policies are configured via `semanage fcontext` and related directories.
+
+#### Example – AppArmor
+AppArmor is another MAC system, used mainly in Ubuntu and Debian systems.
+It is profile-based and easier to configure than SELinux.
+
+- Profiles are located under `/etc/apparmor.d/`.
+- For example, you can limit what `/usr/sbin/cupsd` can access using its AppArmor profile.
+
+#### Example – Active Directory + Classification (Windows Information Protection)
+Using **Windows Information Protection** or **Microsoft Purview**, MAC-like classification can be enforced.
+
+- A document is tagged “Finance – Confidential”.
+- Only members of the "Finance" group can open the file.
+- Even if others receive the file, they cannot view its content.
+- Labels are centrally enforced and cannot be overridden by users.
+
+**Note:** This requires Azure AD and cloud services. It’s not achievable with a standalone AD + File Server.
+
+MAC offers strict policy enforcement but lacks flexibility.
+Misconfiguration can lead to service disruption. Testing in permissive/audit mode is recommended.
+
+---

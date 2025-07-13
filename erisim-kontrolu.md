@@ -111,7 +111,7 @@ Bu senaryo, RBAC modeline bir örnektir.  Kullanıcıya değil, rol olarak tanı
 Kullanıcı hesabı, yetkilendirildiği kaynakta başka yetkilendirme ve erişim atamaları yapabiliyorsa bu yapılandırma modeli DAC'tır.
 DAC, merkezi bir yönetim sağlamadığı için yönetim karmaşası oluşturabilir. DAC, aşağıdaki örnek senaryoda RBAC ile kullanıldığında daha yönetilebilir bir ortam elde edilir.<br>
 Bir yapılandırmada örneğin; bir domain ortamında kullanıcı hesapları ve gruplara göre bir kimlik ve erişim yönetimi yapılıyorsa;
-AD kullanıcı hesabı üyesi olduğu gruba göre paylaşım veya kaynaklara erişim yapıyorsa bu yapı DAC ile RBAC modelinin birlikte kullanılmasına örnektir.
+AD kullanıcı hesabı üyesi olduğu gruba göre paylaşım veya kaynaklara erişim yapıyorsa bu yapı RBAC modeline örnektir.
 Günümüzde Domain ortamı ve domain ortamındaki kullanıcı hesapları ile kullanıcı hesaplarının üye olduğu gruplar üzerinden yetkilendirilme atamaları yaygın model olarak kullanılmaktadir<br>
 Böylece roller üzerinden yetki yönetimi AD gruplarıyla sağlanmaktadır.
 

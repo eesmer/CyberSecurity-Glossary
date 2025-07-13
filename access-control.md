@@ -80,3 +80,27 @@ MAC offers strict policy enforcement but lacks flexibility.
 Misconfiguration can lead to service disruption. Testing in permissive/audit mode is recommended.
 
 ---
+
+### 3- RBAC (Role-Based Access Control)
+RBAC is a model where access is granted to **roles**, not directly to individual users.
+Users inherit permissions based on their assigned roles or groups.
+
+This approach is widely used in medium and large-scale organizations for ease of management and clarity.
+
+#### Example – Active Directory Group-Based Access
+- Groups like `HR_Admin` or `HR_ReadOnly` are defined.
+- Permissions on shared folders are granted to these groups.
+- `user1` is in `HR_ReadOnly` → read-only
+- `user2` is in `HR_Admin` → read/write/delete
+
+Users receive access based on group membership → RBAC.
+
+#### Example – SUDO with Roles in Linux
+```bash
+%developers ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart myapp
+```
+
+- Any user in the `developers` group can restart the service.
+- This role-based privilege avoids direct root access.
+
+---

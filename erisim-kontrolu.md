@@ -59,7 +59,7 @@ ls -Z /var/www/html
 getenforce  # Enforcing / Permissive / Disabled
 ```
 
-#### # Örnek - AppArmor**
+#### # Örnek - AppArmor
 AppArmor, Ubuntu ve Debian tabanlı sistemlerde yaygın olarak kullanılan bir diğer MAC uygulamasıdır.<br>
 Profil tabanlı çalışır ve her uygulama için bir profil yapılandırması sağlar.<br>
 <br>

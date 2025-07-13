@@ -43,7 +43,7 @@ SELinux, Linux çekirdeğine entegre edilmiş bir MAC uygulamasıdır. <br>
 (RHEL tabanlı sistemlerde bulunur.) <br>
 Her **süreç (process)** ve her dosya bir **etiket (label)** ile tanımlanır. Erişimler bu etiketlere göre sağlanır.<br>
 
-**SELinux Label Kullanımı Yapılandırma Örneği** <br>
+**SELinux Yapılandırma** <br>
 - system_u -> Kullanıcı Kimliği <br>
 - object_r -> Type <br>
 - s0 -> Güvenlik Seviyesi / Security Level <br>
@@ -62,3 +62,7 @@ getenforce  # Enforcing / Permissive / Disabled
 **Örnek - AppArmor**
 AppArmor, Ubuntu ve Debian tabanlı sistemlerde yaygın olarak kullanılan bir diğer MAC uygulamasıdır.<br>
 Profil tabanlı çalışır ve her uygulama için bir profil yapılandırması sağlar.<br>
+<br>
+**AppArmor Yapılandırma**<br>
+- /etc/apparmor.d/ altında profiller bulunur
+- Örneğin /usr/sbin/cupsd yazıcısı için AppArmor profilinde yalnızca belirli dosyalara erişim tanımlanabilir.

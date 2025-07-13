@@ -91,5 +91,11 @@ Amaç; Yetki yönetimini basitleştirmek, merkezi kontrolü kolaylaştırmak ve 
 - AD ortamında HR_Admin, HR_ReadOnly gibi güvenlik grupları oluşturulmuştur.
 - HR klasörü yalnızca bu gruplara açılmıştır.
 - Kullanıcılar sadece ilgili role (grup) atanarak erişim kazanır.
+- user1 -> sadece HR_ReadOnly grubuna üye -> sadece okuma hakkı vardır.
+- user2 -> HR_Admin grubunda -> dosya oluşturabilir, silebilir.
+
+Bu örnek RBAC modeline bir örnektir. Kullanıcılar yerine grupla yetkilendirilmiştir. Gruplara üye kullanıcı hesapları yetkilerini bu role/group atamalarından alır.<br>
+<br>
+
 
 

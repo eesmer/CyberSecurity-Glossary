@@ -4,7 +4,6 @@
 ---
 
 ## Definition
-
 Access control refers to the set of rules and mechanisms that determine **who can access which information systems, resources, or data, when, how, and to what extent**.
 Its main goal is to ensure that only authorized users access defined resources and to prevent unauthorized access.
 

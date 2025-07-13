@@ -94,8 +94,19 @@ Amaç; Yetki yönetimini basitleştirmek, merkezi kontrolü kolaylaştırmak ve 
 - user1 -> sadece HR_ReadOnly grubuna üye -> sadece okuma hakkı vardır.
 - user2 -> HR_Admin grubunda -> dosya oluşturabilir, silebilir.
 
-Bu örnek RBAC modeline bir örnektir. Kullanıcılar yerine grupla yetkilendirilmiştir. Gruplara üye kullanıcı hesapları yetkilerini bu role/group atamalarından alır.<br>
+Bu senaryo, RBAC modeline bir örnektir. Kullanıcılar yerine grupla yetkilendirilmiştir. Gruplara üye kullanıcı hesapları yetkilerini bu role/group atamalarından alır.<br>
 <br>
+
+#### # Örnek - Linux’da SUDO ile Rol Atama
+- /etc/sudoers dosyasında bir rol tanımı yapılır
+```
+%developers ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart myapp
+```
+Buna göre;
+- developers grubuna üye olan herkes myapp servisini yeniden başlatabilir.
+- Bu işlemi yapabilmek için root erişimi gerekmez. çünkü rol yetkisi tanımlanmıştır.
+
+Bu senaryo, RBAC modeline bir örnektir.  Kullanıcıya değil, rol olarak tanımlanan gruba özel yetki verilmiştir.<br>
 
 
 

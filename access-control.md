@@ -11,3 +11,12 @@ Access control directly supports the **confidentiality** principle of informatio
 It is also critical for resource efficiency, monitoring, and accountability.
 
 ---
+
+## Types of Access Control
+
+Different organizational structures and needs lead to the use of various access control models.
+
+### 1- DAC (Discretionary Access Control)
+
+This is a user-based model. *The resource owner decides who is allowed access.*
+It is flexible but lacks centralized management. Typically seen in small to medium environments.

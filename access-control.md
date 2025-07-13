@@ -104,3 +104,23 @@ Users receive access based on group membership → RBAC.
 - This role-based privilege avoids direct root access.
 
 ---
+
+## Conclusion and Evaluation
+If a user can grant others access to a resource they control, that is **DAC**.
+DAC can become complex at scale. Combining DAC with **RBAC** (via centrally managed groups/roles) improves maintainability.
+
+In domain environments, AD users typically gain access through group memberships → this is **RBAC**.
+Admins assigning permissions to groups = DAC. When users inherit access through their roles = RBAC.
+-> The combination = **DAC + RBAC**, which is today’s most common model.
+
+**Summary:**
+- Permissions by admins/owners -> DAC
+- Access via groups/roles -> RBAC
+
+**MAC**, while offering the strongest theoretical control, is rarely used in standard enterprise environments.
+It requires label-based classifications and rigid policy definitions, making it suitable for:
+- Government
+- Military
+- Critical systems
+
+It is too rigid for dynamic corporate environments where user flexibility is necessary.

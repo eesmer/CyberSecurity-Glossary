@@ -59,14 +59,14 @@ getenforce
 ```
 Policies are configured via `semanage fcontext` and related directories.
 
-#### Example – AppArmor
+#### Example - AppArmor
 AppArmor is another MAC system, used mainly in Ubuntu and Debian systems.
 It is profile-based and easier to configure than SELinux.
 
 - Profiles are located under `/etc/apparmor.d/`.
 - For example, you can limit what `/usr/sbin/cupsd` can access using its AppArmor profile.
 
-#### Example – Active Directory + Classification (Windows Information Protection)
+#### Example - Active Directory + Classification (Windows Information Protection)
 Using **Windows Information Protection** or **Microsoft Purview**, MAC-like classification can be enforced.
 
 - A document is tagged “Finance – Confidential”.

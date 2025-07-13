@@ -95,7 +95,6 @@ Amaç; Yetki yönetimini basitleştirmek, merkezi kontrolü kolaylaştırmak ve 
 - user2 -> HR_Admin grubunda -> dosya oluşturabilir, silebilir.
 
 Bu senaryo, RBAC modeline bir örnektir. Kullanıcılar yerine grupla yetkilendirilmiştir. Gruplara üye kullanıcı hesapları yetkilerini bu role/group atamalarından alır.<br>
-<br>
 
 #### # Örnek - Linux’da SUDO ile Rol Atama
 - /etc/sudoers dosyasında bir rol tanımı yapılır

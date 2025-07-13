@@ -73,3 +73,7 @@ Active Directory ortamlarında, özellikle Windows Information Protection (WIP) 
 - Yalnızca “Finance” güvenlik grubunda yer alan kullanıcılar bu belgeyi açabilir.
 - Grup dışında yer alan kişiler, belgeyi açsa bile içeriği göremez (gizlilik koruması).
 - Erişim kuralları etikete göre merkezi olarak tanımlanır, kullanıcılar değiştiremez.
+<br>
+MAC, yüksek denetim ve merkezi kontrol gerektiren sistemlerde vazgeçilmezdir. Ancak esnek ve yapılandırması basit değildir.<br>
+Yapılandırma hatalarından hizmet kesintisi yaşanma durumları ortaya çıkabilir.<br>
+Bu nedenle; özellikle SELinux yapılandırmalarında ilk ayarlar dikkatli yapılmalı ve audit modları ile test edilmelidir.<br>

@@ -85,4 +85,11 @@ Kullanıcılar, rollere atanır. Böylece sahip oldukları eirşim yetkileri de 
 Yani tam olarak; üye olduğu grup veya rolü üzerinden yetkilendirilir. Kullanıcı hesabına özel bir yetki tanımı kullanılmaz.<br>
 <br>
 Bu model, özellikle orta ve büyük ölçekli organizasyonlarda kullanılır.<br>
-Amacı; Yetki yönetimini basitleştirmek, merkezi kontrolü kolaylaştırmak ve yetki karmaşasını önlemektir.<br>
+Amaç; Yetki yönetimini basitleştirmek, merkezi kontrolü kolaylaştırmak ve yetki karmaşasını önlemektir.<br>
+
+#### # Örnek - Active Directory’de RBAC - Rol Bazlı Yetkilendirme
+- AD ortamında HR_Admin, HR_ReadOnly gibi güvenlik grupları oluşturulmuştur.
+- HR klasörü yalnızca bu gruplara açılmıştır.
+- Kullanıcılar sadece ilgili role (grup) atanarak erişim kazanır.
+
+

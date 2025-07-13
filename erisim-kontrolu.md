@@ -108,28 +108,24 @@ Buna göre;
 Bu senaryo, RBAC modeline bir örnektir.  Kullanıcıya değil, rol olarak tanımlanan gruba özel yetki verilmiştir.<br>
 <br>
 #### Sonuç ve Değerlendirme
-Kullanıcı hesabı, yetkilendirildiği kaynakta başka yetkilendirme ve erişim atamaları yapabiliyorsa bu yapılandırma modeli DAC'tır.
-DAC, merkezi bir yönetim sağlamadığı için yönetim karmaşası oluşturabilir. DAC, aşağıdaki örnek senaryoda RBAC ile kullanıldığında daha yönetilebilir bir ortam elde edilir.<br>
-Bir yapılandırmada örneğin; bir domain ortamında kullanıcı hesapları ve gruplara göre bir kimlik ve erişim yönetimi yapılıyorsa;
-AD kullanıcı hesabı üyesi olduğu gruba göre paylaşım veya kaynaklara erişim yapıyorsa bu yapı RBAC modeline örnektir.
-Ortamın yönetimi, Sistem Yöneticisi tarafından erişimlerin yetkilendirilmesi şeklinde yapılıyorsa; DAC + RBAC modelidir.<br>
+Eğer bir kullanıcı, yetkili olduğu bir kaynağa başka kullanıcılar için erişim ataması yapabiliyorsa, bu erişim modeli DAC (Discretionary Access Control) olarak tanımlanır.<br>
+DAC modeli, merkezi yönetim sağlamadığı için zamanla karmaşıklaşabilir. Bu karmaşayı azaltmak için DAC genellikle RBAC (Role-Based Access Control) ile birlikte uygulanır.<br>
 <br>
-Günümüzde domain ortamı ve domain ortamındaki kullanıcı hesapları ile kullanıcı hesaplarının üye olduğu gruplar üzerinden yetkilendirilme atamaları yaygın model olarak kullanılmaktadir<br>
-Böylece roller üzerinden yetki yönetimi AD gruplarıyla sağlanmaktadır. Bu yapılar da yetkili sistem yöneticisi hesaplarıyla yürütüldüğü için;
-- izinleri yöneticiler/nesne sahibi belirler. -> DAC
-- erişim, kullanıcılar yerine gruplara tanımlanır. -> RBAC
+Örneğin; bir domain ortamında kullanıcılar, erişim yetkilerini üyesi oldukları Active Directory grupları üzerinden alıyorsa bu yapı RBAC modeline örnektir.<br>
+Sistem yöneticisi, erişim haklarını bu gruplara tanımlıyorsa ve kullanıcılar da bu rollere göre yetkilendiriliyorsa, bu durumda sistem DAC + RBAC olarak yapılandırılmıştır.<br>
+Günümüzde en yaygın uygulama modeli budur:<br>
+- İzinler yöneticiler/nesne sahipleri tarafından tanımlanır -> DAC
+- Erişim hakları gruplar (roller) üzerinden dağıtılır -> RBAC
+
+Bu yapı sayesinde hem erişim yönetimi sadeleşir hem de denetlenebilirlik artar.<br>
 <br>
-Buna göre; pratik model, DAC + RBAC olarak yapılandırılır.<br>
-RBAC, DAC'in grup/rol düzeyinde merkezi olarak uygulanmasını sağlayan bir modeldir. Kullanıcılara bireysel değil, kurumsal roller üzerinden erişim tanımlanır.<br>
-RBAC yapılandırmaya DAC'nin organizasyonel olarak sistemleştirilmiş halinin uygulanmasıdır. Bu sayede yetki yönetimi kolaylaşır ve izlenebilirlik sağlanır.
-<br>
-MAC modeli ise;<br>
-Daha dar ve özel durumlar için tercih edilir. Genellikle devlet kurumları, savunma sanayi gibi yüksek gizlilik ihtiyacı olan yapılarda uygulanır.<br>
-MAC modeli, teorik olarak en yüksek güvenlik seviyesini sunar. Ancak gerçek dünyada, özellikle esnek çalışma yapıları olan şirketlerde uygulanması hem teknik hem yönetsel açıdan zorluk oluşturur.<br>
-Sistemde herhangi bir etiket (labeling), seviye (level), kategori (compartment) yapısı kurulur. Kullanıcı, sistem politikası dışında bir kararla erişim kazanır veya kaybeder.
-Daha dikine ve olası yapılandırma ayarlarında iş kesintisi olması sebeplerinden dolayı daha çok özel sektör dışındaki yüksek güvenlikli ortamlarda tercih edilir.<br>
+MAC (Mandatory Access Control) modeli ise sadece belirli sistem politikalarına dayalıdır ve kullanıcı inisiyatifi içermez.<br>
+Etiketleme (labeling), seviye (level) ve kategori (compartment) gibi yapılarla uygulanır.<br>
+Teorik olarak en yüksek güvenliği sunar; ancak hem teknik karmaşıklığı hem de katılığı nedeniyle genel kurumsal ortamlarda çok uygulanmaz.<br>
+MAC daha çok:<br>
+- Devlet kurumları
+- Askeri kurumlar
+- Kritik altyapılar
 
-
-
-
-
+gibi yüksek güvenlik gerektiren yapılarda uygulanır.<br>
+Günlük iş akışında esnekliğin önemli olduğu özel sektör ortamlarında uygulanması zordur ve yaygın değildir.

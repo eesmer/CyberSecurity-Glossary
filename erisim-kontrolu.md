@@ -16,7 +16,7 @@ Ancak aynı zamanda sistem kaynaklarının verimli kullanımı, izleme ve hesap 
 ## Erişim Kontrol Türleri
 Farklı organizasyonel yapılar ve ihtiyaçlara göre aşağıdaki erişim kontrol modelleri yaygın olarak kullanılır.
 
-### DAC (Discretionary Access Control)
+### 1- DAC (Discretionary Access Control)
 Kullanıcı tabanlı bir modeldir. *Kaynağın sahibi, kimlerin erişebileceğine kendisi karar verir.*<br>
 Esnektir ama merkezi yönetim zayıftır. Genelde küçük/orta ölçekli sistemlerde görülür.<br>
 
@@ -33,7 +33,7 @@ Yani yetkiyi belirleyen kullanıcının kendisidir. Bu, DAC erişim kontrol tür
 Bu örneklerden de anlaşılacağı üzere sistemdeki kaynağa erişim yetkisi olan hesaplar, yetkilendirildikleri alanda (FileServer paylaşımı veya Linux sistemdeki kendi home dizin) yeni dizin ve dosyalar oluşturup veya mevcut dizin veya dosyalara başka hesaplar için yetkilendirmeler yaparlar.<br>
 Bu metod, küçük organizasyonlar için uygulanmalıdır. Erişim yapılandırmaları, merkezi olarak yönetilmediğinden yetkilendirme ayarlarının kontrolü ve denetimi periyodik olarak yapılmalıdır.<br>
 
-### MAC (Mandatory Access Control)
+### 2- MAC (Mandatory Access Control)
 MAC modeli, erişim haklarının sistem veya politika tarafından merkezi olarak belirlendiği, kullanıcının inisiyatifinin olmadığı bir erişim kontrol yöntemidir.<br>
 Kullanıcının yetkisi olsa bile tanımlanmış sınıflandırmalara (etiket, seviye, kategori) uymuyorsa erişim engellenir.<br>
 Bu model, özellikle **gizlilik seviyesi yüksek ortamlarda** örneğin askerî sistemler, kamu kurumları ve kritik altyapılar gibi alanlarda tercih edilir.<br>
@@ -78,7 +78,7 @@ MAC, yüksek denetim ve merkezi kontrol gerektiren sistemlerde vazgeçilmezdir. 
 Yapılandırma hatalarından hizmet kesintisi yaşanma durumları ortaya çıkabilir.<br>
 Bu nedenle; özellikle SELinux yapılandırmalarında ilk ayarlar dikkatli yapılmalı ve audit modları ile test edilmelidir.<br>
 
-### RBAC (Role-Based Access Control)
+### 3- RBAC (Role-Based Access Control)
 RBAC (Role-Based Access Control), erişim yetkilerinin doğrudan kullanıcılara değil, rollere tanımlandığı bir erişim kontrol modelidir.<br>
 Kullanıcılar, rollere atanır. Böylece sahip oldukları eirşim yetkileri de roller üzerinden belirlenir.<br>
 Örneğin; group1 isimli bir gruba üye olan user1 isimli bir kullanıcı hesabı, erişimlerin gruplar üzerinden atandığı bir yapıda group1 grubunun yetkilendirildiği alanlara erişim yapabilir.

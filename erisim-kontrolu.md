@@ -112,8 +112,18 @@ Kullanıcı hesabı, yetkilendirildiği kaynakta başka yetkilendirme ve erişim
 DAC, merkezi bir yönetim sağlamadığı için yönetim karmaşası oluşturabilir. DAC, aşağıdaki örnek senaryoda RBAC ile kullanıldığında daha yönetilebilir bir ortam elde edilir.<br>
 Bir yapılandırmada örneğin; bir domain ortamında kullanıcı hesapları ve gruplara göre bir kimlik ve erişim yönetimi yapılıyorsa;
 AD kullanıcı hesabı üyesi olduğu gruba göre paylaşım veya kaynaklara erişim yapıyorsa bu yapı RBAC modeline örnektir.
-Günümüzde Domain ortamı ve domain ortamındaki kullanıcı hesapları ile kullanıcı hesaplarının üye olduğu gruplar üzerinden yetkilendirilme atamaları yaygın model olarak kullanılmaktadir<br>
-Böylece roller üzerinden yetki yönetimi AD gruplarıyla sağlanmaktadır.
+Ortamın yönetimi, Sistem Yöneticisi tarafından erişimlerin yetkilendirilmesi şeklinde yapılıyorsa; DAC + RBAC modelidir.<br>
+<br>
+Günümüzde domain ortamı ve domain ortamındaki kullanıcı hesapları ile kullanıcı hesaplarının üye olduğu gruplar üzerinden yetkilendirilme atamaları yaygın model olarak kullanılmaktadir<br>
+Böylece roller üzerinden yetki yönetimi AD gruplarıyla sağlanmaktadır. Bu yapılar da yetkili sistem yöneticisi hesaplarıyla yürütüldüğü için;
+- izinleri yöneticiler/nesne sahibi belirler. -> DAC
+- erişim, kullanıcılar yerine gruplara tanımlanır. -> RBAC
+<br>
+Buna göre; pratik model, DAC + RBAC olarak yapılandırılır.<br>
+RBAC, DAC'in grup/rol düzeyinde merkezi olarak uygulanmasını sağlayan bir modeldir. Kullanıcılara bireysel değil, kurumsal roller üzerinden erişim tanımlanır. Bu sayede yetki yönetimi kolaylaşır ve izlenebilirliği sağlanır.
+<br>
+MAC modeli ise;
+
 
 
 

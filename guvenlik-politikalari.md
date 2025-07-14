@@ -11,7 +11,7 @@ Amaç; sistemin gizlilik, bütünlük ve erişilebilirlik (CIA) ilkelerine uygun
 
 ## Temel Güvenlik Politikaları
 
-### 1. En Az Ayrıcalık İlkesi (Least Privilege)
+## 1. En Az Ayrıcalık İlkesi (Least Privilege)
 Kullanıcılara, işlerini yapabilmeleri için **yalnızca gerekli olan minimum yetkilerin verilmesi** esas alınır.<br>
 Fazla yetki; yetkisiz veri erişimine, sistem hatalarına ve kötü niyetli eylemlere zemin hazırlar ve bu da saldırı uzayı kavramını genişletir.<br>
 Ortam, kullanılmayan atanmış yetkilerden doğan kontrol gereksinimi ve riskleri altındadır.<br>

@@ -26,4 +26,4 @@ Aşağıdaki basit sorgular, yaygın olarak kullanılan Active Directory ortamı
 ```
 Get-ADUser -Identity "kullaniciAdi" -Properties MemberOf | Select-Object -ExpandProperty MemberOf
 ```
-Bu, özellikle Active Directory ortamlarında genel olarak gruplar üzerinden yetkilendirme yapıldığı için DAC ve RBAC denetimi için temel bir yaklaşımdır.
+Bu, özellikle Active Directory ortamlarında genel olarak gruplar üzerinden yetkilendirme yapıldığı için **DAC** ve **RBAC** denetimi için temel bir yaklaşımdır.

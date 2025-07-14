@@ -101,3 +101,5 @@ Ayarları kullanmak ve test için;<br>
 ```bash
 faillock --user kullaniciadi
 ```
+faillock komutunda --user ile eklenen KullanıcıHesabı için faillock.conf içindeki yapılandırmalar aktif olur.<br>
+Böylece başarısız girişler için lock mekanizması ilgili kullanıcı hesabı için devereye girer.<br>

@@ -92,3 +92,12 @@ deny = 5                # 5 başarısız denemeden sonra kilitlenir
 unlock_time = 600       # 10 dakika sonra otomatik açılır
 fail_interval = 900     # 15 dakika içinde 5 hatalı deneme sayılır
 ```
+faillock.conf yapılandrıması sonrasında pam_faillock.so modülü /etc/pam.d/common-auth içinde aşağıdaki gibi dahil edilmelidir.
+```bash
+auth required pam_faillock.so preauth silent audit
+auth [default=die] pam_faillock.so authfail audit
+```
+Ayarları kullanmak ve test için;<br>
+```bash
+faillock --user kullaniciadi
+```

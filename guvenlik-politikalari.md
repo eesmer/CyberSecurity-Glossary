@@ -22,7 +22,6 @@ Bu politikayı pratik olarak uygulamak için her ortamın yapılandırmasında a
 Aşağıdaki basit sorgular, yaygın olarak kullanılan Active Directory ortamındaki kullanıcı hesapları için yetki çıktıları verir.<br>
 **Kullanıcı hesabının üye olduğu grupları gösterir.**<br>
 ```
-Get-ADUser -Identity "kullaniciAdi" -Properties MemberOf |
-Select-Object -ExpandProperty MemberOf
+Get-ADUser -Identity "kullaniciAdi" -Properties MemberOf | Select-Object -ExpandProperty MemberOf
 ```
 Bu, özellikle Active Directory ortamlarında genel olarak gruplar üzerinden yetkilendirme yapıldığı için DAC ve RBAC denetimi için temel bir yaklaşımdır.

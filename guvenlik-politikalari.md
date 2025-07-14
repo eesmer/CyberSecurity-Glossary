@@ -46,3 +46,7 @@ groups kullaniciadi | grep sudo
 ```
 
 Bu denetimler ve yaklaşım, gruplar üzerinden veya kullanıcı hesapları üzerinde yetkilendirme yapılan ortamlarda **DAC** ve **RBAC** denetimi için temel bir yaklaşımdır.<br>
+
+> ## 2. Erişim Yönetimi Politikası
+Kurumun sistem ve kaynaklarına erişimin düzenlenmesi, bilgi güvenliğinin temel adımlarından biridir.<br>  
+Kimlik doğrulama, yetkilendirme, kullanıcı yaşam döngüsü ve çok faktörlü kimlik doğrulama (MFA) gibi mekanizmalar bu politikanın kapsamına girer.<br>

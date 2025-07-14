@@ -26,7 +26,6 @@ Aşağıdaki basit sorgular, yaygın olarak kullanılan Active Directory ortamı
 ```powershell
 Get-ADUser -Identity "kullaniciAdi" -Properties MemberOf | Select-Object -ExpandProperty MemberOf
 ```
-Bu, özellikle Active Directory ortamlarında genel olarak gruplar üzerinden yetkilendirme yapıldığı için **DAC** ve **RBAC** denetimi için temel bir yaklaşımdır.<br>
 <br>
 
 **Linux makinelerde yerel kullanıcı hesaplarının yetkilerini gösteren bash komutları**<br>
@@ -45,3 +44,5 @@ sudo grep -E "^kullaniciadi|^%.*" /etc/sudoers
 ```bash
 groups kullaniciadi | grep sudo
 ```
+
+Bu denetimler ve yaklaşım, gruplar üzerinden veya kullanıcı hesapları üzerinde yetkilendirme yapılan ortamlarda DAC ve RBAC denetimi için temel bir yaklaşımdır.<br>

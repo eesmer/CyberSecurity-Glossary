@@ -50,3 +50,13 @@ Bu denetimler ve yaklaşım, gruplar üzerinden veya kullanıcı hesapları üze
 > ## 2. Erişim Yönetimi Politikası
 Kurumun sistem ve kaynaklarına erişimin düzenlenmesi, bilgi güvenliğinin temel adımlarından biridir.<br>  
 Kimlik doğrulama, yetkilendirme, kullanıcı yaşam döngüsü ve çok faktörlü kimlik doğrulama (MFA) gibi mekanizmalar bu politikanın kapsamına girer.<br>
+Erişim Yönetimi operasyonel olarak aşağıdaki yapılandırmaları gerektirir;<br>
+i- Kimlik doğrulama ve yetkilendirme süreçlerinin tanımlanması<br>
+ii- Gruplar, roller, şifre politikaları, çok faktörlü kimlik doğrulama (MFA) kullanımı<br>
+iii- Kullanıcı hesaplarının düzenli olarak gözden geçirilmesi<br>
+
+- Kimlik Doğrulama ve Yetkilendirme
+  
+  Kullanıcıların sisteme giriş yaparken güçlü kimlik doğrulama mekanizmaları kullanılmalıdır.<br>
+  **Şifre Politikası:** Minimum uzunluk, karmaşıklık, süreli değişim zorunluluğu uygulanmalıdır.<br>
+  **MFA Kullanımı:** Özellikle yönetici hesaplarında ve dış erişimlerde zorunlu tutulmalıdır.<br>

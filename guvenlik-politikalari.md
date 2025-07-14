@@ -30,17 +30,17 @@ Bu, özellikle Active Directory ortamlarında genel olarak gruplar üzerinden ye
 <br>
 
 **Linux makinelerde yerel kullanıcı hesaplarının yetkilerini gösteren bash komutları**<br>
-###### **Kullanıcı Hesabının Grupları**<br>
+- ###### **Kullanıcı Hesabının Grupları**<br>
 ```bash
 id kullaniciadi
 ```
 
-###### /etc/sudoers Dosyasında Kullanıcı Hesabına Özel Yetki Var mı?
+- ###### /etc/sudoers Dosyasında Kullanıcı Hesabına Özel Yetki Var mı?
 ```bash
 sudo grep -E "^kullaniciadi|^%.*" /etc/sudoers
 ```
 
-###### Kullanıcı Hesabı SUDO Grubunda mı?
+- ###### Kullanıcı Hesabı SUDO Grubunda mı?
 
 ```bash
 groups kullaniciadi | grep sudo

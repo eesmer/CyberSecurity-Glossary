@@ -22,8 +22,10 @@ Bu politikayı pratik olarak uygulamak için her ortamın yapılandırmasında a
 Tüm kullanıcı hesapları, sistemdeki yetkileriyle birlikte düzenli olarak incelenmelidir. Kullanıcının iş tanımı değiştiyse, önceki yetkileri kaldırılmalıdır.<br>
 Aşağıdaki basit sorgular, yaygın olarak kullanılan Active Directory ortamındaki kullanıcı hesapları için yetki çıktıları verir.<br>
 <br>
-**Kullanıcı hesabının üye olduğu grupları gösteren powershell komutu**<br>
+**Active Directory ortamında kullanıcı hesabının üye olduğu grupları gösteren powershell komutu**<br>
 ```
 Get-ADUser -Identity "kullaniciAdi" -Properties MemberOf | Select-Object -ExpandProperty MemberOf
 ```
-Bu, özellikle Active Directory ortamlarında genel olarak gruplar üzerinden yetkilendirme yapıldığı için **DAC** ve **RBAC** denetimi için temel bir yaklaşımdır.
+Bu, özellikle Active Directory ortamlarında genel olarak gruplar üzerinden yetkilendirme yapıldığı için **DAC** ve **RBAC** denetimi için temel bir yaklaşımdır.<br>
+<br>
+**Linux makinelerde yerel kullanıcı hesaplarının yetkilerini gösteren bash komutları**<br>

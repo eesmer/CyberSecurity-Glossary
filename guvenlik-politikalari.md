@@ -120,10 +120,11 @@ Yukarıdaki script,<br>
 faillock PAM modülü aktif edilmesi ve faillock.conf yapılandırmasının yapılmış olması durumunda sistemdeki tüm yerel kullanıcılar için çalışır.
 Script, faillock.conf yapılandırmasını tüm yerel kullanıcı hesaplarında aktif eder.<br>
 
-- ###### Kısıtlanmış Kullanıcı HEsaplarını Listelemek
+- ###### Kısıtlanmış Kullanıcı Hesaplarını Listelemek
 ```bash
 #!/bin/bash
 
 echo "Faillock Check..."
 faillock --reset --dry-run 2>/dev/null | grep -B1 'currently locked' | grep '^user'
 ```
+Yukarıdaki script ile faillock mekanizmasının çalıştığı kullanıcı hesapları listelenir.<br>

@@ -17,7 +17,7 @@ Fazla yetki; yetkisiz veri erişimine, sistem hatalarına ve kötü niyetli eyle
 Ortam, kullanılmayan atanmış yetkilerden doğan kontrol gereksinimi ve riskleri altındadır.<br>
 Bu politikayı pratik olarak uygulamak için her ortamın yapılandırmasında aşağıdakiler uygulanmalıdır.
 
-- **Yetki Denetimi Yapılması**<br>
+- ### **Yetki Denetimi Yapılması**<br>
 
 Tüm kullanıcı hesapları, sistemdeki yetkileriyle birlikte düzenli olarak incelenmelidir. Kullanıcının iş tanımı değiştiyse, önceki yetkileri kaldırılmalıdır.<br>
 Aşağıdaki basit sorgular, yaygın olarak kullanılan Active Directory ortamındaki kullanıcı hesapları için yetki çıktıları verir.<br>

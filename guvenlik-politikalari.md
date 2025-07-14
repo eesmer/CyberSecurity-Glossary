@@ -103,3 +103,19 @@ faillock --user kullaniciadi
 ```
 faillock komutunda --user ile eklenen KullanıcıHesabı için faillock.conf içindeki yapılandırmalar aktif olur.<br>
 Böylece başarısız girişler için lock mekanizması ilgili kullanıcı hesabı için devereye girer.<br>
+
+- ###### Tüm Yerel Kullanıcı Hesapları için faillock ayarının aktif edilmesi
+```bash
+#!/bin/bash
+
+echo "Faillock Check..."
+
+for user in $(awk -F: '$3 >= 1000 && $3 < 65534 {print $1}' /etc/passwd); do
+    faillock --user "$user" | grep -q "no access" && \
+        echo "[$user] : Henüz başarısız giriş kaydı yok (aktif izleniyor)" || \
+        echo "[$user] : Kısıtlama uygulanmış veya deneme geçmişi var"
+done
+```
+Yukarıdaki script,<br>
+faillock PAM modülü aktif edilmesi ve faillock.conf yapılandırmasının yapılmış olması durumunda sistemdeki tüm yerel kullanıcılar için çalışır.<br>
+Script, faillock.conf yapılandırmasını tüm yerel kullanıcı hesaplarında aktif eder.<br>

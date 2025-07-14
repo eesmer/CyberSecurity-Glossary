@@ -15,4 +15,7 @@ Amaç; sistemin gizlilik, bütünlük ve erişilebilirlik (CIA) ilkelerine uygun
 Kullanıcılara, işlerini yapabilmeleri için **yalnızca gerekli olan minimum yetkilerin verilmesi** esas alınır.<br>
 Fazla yetki; yetkisiz veri erişimine, sistem hatalarına ve kötü niyetli eylemlere zemin hazırlar ve bu da saldırı uzayı kavramını genişletir.<br>
 Ortam, kullanılmayan atanmış yetkilerden doğan kontrol gereksinimi ve riskleri altındadır.<br>
+Bu politikayı pratik olarak uygulamak için her ortamın yapılandırmasında aşağıdakiler uygulanmalıdır.
 
+**Yetki Denetimi Yapılması**  
+  Tüm kullanıcı hesapları, sistemdeki yetkileriyle birlikte düzenli olarak incelenmelidir. Kullanıcının iş tanımı değiştiyse, önceki yetkileri kaldırılmalıdır.<br>

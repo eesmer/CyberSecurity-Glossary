@@ -117,5 +117,5 @@ for user in $(awk -F: '$3 >= 1000 && $3 < 65534 {print $1}' /etc/passwd); do
 done
 ```
 Yukarıdaki script,<br>
-faillock PAM modülü aktif edilmesi ve faillock.conf yapılandırmasının yapılmış olması durumunda sistemdeki tüm yerel kullanıcılar için çalışır.<br>
+faillock PAM modülü aktif edilmesi ve faillock.conf yapılandırmasının yapılmış olması durumunda sistemdeki tüm yerel kullanıcılar için çalışır.
 Script, faillock.conf yapılandırmasını tüm yerel kullanıcı hesaplarında aktif eder.<br>

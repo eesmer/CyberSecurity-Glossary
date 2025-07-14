@@ -45,4 +45,4 @@ sudo grep -E "^kullaniciadi|^%.*" /etc/sudoers
 groups kullaniciadi | grep sudo
 ```
 
-Bu denetimler ve yaklaşım, gruplar üzerinden veya kullanıcı hesapları üzerinde yetkilendirme yapılan ortamlarda DAC ve RBAC denetimi için temel bir yaklaşımdır.<br>
+Bu denetimler ve yaklaşım, gruplar üzerinden veya kullanıcı hesapları üzerinde yetkilendirme yapılan ortamlarda **DAC** ve **RBAC** denetimi için temel bir yaklaşımdır.<br>

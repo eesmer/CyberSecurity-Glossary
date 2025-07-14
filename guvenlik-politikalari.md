@@ -79,3 +79,10 @@ lcredit = -1            # En az 1 küçük harf zorunlu
 ocredit = -1            # En az 1 özel karakter zorunlu
 retry = 3               # Kullanıcı 3 kere yanlış girerse işlem iptal olur
 ```
+Bu modül;
+Debian ve türevi dağıtımlarda; /etc/pam.d/common-password
+RHEL ve türevi dağıtımlarda;   /etc/pam.d/system-auth
+dosyalarına aşağıdaki şekilde eklenmelidir.
+```
+password requisite pam_pwquality.so retry=3
+```

@@ -32,7 +32,7 @@ Bu, özellikle Active Directory ortamlarında genel olarak gruplar üzerinden ye
 ###### **Kullanıcı Hesabının Grupları**<br>
 ```
 id kullaniciadi
-```
+```powershell
 ###### /etc/sudoers Dosyasında Kullanıcı Hesabına Özel Yetki Var mı?
 ```
 sudo grep -E "^kullaniciadi|^%.*" /etc/sudoers

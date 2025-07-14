@@ -55,7 +55,7 @@ Erişim Yönetimi operasyonel olarak aşağıdaki yapılandırmaları gerektirir
 **ii-** Gruplar, roller, şifre politikaları, çok faktörlü kimlik doğrulama (MFA) kullanımı<br>
 **iii-** Kullanıcı hesaplarının düzenli olarak gözden geçirilmesi<br>
 
-- Kimlik Doğrulama ve Yetkilendirme
+- ### **Kimlik Doğrulama ve Yetkilendirme**<br>
   
   Kullanıcıların sisteme giriş yaparken güçlü kimlik doğrulama mekanizmaları kullanılmalıdır.<br>
   **Şifre Politikası:** Minimum uzunluk, karmaşıklık, süreli değişim zorunluluğu uygulanmalıdır.<br>

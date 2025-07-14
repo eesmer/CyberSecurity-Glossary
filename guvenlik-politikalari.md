@@ -8,3 +8,11 @@ Güvenlik politikaları, bilgi sistemlerinin korunması için kurum tarafından 
 Amaç; sistemin gizlilik, bütünlük ve erişilebilirlik (CIA) ilkelerine uygun şekilde yapılandırılmasını, yönetilmesini ve kullanıcıların da bu kurallar doğrultusunda hareket etmesini sağlamaktır.
 
 ---
+
+## Temel Güvenlik Politikaları
+
+### 1. En Az Ayrıcalık İlkesi (Least Privilege)
+Kullanıcılara, işlerini yapabilmeleri için **yalnızca gerekli olan minimum yetkilerin verilmesi** esas alınır.<br>
+Fazla yetki; yetkisiz veri erişimine, sistem hatalarına ve kötü niyetli eylemlere zemin hazırlar ve bu da saldırı uzayı kavramını genişletir.<br>
+Ortam, kullanılmayan atanmış yetkilerden doğan kontrol gereksinimi ve riskleri altındadır.<br>
+

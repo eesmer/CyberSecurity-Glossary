@@ -23,21 +23,25 @@ Tüm kullanıcı hesapları, sistemdeki yetkileriyle birlikte düzenli olarak in
 Aşağıdaki basit sorgular, yaygın olarak kullanılan Active Directory ortamındaki kullanıcı hesapları için yetki çıktıları verir.<br>
 <br>
 **Active Directory ortamında kullanıcı hesabının üye olduğu grupları gösteren powershell komutu**<br>
-```
+```powershell
 Get-ADUser -Identity "kullaniciAdi" -Properties MemberOf | Select-Object -ExpandProperty MemberOf
 ```
 Bu, özellikle Active Directory ortamlarında genel olarak gruplar üzerinden yetkilendirme yapıldığı için **DAC** ve **RBAC** denetimi için temel bir yaklaşımdır.<br>
 <br>
+
 **Linux makinelerde yerel kullanıcı hesaplarının yetkilerini gösteren bash komutları**<br>
 ###### **Kullanıcı Hesabının Grupları**<br>
-```
+```bash
 id kullaniciadi
-```powershell
-###### /etc/sudoers Dosyasında Kullanıcı Hesabına Özel Yetki Var mı?
 ```
+
+###### /etc/sudoers Dosyasında Kullanıcı Hesabına Özel Yetki Var mı?
+```bash
 sudo grep -E "^kullaniciadi|^%.*" /etc/sudoers
 ```
+
 ###### Kullanıcı Hesabı SUDO Grubunda mı?
-```
+
+```bash
 groups kullaniciadi | grep sudo
 ```

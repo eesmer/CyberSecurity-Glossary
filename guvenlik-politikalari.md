@@ -62,7 +62,7 @@ Erişim Yönetimi operasyonel olarak aşağıdaki yapılandırmaları gerektirir
 
 **Linux makinelerde Yapılandırma Örnekleri**<br>
 - ###### Şifre Politikası Ayarları - /etc/login.defs
-```
+```bash
 PASS_MAX_DAYS   90    # Şifre 90 günde bir değiştirilmeli
 PASS_MIN_DAYS   1     # Şifre değişikliği minimum 1 gün sonra tekrar yapılabilir
 PASS_MIN_LEN    12    # Minimum şifre uzunluğu
@@ -71,7 +71,7 @@ PASS_WARN_AGE   7     # Şifre bitmeden 7 gün önce uyar
 Bu yapılandırma dosyası, sistemde useradd gibi komutlarla oluşturulan hesaplara varsayılan şifre politikalarını uygular.<br>
 Varsayılan ayarlar aşağıdaki yapılandırma satırlarıyla oluşturulur.<br>
 - ###### Şifre Karmaşıklığı Ayarları - /etc/security/pwquality.conf (pam_pwquality.so)
-```
+```bash
 minlen = 12             # Minimum şifre uzunluğu
 dcredit = -1            # En az 1 rakam zorunlu
 ucredit = -1            # En az 1 büyük harf zorunlu
@@ -79,10 +79,10 @@ lcredit = -1            # En az 1 küçük harf zorunlu
 ocredit = -1            # En az 1 özel karakter zorunlu
 retry = 3               # Kullanıcı 3 kere yanlış girerse işlem iptal olur
 ```
-Bu modül;
-Debian ve türevi dağıtımlarda; /etc/pam.d/common-password
-RHEL ve türevi dağıtımlarda;   /etc/pam.d/system-auth
+Bu modül;<br>
+Debian ve türevi dağıtımlarda; /etc/pam.d/common-password<br>
+RHEL ve türevi dağıtımlarda;   /etc/pam.d/system-auth<br>
 dosyalarına aşağıdaki şekilde eklenmelidir.
-```
+```bash
 password requisite pam_pwquality.so retry=3
 ```

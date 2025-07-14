@@ -86,3 +86,9 @@ dosyalarına aşağıdaki şekilde eklenmelidir.
 ```bash
 password requisite pam_pwquality.so retry=3
 ```
+- ###### Başarısız Giriş Denemesi Kısıtlaması - /etc/security/faillock.conf
+```bash
+deny = 5                # 5 başarısız denemeden sonra kilitlenir
+unlock_time = 600       # 10 dakika sonra otomatik açılır
+fail_interval = 900     # 15 dakika içinde 5 hatalı deneme sayılır
+```

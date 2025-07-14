@@ -29,3 +29,7 @@ Get-ADUser -Identity "kullaniciAdi" -Properties MemberOf | Select-Object -Expand
 Bu, özellikle Active Directory ortamlarında genel olarak gruplar üzerinden yetkilendirme yapıldığı için **DAC** ve **RBAC** denetimi için temel bir yaklaşımdır.<br>
 <br>
 **Linux makinelerde yerel kullanıcı hesaplarının yetkilerini gösteren bash komutları**<br>
+**kullanıcı hesabının gruplarını gösterir**<br>
+```
+id kullaniciadi
+```

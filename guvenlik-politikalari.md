@@ -70,3 +70,12 @@ PASS_WARN_AGE   7     # Şifre bitmeden 7 gün önce uyar
 ```
 Bu yapılandırma dosyası, sistemde useradd gibi komutlarla oluşturulan hesaplara varsayılan şifre politikalarını uygular.<br>
 Varsayılan ayarlar aşağıdaki yapılandırma satırlarıyla oluşturulur.<br>
+- ###### /etc/security/pwquality.conf – Şifre Karmaşıklığı Ayarları (pam_pwquality.so)
+```
+minlen = 12             # Minimum şifre uzunluğu
+dcredit = -1            # En az 1 rakam zorunlu
+ucredit = -1            # En az 1 büyük harf zorunlu
+lcredit = -1            # En az 1 küçük harf zorunlu
+ocredit = -1            # En az 1 özel karakter zorunlu
+retry = 3               # Kullanıcı 3 kere yanlış girerse işlem iptal olur
+```

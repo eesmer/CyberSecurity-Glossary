@@ -59,3 +59,14 @@ Erişim Yönetimi operasyonel olarak aşağıdaki yapılandırmaları gerektirir
   Kullanıcıların sisteme giriş yaparken güçlü kimlik doğrulama mekanizmaları kullanılmalıdır.<br>
   **Şifre Politikası:** Minimum uzunluk, karmaşıklık, süreli değişim zorunluluğu uygulanmalıdır.<br>
   **MFA Kullanımı:** Özellikle yönetici hesaplarında ve dış erişimlerde zorunlu tutulmalıdır.<br>
+
+**Linux makinelerde Yapılandırma Örnekleri**<br>
+- ###### /etc/login.defs – Şifre Politikası Ayarları
+  Bu yapılandırma dosyası, sistemde useradd gibi komutlarla oluşturulan hesaplara varsayılan şifre politikalarını uygular.<br>
+  Varsayılan ayarlar aşağıdaki yapılandırma satırlarıyla oluşturulur.<br>
+```
+PASS_MAX_DAYS   90    # Şifre 90 günde bir değiştirilmeli
+PASS_MIN_DAYS   1     # Şifre değişikliği minimum 1 gün sonra tekrar yapılabilir
+PASS_MIN_LEN    12    # Minimum şifre uzunluğu
+PASS_WARN_AGE   7     # Şifre bitmeden 7 gün önce uyar
+```

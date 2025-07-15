@@ -244,3 +244,14 @@ Bu çalışma ve çalışma süreci, sadece teknik tarama sonuçlarından ibaret
 
 Otomatik tarama çıktıları, manuel doğrulama ile kontrol edilerek gerçek bulgular tespit edilir ve False Positive oranı yönetilebilir.<br>
 
+- ###### Risk Analizi
+  Tespit edilen her zafiyetin;<br>
+  - **Etkisi (Impact)**: Ne kadarlık bir zarara yol açar? (veri kaybı, erişim, hizmet kesintisi)
+  - **Olasılığı (Likelihood)**: Bu zafiyetin istismar edilme ihtimali nedir?
+  - **Varlık Değeri (Asset Value)**: Hangi sistem etkileniyor? Kritikliği nedir?
+Bu üç maddeden yola çıkılarak risk seviyesi belirlenir.<br>
+```
+Risk = Varlık Değeri x Etki x Olasılık
+```
+Buradaki değerler, kurumlara özel olarak sayısal veya dereceli (düşük/orta/yüksek) olarak sınıflandırılır. Bu çalışmalar için uygulamalardan yararlanılarak bu değerleri berlirlemek için araçlar da kullanılmaktadır.<br>
+Gerçekçi ve doğru çözüm için uygulama destekli sonuçlar değerlendirilmeli ve uygun senaryolar belirlenmelidir.<br>

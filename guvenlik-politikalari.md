@@ -216,4 +216,7 @@ Bunun için Linux sistemlerde;
 apt-mark hold package-name
 ```
 komutu kullanılır. **apt-mark hold"" komutu parametre aldığı paketi güncelleme işlemi için lock eder.<br>
-
+**Örneğin:** *apt-mark hold nginx*
+Bu işlem, kontrolsüz güncellemeyi engeller. Ancak zafiyeti çözmez.<br>
+Böyle durumlarda paket güncellenene kadar WAF, IPS, port sınırlama gibi dış koruma önlemlerinin uygulanması gerekir.<br>
+Böyle bir konuda **hold** komutu doğrudan bir güvenlik mekanizması değil, fakat idari bir kontrol tekniği olarak kullanılabilir.<br>

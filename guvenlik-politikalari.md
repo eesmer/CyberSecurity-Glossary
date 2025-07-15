@@ -206,3 +206,8 @@ Tüm bunlara rağmen yukarıdaki faktörlerden birinin sağlanamaması durumunda
 - Sistemleri DMZ ortamına almak
 - Sistemin hizmet verdiği port dışındaki tüm portları kapatmak
 - Sistemin hizmet verdiği port üzerinde güncelleme yapılamadığından doğan tüm olasılıkları gözden geçirmek
+
+**Not:** İstisnai durumlarda da olsa idaresel bir yönetim ve çözüm üretme amacıyla;<br>
+- Uyumsuzluk riski olan paketlerin sabitlenmesi gerekebilir<br>
+ve bu da
+- Kritik bir servisin, üretici onayı veya test olmadan otomatik güncellenmesini engellemek ile sağlanabilir.

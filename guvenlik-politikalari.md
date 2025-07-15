@@ -128,3 +128,8 @@ echo "Faillock Check..."
 faillock --reset --dry-run 2>/dev/null | grep -B1 'currently locked' | grep '^user'
 ```
 Yukarıdaki script ile faillock mekanizmasının çalıştığı kullanıcı hesapları listelenir.<br>
+
+> ## 3. Güncelleme Politikası ve Yama Yönetimi
+Sistem ve uygulama güvenliğinin sağlanmasında **güncellemelerin zamanında uygulanması** kritik rol oynar.<br>
+Güncellenmeyen sistemler, bilinen zafiyetler üzerinden hedef alınabilir ve bu saldırı senaryolarında kolaylık sağlar.<br>
+Sistemlerin yazılım ve sistemsel olarak güncel tutulmaması önemli bir ihmaldir. Buna göre; belli bir aralık ve takvim içinde kalmak kaydıyla güncelleme çalışmaları planlanmalıdır.<br>

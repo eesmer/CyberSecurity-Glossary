@@ -264,3 +264,17 @@ Gerçekçi ve doğru çözüm için uygulama destekli sonuçlar değerlendirilme
   - Düşük etkili ama yaygın riskler -> Toplu iyileştirme
   - Dışa kapalı sistemlerdeki riskler -> İzlenerek zamanlı çözüm <br>
 olarak planlanabilir.<br>
+
+- ###### Risk Yanıt Stratejileri
+  Her risk için aşağıdaki stratejilerden biri veya birkaçı uygulanabilir.
+  
+  - **Azaltma (Mitigate):**
+  Yamalar, erişim sınırlamaları, güvenlik duvarı, segmentasyon
+  - **Kabul Etme (Accept):**
+  İş açısından risk göze alınabilir düzeydeyse ve gideri maliyetli/karmaşıksa
+  - **Transfer Etme (Transfer):**
+  Riskin sigorta, dış kaynak (outsourcing) veya tedarikçiye devri
+  - **Kaçınma (Avoid):**
+  Riskli hizmetin/sistemin tamamen terk edilmesi
+<br>
+olarak uygulama planı belirlenir.<br>

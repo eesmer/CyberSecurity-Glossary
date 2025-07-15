@@ -292,3 +292,13 @@ Risk değerlendirmesi sonrası;
 <br>
 olarak uygulama planı yapılabilir.<br>
 
+## Örnek Temel Komutlar
+#### OpenVAS tarama başlatma:
+```bash
+gvm-cli --gmp-username admin --gmp-password pass socket --xml "<create_target><name>ServerA</name><hosts>192.168.1.10</hosts></create_target>"
+```
+
+#### Nmap hızlı port tarama:
+```bash
+nmap -T4 -F 192.168.1.10
+```

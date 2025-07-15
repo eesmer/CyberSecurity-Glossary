@@ -149,3 +149,17 @@ Select-Object Description, InstalledOn
 ```
 Yukarıdaki script makine üzerinden elle yapılacak bir kontrol için örnektir.<br>
 Organizasyonlarda WSUS veya SCCM gibi araçlarla merkezi yama yönetimi uygulanmalıdır.
+
+- ###### Linux makinelerde Güncelleme Kontrolleri
+Debian ve türevi dağıtımlarda;<br>
+```bash
+apt list --upgradable
+```
+RHEL ve türevi dağıtımlarda;<br>
+```bash
+yum check-update
+```
+
+Yukarıdaki komutlarla sistem güncellemeleri denetlenir. Bu denetleme ve kontrollerin sürdürülebilir olması için merkezi/uzaktan yapılması önemlidir.<br>
+Paket yöneticileri (apt, yum, dnf) üzerinden yapılan güncellemeler hem sistem güvenliğini hem de kararlılığı direkt etkiler.<br>
+Kritik sistemlerde kontrollü güncelleme otomatik güncelleme yerine tercih edilmelidir.<br>

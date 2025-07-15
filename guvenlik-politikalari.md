@@ -276,5 +276,5 @@ olarak planlanabilir.<br>
   Riskin sigorta, dış kaynak (outsourcing) veya tedarikçiye devri
   - **Kaçınma (Avoid):**
   Riskli hizmetin/sistemin tamamen terk edilmesi
-<br>
+
 olarak uygulama planı belirlenir.<br>

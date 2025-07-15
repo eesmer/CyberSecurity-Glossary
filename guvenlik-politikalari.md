@@ -141,7 +141,7 @@ Sistemlerin yazılım ve sistemsel olarak güncel tutulmaması önemli bir ihmal
   - Otomatik güncelleme yapılamayan sistemlerin izlenmesi
   - Yama süreci tamamlanamayan sistemler için geçici koruma yöntemlerinin (virtual patching) devreye alınması
 
-- ###### Windows Ortamında Powershell Yama Takibi Komutu kodu
+- ###### Windows Ortamında Powershell Yama Takibi için sorgu
 ```powershell
 # Son 30 gün içinde kurulan güncellemeleri listeler
 Get-HotFix | Where-Object {$_.InstalledOn -gt (Get-Date).AddDays(-30)} |

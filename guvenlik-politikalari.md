@@ -147,3 +147,5 @@ Sistemlerin yazılım ve sistemsel olarak güncel tutulmaması önemli bir ihmal
 Get-HotFix | Where-Object {$_.InstalledOn -gt (Get-Date).AddDays(-30)} |
 Select-Object Description, InstalledOn
 ```
+Yukarıdaki script makine üzerinden elle yapılacak bir kontrol için örnektir.<br>
+Organizasyonlarda WSUS veya SCCM gibi araçlarla merkezi yama yönetimi uygulanmalıdır.

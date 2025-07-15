@@ -220,3 +220,14 @@ komutu kullanılır. **apt-mark hold"" komutu parametre aldığı paketi güncel
 Bu işlem, kontrolsüz güncellemeyi engeller. Ancak zafiyeti çözmez.<br>
 Böyle durumlarda paket güncellenene kadar WAF, IPS, port sınırlama gibi dış koruma önlemlerinin uygulanması gerekir.<br>
 Böyle bir konuda **hold** komutu doğrudan bir güvenlik mekanizması değil, fakat idari bir kontrol tekniği olarak kullanılabilir.<br>
+
+> ## 4. Güvenlik Açığı ve Risk Yönetimi
+Risk yönetimi, bir kurumun bilgi sistemlerinde karşılaşabileceği tehdit ve zafiyetlerin etkilerini analiz ederek bu riskleri **tanımlama, ölçme ve yönetme** çalışmasıdır.<br>
+Bu çalışma ve çalışma süreci, sadece teknik tarama sonuçlarından ibaret değildir. Aynı zamanda **iş sürekliliği, düzenleyici uyumluluk ve kaynak yönetimi** gibi unsurları da kapsar.<br>
+- ### Risk Yönetimi Politikası Hedefleri
+  - Zafiyet Tespiti
+    - Otomatik Taramalar
+    - Manuel Yöntemler
+  - Risk Analizi
+  - Risk Önceliklendirme
+  - Risk Yanıt Stratejileri

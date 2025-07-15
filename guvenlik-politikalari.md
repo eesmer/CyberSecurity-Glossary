@@ -134,10 +134,16 @@ Yukarıdaki script ile faillock mekanizmasının çalıştığı kullanıcı hes
 Sistem ve uygulama güvenliğinin sağlanmasında **güncellemelerin zamanında uygulanması** kritik rol oynar.<br>
 Güncellenmeyen sistemler, bilinen zafiyetler üzerinden hedef alınabilir ve bu saldırı senaryolarında kolaylık sağlar.<br>
 Sistemlerin yazılım ve sistemsel olarak güncel tutulmaması önemli bir ihmaldir. Buna göre; belli bir aralık ve takvim içinde kalmak kaydıyla güncelleme çalışmaları planlanmalıdır.<br>
+
 - ### Güncelleme Politikası Hedefleri
   - İşletim sistemi, uygulama ve servislerin düzenli güncellenmesi
   - Kritik yamaların gecikmeden uygulanması
   - Otomatik güncelleme yapılamayan sistemlerin izlenmesi
   - Yama süreci tamamlanamayan sistemler için geçici koruma yöntemlerinin (virtual patching) devreye alınması
 
----
+- ###### Windows Ortamında Powershell Yama Takibi Komutu kodu
+```powershell
+# Son 30 gün içinde kurulan güncellemeleri listeler
+Get-HotFix | Where-Object {$_.InstalledOn -gt (Get-Date).AddDays(-30)} |
+Select-Object Description, InstalledOn
+```

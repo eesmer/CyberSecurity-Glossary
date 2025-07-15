@@ -253,5 +253,6 @@ Bu üç maddeden yola çıkılarak risk seviyesi belirlenir.<br>
 ```
 Risk = Varlık Değeri x Etki x Olasılık
 ```
-Buradaki değerler, kurumlara özel olarak sayısal veya dereceli (düşük/orta/yüksek) olarak sınıflandırılır. Bu çalışmalar için uygulamalardan yararlanılarak bu değerleri berlirlemek için araçlar da kullanılmaktadır.<br>
+Buradaki değerler, kurumlara özel olarak sayısal veya dereceli (düşük/orta/yüksek) olarak sınıflandırılır.<br>
+Bu çalışmalar için uygulamalardan yararlanılarak bu değerleri berlirlemek için araçlar da kullanılmaktadır.<br>
 Gerçekçi ve doğru çözüm için uygulama destekli sonuçlar değerlendirilmeli ve uygun senaryolar belirlenmelidir.<br>

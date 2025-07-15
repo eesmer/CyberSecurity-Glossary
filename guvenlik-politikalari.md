@@ -163,3 +163,43 @@ yum check-update
 Yukarıdaki komutlarla sistem güncellemeleri denetlenir. Bu denetleme ve kontrollerin sürdürülebilir olması için merkezi/uzaktan yapılması önemlidir.<br>
 Paket yöneticileri (apt, yum, dnf) üzerinden yapılan güncellemeler hem sistem güvenliğini hem de kararlılığı direkt etkiler.<br>
 Kritik sistemlerde kontrollü güncelleme otomatik güncelleme yerine tercih edilmelidir.<br>
+
+- ### Virtual Patching
+Bazı durumlarda sistem güncellemeleri hemen uygulanamaz.<br>
+Özellikle Linux sunucu ortamlarında, kullanılan dağıtım ve uygulama çeşitliliği nedeniyle pratik ve tutarlı bir güncelleme senaryosu oluşturmak zorlaşır.<br>
+Windows ortamlarında OS güncellemeleri daha bütüncül olsa da, üzerinde çalışan servis veya uygulamaların güncellenmesi ayrıca planlanır.<br>
+Bu durum, sistemin tamamı için güncelleme yapmayı engeller.<br>
+Yani;<br>
+- OS güncellenebilir ama **uygulama** üretici tarafından henüz desteklenmeyebilir
+- Uygulama yamalanabilir ama yeni sürüm OS ile uyumsuz olabilir
+
+Sağlıklı bir güncelleme süreci için; OS ve uygulama katmanlarının birbirine takvim ve sürüm açısından uyumlu olması gerekir. Ancak bu yalnızca üretici planlamasıyla değil kurumun kendi yazılım geliştirme ve sistem yönetim disipliniyle sağlanabilir. Özellikle uygulama güncellemeleri, çoğu zaman geliştirme planına bağımlıdır.<br>
+Bu da OS, APP ve ilgili yamaların ortak bir takvimde yürütülememesine neden olur.<br>
+Sonuç olarak;<br>
+- Regülasyonlara uyum zedelenir
+- Zafiyetler kapatılamaz
+- Güvenlik açıkları artar
+
+Bu gibi durumlar için ortamda model ve tasarımı değiştiren alternatif çözümler uygulanmalıdır.<br>
+Buna göre örnek Önlemler aşağıdakiler olabilir;<br>
+- Güncellenemeyen sistemin önüne firewall (WAF, IPS) yerleştirmek
+- Yazılımsal firewall kuralları ve erişim kısıtlamaları tanımlamak
+- Sistemi DMZ ortamına taşıyarak izolasyon sağlamak
+- Hizmet dışı portları tamamen kapatmak
+- Açık kalan portta, yamalanamayan uygulamaya karşı tüm olasılıkları analiz etmek
+
+
+
+Bazı durumlarda sistem güncellemeleri hemen uygulanamaz. Özellikle Linux sunucu ortamlarında gerek uygulama gerekse de dağıtım çeşitliliği pratik bir güncelleme senaryosunun işletilmesini engeller.<br>
+Aynı şekilde Windows ortamlarında da OS seviyesinde yapılacak işler, Linux ortamlarındaki gibi dağıtım çeşitliğinden dolayı karmaşık olmasa da üzerindeki servis ve uygulamaların güncellenmesi ayrıca yapılmaktadır. Bu da Windows OS'nin güncellenmesini veya üzerinde çalıştırdığı servis veya uygulamanın güncellenmesini engellemektedir. Hepsini kapsayan bir güncelleme yapmak için;<br>
+OS güncellemesi ile uygulamanın güncellemesi yani üretici bağımlılığının aynı seviyede kalması gereklidir. En başından yayınlanmış güncellemelerin OS ve APP olarak birarada çalışan sistemlerin birbirine takvim uyumluluğu sağlaması gereklidir. Bu operasyon sadece bu faktöre de bağlı değildir.<br>
+Özellikle uygulama güncellemeleri bir yazılım geliştirme/güncelleme planını da gerektirdiğinden esnetilebilmekte veya OS, APP ve APP tarafının yamalanması süreçleri ortak takvimde yürütülememektedir.<br>
+Bu durum, ortamların güvenlik gereksinimlerini karşılama ve regülasyon uyumluluğunu sağlama konusuna en büyük engeldir.<br>
+Planlı ve disiplinli bir güncelleme/geliştirme süreci yürütülmesini gerekli kılar.<br>
+Tüm bunlara rağmen yukarıdaki faktörlerden birinin sağlanamaması durumunda ortamlar için model ve tasarımı değiştirien çözümler uygulanmalıdır.<br>
+Örneğin;<br>
+- Güncellenemeyen bir sistemin önüne FW koymak
+- Sistem üzerinden yazılımsal FW kuralları ve erişim kısıtlamaları uygulamak
+- Sistemleri DMZ ortamına almak
+- Sistemin hizmet verdiği port dışındaki tüm portları kapatmak
+- Sistemin hizmet verdiği port üzerinde güncelleme yapılamadığından doğan tüm olasılıkları gözden geçirmek

@@ -231,3 +231,10 @@ Bu çalışma ve çalışma süreci, sadece teknik tarama sonuçlarından ibaret
   - Risk Analizi
   - Risk Önceliklendirme
   - Risk Yanıt Stratejileri
+
+- ###### Zafiyet Tespiti
+  Kurum, sistem ve uygulama düzeyinde **otomatik ve manuel zafiyet taramaları** gerçekleştirmelidir.<br>
+  - ###### Otomatik Taramalar
+    - Açık kaynak: OpenVAS, Nikto, Nmap
+    - Ticari: Nessus, Qualys, Nexpose
+

@@ -237,7 +237,7 @@ Bu çalışma ve çalışma süreci, sadece teknik tarama sonuçlarından ibaret
   - ###### Otomatik Taramalar
     - Açık kaynak: OpenVAS, Nikto, Nmap
     - Ticari: Nessus, Qualys, Nexpose
-  - ###### Otomatik Taramalar
+  - ###### Manuel Taramalar
     - Yapılandırmaların incelenmesi
     - Port ve servis doğrulamaları
     - Güvenlik testleri senaryoları

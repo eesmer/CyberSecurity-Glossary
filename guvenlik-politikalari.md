@@ -227,7 +227,7 @@ Bu çalışma ve çalışma süreci, sadece teknik tarama sonuçlarından ibaret
 - ### Risk Yönetimi Politikası Hedefleri
   - Zafiyet Tespiti
     - Otomatik Taramalar
-    - Manuel Yöntemler
+    - Manuel Taramalar
   - Risk Analizi
   - Risk Önceliklendirme
   - Risk Yanıt Stratejileri
@@ -237,4 +237,10 @@ Bu çalışma ve çalışma süreci, sadece teknik tarama sonuçlarından ibaret
   - ###### Otomatik Taramalar
     - Açık kaynak: OpenVAS, Nikto, Nmap
     - Ticari: Nessus, Qualys, Nexpose
+  - ###### Otomatik Taramalar
+    - Yapılandırmaların incelenmesi
+    - Port ve servis doğrulamaları
+    - Güvenlik testleri senaryoları
+
+Otomatik tarama çıktıları, manuel doğrulama ile kontrol edilerek gerçek bulgular tespit edilir ve False Positive oranı yönetilebilir.<br>
 

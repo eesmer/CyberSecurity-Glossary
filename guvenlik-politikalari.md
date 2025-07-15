@@ -285,7 +285,7 @@ Kurumda çalışan eski bir uygulama sunucusunda yüksek riskli bir PHP zafiyeti
 - Sistem dışa açık değil ancak iç erişim mümkün
 Yukarıdakilere göre risk değerlendirmesi yapılır.
 
-- Risk değerlendirmesi sonrası;
+Risk değerlendirmesi sonrası;
   - **Mitigation:** Sunucuyu sadece belirli IP’lerden erişilebilir yapmak
   - **Accept:** Zafiyetin şimdilik kabul edilmesi
   - **Transfer:** Gelecekte SaaS modele geçilerek bu uygulamanın sorumluluğunun sağlayıcıya bırakılması

@@ -278,3 +278,17 @@ olarak planlanabilir.<br>
   Riskli hizmetin/sistemin tamamen terk edilmesi
 
 olarak uygulama planı belirlenir.<br>
+
+## Örnek Senaryo ve Uygulama Planı
+Kurumda çalışan eski bir uygulama sunucusunda yüksek riskli bir PHP zafiyeti tespit edildiğinde;
+- Uygulama güncellenemiyor çünkü 3. parti sağlayıcı desteği bitmiş durumda
+- Sistem dışa açık değil ancak iç erişim mümkün
+Yukarıdakilere göre risk değerlendirmesi yapılır.
+
+- Risk değerlendirmesi sonrası;
+  - **Mitigation:** Sunucuyu sadece belirli IP’lerden erişilebilir yapmak
+  - **Accept:** Zafiyetin şimdilik kabul edilmesi
+  - **Transfer:** Gelecekte SaaS modele geçilerek bu uygulamanın sorumluluğunun sağlayıcıya bırakılması
+<br>
+olarak uygulama planı yapılabilir.<br>
+

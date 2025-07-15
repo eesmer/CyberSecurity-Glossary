@@ -211,3 +211,9 @@ Tüm bunlara rağmen yukarıdaki faktörlerden birinin sağlanamaması durumunda
 - Uyumsuzluk riski olan paketlerin sabitlenmesi gerekebilir<br>
 ve bu da
 - Kritik bir servisin, üretici onayı veya test olmadan otomatik güncellenmesini engellemek ile sağlanabilir.
+Bunun için Linux sistemlerde;
+```bash
+apt-mark hold package-name
+```
+komutu kullanılır. **apt-mark hold"" komutu parametre aldığı paketi güncelleme işlemi için lock eder.<br>
+

@@ -50,15 +50,16 @@ Bu denetimler ve yaklaşım, gruplar üzerinden veya kullanıcı hesapları üze
 > ## 2. Erişim Yönetimi Politikası
 Kurumun sistem ve kaynaklarına erişimin düzenlenmesi, bilgi güvenliğinin temel adımlarından biridir.<br>  
 Kimlik doğrulama, yetkilendirme, kullanıcı yaşam döngüsü ve çok faktörlü kimlik doğrulama (MFA) gibi mekanizmalar bu politikanın kapsamına girer.<br>
-Erişim Yönetimi operasyonel olarak aşağıdaki yapılandırmaları gerektirir;<br>
-**i-** Kimlik doğrulama ve yetkilendirme süreçlerinin tanımlanması<br>
-**ii-** Gruplar, roller, şifre politikaları, çok faktörlü kimlik doğrulama (MFA) kullanımı<br>
-**iii-** Kullanıcı hesaplarının düzenli olarak gözden geçirilmesi<br>
 
-- ### **Kimlik Doğrulama ve Yetkilendirme**<br>
-  Kullanıcıların sisteme giriş yaparken güçlü kimlik doğrulama mekanizmaları kullanılmalıdır.<br>
-  **Şifre Politikası:** Minimum uzunluk, karmaşıklık, süreli değişim zorunluluğu uygulanmalıdır.<br>
-  **MFA Kullanımı:** Özellikle yönetici hesaplarında ve dış erişimlerde zorunlu tutulmalıdır.<br>
+- ### Erişim Yönetimi Politikası Hedefleri
+  - Kimlik doğrulama ve yetkilendirme süreçlerinin tanımlanması<br>
+  -  Gruplar, roller, şifre politikaları, çok faktörlü kimlik doğrulama (MFA) kullanımı<br>
+  - Kullanıcı hesaplarının düzenli olarak gözden geçirilmesi<br>
+
+- ### Kimlik Doğrulama ve Yetkilendirme
+  - Kullanıcıların sisteme giriş yaparken güçlü kimlik doğrulama mekanizmaları kullanılmalıdır.<br>
+  - **Şifre Politikası:** Minimum uzunluk, karmaşıklık, süreli değişim zorunluluğu uygulanmalıdır.<br>
+  - **MFA Kullanımı:** Özellikle yönetici hesaplarında ve dış erişimlerde zorunlu tutulmalıdır.<br>
 
 **Linux makinelerde Yapılandırma Örnekleri**<br>
 - ###### Şifre Politikası Ayarları - /etc/login.defs
@@ -133,3 +134,10 @@ Yukarıdaki script ile faillock mekanizmasının çalıştığı kullanıcı hes
 Sistem ve uygulama güvenliğinin sağlanmasında **güncellemelerin zamanında uygulanması** kritik rol oynar.<br>
 Güncellenmeyen sistemler, bilinen zafiyetler üzerinden hedef alınabilir ve bu saldırı senaryolarında kolaylık sağlar.<br>
 Sistemlerin yazılım ve sistemsel olarak güncel tutulmaması önemli bir ihmaldir. Buna göre; belli bir aralık ve takvim içinde kalmak kaydıyla güncelleme çalışmaları planlanmalıdır.<br>
+- ### Güncelleme Politikası Hedefleri
+  - İşletim sistemi, uygulama ve servislerin düzenli güncellenmesi
+  - Kritik yamaların gecikmeden uygulanması
+  - Otomatik güncelleme yapılamayan sistemlerin izlenmesi
+  - Yama süreci tamamlanamayan sistemler için geçici koruma yöntemlerinin (virtual patching) devreye alınması
+
+---

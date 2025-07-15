@@ -256,3 +256,11 @@ Risk = Varlık Değeri x Etki x Olasılık
 Buradaki değerler, kurumlara özel olarak sayısal veya dereceli (düşük/orta/yüksek) olarak sınıflandırılır.<br>
 Bu çalışmalar için uygulamalardan yararlanılarak bu değerleri berlirlemek için araçlar da kullanılmaktadır.<br>
 Gerçekçi ve doğru çözüm için uygulama destekli sonuçlar değerlendirilmeli ve uygun senaryolar belirlenmelidir.<br>
+
+- ###### Risk Önceliklendirme
+  Tüm riskler aynı anda çözülemez. Bu nedenle analiz sonucunda çıkan riskler, **önem sırasına göre** sınıflandırılıp ve planlanmalıdır.<br>
+  Buna göre;
+  - Kritik sistemlerdeki yüksek riskler -> Öncelikli
+  - Düşük etkili ama yaygın riskler -> Toplu iyileştirme
+  - Dışa kapalı sistemlerdeki riskler -> İzlenerek zamanlı çözüm <br>
+olarak planlanabilir.<br>

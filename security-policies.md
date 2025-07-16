@@ -106,5 +106,5 @@ To activate and test the configuration<br>
 ```bash
 faillock --user username
 ```
-When run with --user, the faillock command applies the lock mechanism to the specified user based on the settings defined in faillock.conf.<br>
+When run with --user, the faillock command applies the lock mechanism to the specified user based on the settings defined in faillock.conf.
 This enforces account lockout after multiple failed login attempts.

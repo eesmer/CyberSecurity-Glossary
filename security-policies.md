@@ -153,3 +153,14 @@ Get-HotFix | Where-Object {$_.InstalledOn -gt (Get-Date).AddDays(-30)} |
 Select-Object Description, InstalledOn
 ```
 The script above provides a basic example for manual inspection on a local machine. In enterprise environments, centralized patch management should be implemented using tools such as WSUS or SCCM.
+
+- ###### Update Checks on Linux Systems
+For Debian-based distributions<br>
+```bash
+apt list --upgradable
+```
+
+For RHEL-based distributions<br>
+```bash
+yum check-update
+```

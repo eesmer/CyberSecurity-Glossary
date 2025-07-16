@@ -267,3 +267,13 @@ Organizations should perform both **automated and manual vulnerability scans** a
   - Custom security testing scenarios
 
 Automated scan results should be validated through manual verification in order to identify true findings and manage the false positive rate effectively.
+
+- ###### Risk Analysis
+
+For each identified vulnerability, the following factors should be assessed:
+
+- **Impact**: What is the potential damage? (e.g., data loss, unauthorized access, service disruption)  
+- **Likelihood**: How likely is it that this vulnerability will be exploited?  
+- **Asset Value**: Which system is affected? How critical is it?
+
+Based on these three factors, the risk level can be calculated:

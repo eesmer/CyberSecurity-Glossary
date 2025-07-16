@@ -429,5 +429,6 @@ In Linux systems, **logrotate** is used to:
         systemctl reload myapp.service > /dev/null 2>&1 || true
     endscript
 }
+```
 
 The configuration above rotates the myapp.log file weekly, keeps a maximum of 4 old log files, and compresses them using .gz format.

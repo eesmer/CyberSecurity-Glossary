@@ -102,4 +102,9 @@ After configuring faillock.conf, the pam_faillock.so module must be added to /et
 auth required pam_faillock.so preauth silent audit
 auth [default=die] pam_faillock.so authfail audit
 ```
-
+To activate and test the configuration<br>
+```bash
+faillock --user username
+```
+When run with --user, the faillock command applies the lock mechanism to the specified user based on the settings defined in faillock.conf.<br>
+This enforces account lockout after multiple failed login attempts.

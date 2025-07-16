@@ -402,4 +402,4 @@ Otherwise
   - Even if a service is running properly, it may stop due to oversized log files
   - Problems in monitored resources may go undetected if there is no alerting system in place
 
-In conclusion, logging and monitoring are not just about collecting data — they are about making that data **readable, classifiable**, and **actionable through alert mechanisms** to ensure service continuity. This approach should be **planned and consistently applied** across all systems.
+In conclusion, logging and monitoring are not just about collecting data they are about making that data **readable, classifiable**, and **actionable through alert mechanisms** to ensure service continuity. This approach should be **planned and consistently applied** across all systems.

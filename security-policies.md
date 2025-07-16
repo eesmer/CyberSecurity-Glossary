@@ -109,7 +109,7 @@ faillock --user username
 When run with --user, the faillock command applies the lock mechanism to the specified user based on the settings defined in faillock.conf.
 This enforces account lockout after multiple failed login attempts.
 
-- ###### Enabling faillock` for All Local User Accounts
+- ###### Enabling faillock for All Local User Accounts
 ```bash
 #!/bin/bash
 

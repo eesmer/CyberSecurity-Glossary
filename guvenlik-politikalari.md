@@ -356,11 +356,11 @@ Her uygulama veya servisin, detaylı log kayıtları alınmalı ve sistemin kayn
 Ancak burada **önemli bir denge** kurmak gereklidir. Detaylı log kayıtları **disk alanını hızla tüketebilir** ve izlenen servisin sağlığına dolaylı zarar verebilir.<br>
 
 Bu nedenle;<br>
-     - **logrotate** ayarları mutlaka yapılandırılmalı
-       - Otomatik uyarı sistemleri (**mail, SMS, webhook** vb.) devreye alınmalıdır
+  - **logrotate** ayarları mutlaka yapılandırılmalı
+    - Otomatik uyarı sistemleri (**mail, SMS, webhook** vb.) devreye alınmalıdır
 Aksi halde;<br>
-     - Servis sorunsuz çalışsa bile, log dosyalarının şişmesi nedeniyle durabilir
-       - Monitor edilen kaynaklardaki sorunlar bildirim sistemi olmadığı için fark edilmeden ilerleyebilir
+  - Servis sorunsuz çalışsa bile, log dosyalarının şişmesi nedeniyle durabilir
+    - Monitor edilen kaynaklardaki sorunlar bildirim sistemi olmadığı için fark edilmeden ilerleyebilir
    <br>
 Sonuç olarak; log ve monitoring çalışmaları sadece veri toplamak değil, toplanan veriyi okuyabilir, sınıflandırabilir ve bildirim mekanizmalarıyla servisi sürdürebilir hale getirmektir.
 Bu yaklaşımın her sistemde planlı şekilde uygulanması gerekir.<br>

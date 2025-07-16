@@ -386,6 +386,11 @@ Logrotate, Linux sistemlerde log dosyalarının:
 ```
 Yukarıdaki yapılandırma, myapp.log dosyasının haftalık olarak döndürülmesini, en fazla 4 adet eski log dosyasının saklanmasını ve eski logların .gz olarak sıkıştırılmasını sağlar.<br>
 
+- ###### Test
+```bash
+logrotate -f /etc/logrotate.d/myapp
+```
+Bu komut, ayarlanan logrotate kuralını çalıştırır ve sonucu gösterir.<br>
 
 ## Örnek Temel Kontrol Komutları
 - ###### Linux – auth.log içinde başarısız oturum açma sayısı

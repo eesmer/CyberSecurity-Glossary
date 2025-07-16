@@ -39,3 +39,9 @@ id username
 grep -E "^username|^%.*" /etc/sudoers
 ```
 
+- ###### Check if user is in the sudo group
+```bash
+groups username | grep sudo
+```
+
+These audits form a basic approach for controlling access in environments that use either DAC (Discretionary Access Control) or RBAC (Role-Based Access Control) through user or group-level authorizations.

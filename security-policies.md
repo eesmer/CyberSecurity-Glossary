@@ -132,5 +132,10 @@ It ensures that faillock monitoring and account lockout settings are active for 
 echo "Faillock Check..."
 faillock --reset --dry-run 2>/dev/null | grep -B1 'currently locked' | grep '^user'
 ```
-
 The script above lists user accounts for which the faillock mechanism is currently active. It shows accounts that are currently locked due to failed login attempts.
+
+> ## 3. Update Policy and Patch Management
+Timely application of updates plays a critical role in ensuring the security of systems and applications.<br>
+Outdated systems are vulnerable to known exploits and may become easy targets in real-world attack scenarios.<br>
+Neglecting to keep software and operating systems up to date is a significant security oversight.<br>
+Therefore, update processes should be planned and executed on a defined schedule and within regular maintenance windows.<br>

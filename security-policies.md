@@ -145,3 +145,11 @@ Therefore, update processes should be planned and executed on a defined schedule
   - Timely application of critical security patches  
   - Monitoring of systems that do not support automatic updates  
   - Activation of temporary protection mechanisms (virtual patching) for systems where the patching process cannot be completed
+
+- ###### PowerShell Query for Patch Status on Windows
+```powershell
+# Lists updates installed within the last 30 days
+Get-HotFix | Where-Object {$_.InstalledOn -gt (Get-Date).AddDays(-30)} |
+Select-Object Description, InstalledOn
+```
+The script above provides a basic example for manual inspection on a local machine. In enterprise environments, centralized patch management should be implemented using tools such as WSUS or SCCM.

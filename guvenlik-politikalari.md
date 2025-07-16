@@ -353,17 +353,39 @@ Bu iki yapı taşı, saldırı tespiti, anomali analizi, kullanıcı etkinliği 
     ```
 - ### logrotate
 Her uygulama veya servisin, detaylı log kayıtları alınmalı ve sistemin kaynak kullanımı ile çalışma durumu sürekli olarak izlenmelidir.<br>
-Ancak burada **önemli bir denge** kurmak gereklidir. Detaylı log kayıtları **disk alanını hızla tüketebilir** ve izlenen servisin sağlığına dolaylı zarar verebilir.<br>
+Ancak sistemlerde log dosyaları zamanla büyür ve disk alanını tüketebilir. Bu durum servislerin durmasına veya sistem performansının düşmesine neden olabilir.<br>
 
 Bu nedenle;<br>
   - **logrotate** ayarları mutlaka yapılandırılmalı
     - Otomatik uyarı sistemleri (**mail, SMS, webhook** vb.) devreye alınmalıdır
 Aksi halde;<br>
-  - Servis sorunsuz çalışsa bile, log dosyalarının şişmesi nedeniyle durabilir
-    - Monitor edilen kaynaklardaki sorunlar bildirim sistemi olmadığı için fark edilmeden ilerleyebilir
+  - Servis sorunsuz çalışsa da log dosyalarının şişmesi nedeniyle durabilir
+    - Monitor edilen kaynaklardaki sorunlar bildirim sistemi olmadığı için fark edilmeden sorun büyüyebilir
    <br>
 Sonuç olarak; log ve monitoring çalışmaları sadece veri toplamak değil, toplanan veriyi okuyabilir, sınıflandırabilir ve bildirim mekanizmalarıyla servisi sürdürebilir hale getirmektir.
 Bu yaklaşımın her sistemde planlı şekilde uygulanması gerekir.<br>
+
+Logrotate, Linux sistemlerde log dosyalarının:
+- Belirli aralıklarla döndürülmesini (rotate)
+- Eski dosyaların silinmesini veya sıkıştırılmasını
+- Maksimum saklama adedi belirlenmesini sağlar.
+
+- ###### Linux sistemlerde Logrotate Yapılandırması
+```bash
+/var/log/myapp.log {
+    weekly
+    rotate 4
+    compress
+    missingok
+    notifempty
+    create 0640 root root
+    postrotate
+        systemctl reload myapp.service > /dev/null 2>&1 || true
+    endscript
+}
+```
+Yukarıdaki yapılandırma, myapp.log dosyasının haftalık olarak döndürülmesini, en fazla 4 adet eski log dosyasının saklanmasını ve eski logların .gz olarak sıkıştırılmasını sağlar.<br>
+
 
 ## Örnek Temel Kontrol Komutları
 - ###### Linux – auth.log içinde başarısız oturum açma sayısı

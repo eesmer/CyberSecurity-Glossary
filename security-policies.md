@@ -71,3 +71,14 @@ PASS_WARN_AGE   7     # Warn the user 7 days before password expiration
 ```
 This configuration file sets default password policies for accounts created with commands like useradd.<br>
 The parameters above define the default behavior applied to new users.<br>
+
+- ###### Password Complexity – /etc/security/pwquality.conf (pam_pwquality.so)
+```bash
+minlen = 12             # Minimum password length
+dcredit = -1            # Require at least 1 digit
+ucredit = -1            # Require at least 1 uppercase letter
+lcredit = -1            # Require at least 1 lowercase letter
+ocredit = -1            # Require at least 1 special character
+retry = 3               # Allow 3 attempts before aborting
+```
+

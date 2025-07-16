@@ -121,3 +121,6 @@ for user in $(awk -F: '$3 >= 1000 && $3 < 65534 {print $1}' /etc/passwd); do
         echo "[$user] : Restrictions applied or past attempts detected"
 done
 ```
+
+The script above works for all local user accounts if the faillock PAM module is enabled and the faillock.conf file is properly configured.
+It ensures that faillock monitoring and account lockout settings are active for every local user on the system.

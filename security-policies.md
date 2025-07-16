@@ -231,5 +231,6 @@ In exceptional situations, administrative control and workaround strategies may 
 On Linux systems, the following command can be used:
 ```bash
 apt-mark hold package-name
+```
 
 The apt-mark hold command locks the specified package, preventing it from being updated.

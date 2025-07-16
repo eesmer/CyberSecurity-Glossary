@@ -326,3 +326,10 @@ Restrict access to the server to specific internal IP addresses
 Temporarily accept the vulnerability as-is  
 - **Transfer:**<br>
 Plan to migrate the application to a SaaS model in the future, shifting responsibility to the service provider
+
+## Example Basic Commands
+
+#### Start a scan with OpenVAS:
+```bash
+gvm-cli --gmp-username admin --gmp-password pass socket --xml "<create_target><name>ServerA</name><hosts>192.168.1.10</hosts></create_target>"
+```

@@ -388,3 +388,18 @@ A user attempts to log in unsuccessfully from 10 different sources within 5 minu
 if login_failed from >5 unique IP within 5 minutes
 then alert "Brute-force attempt suspected"
 ```
+
+- ### logrotate
+Every application or service should generate detailed logs, and system resource usage and operational status must be continuously monitored.
+However, over time, log files can grow in size and consume significant disk space.
+This may lead to service interruptions or degraded system performance.
+
+Therefore
+  - **logrotate** settings should always be configured
+  - Automated alerting mechanisms (e.g., **email, SMS, webhook**) should be enabled
+
+Otherwise
+  - Even if a service is running properly, it may stop due to oversized log files
+  - Problems in monitored resources may go undetected if there is no alerting system in place
+
+In conclusion, logging and monitoring are not just about collecting data — they are about making that data **readable, classifiable**, and **actionable through alert mechanisms** to ensure service continuity. This approach should be **planned and consistently applied** across all systems.

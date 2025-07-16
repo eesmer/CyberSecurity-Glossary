@@ -439,7 +439,7 @@ logrotate -f /etc/logrotate.d/myapp
 ```
 This command runs the logrotate rule manually and displays the result.<br>
 
-- ### Example Basic Monitoring Commands
+### Example Basic Monitoring Commands
 - ###### Linux – Count failed login attempts in auth.log
 ```
 grep "Failed password" /var/log/auth.log | wc -l
@@ -447,3 +447,4 @@ grep "Failed password" /var/log/auth.log | wc -l
 - ###### Windows – Query login failure events via PowerShell
 ```powershell
 Get-WinEvent -LogName Security -FilterXPath "*[System[(EventID=4625)]]"
+```

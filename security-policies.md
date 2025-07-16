@@ -298,13 +298,13 @@ For example:
 
 One or more of the following strategies can be applied for each risk:
 
-- **Mitigate**
-  Apply patches, restrict access, use firewalls, implement segmentation.
-- **Accept**
-  Accept the risk if the business impact is tolerable and the mitigation is too costly or complex.
-- **Transfer**
-  Transfer the risk through insurance, outsourcing, or shifting responsibility to a vendor.
-- **Avoid**
-  Eliminate the risk entirely by discontinuing the risky service or system.
+- **Mitigate**<br>
+Apply patches, restrict access, use firewalls, implement segmentation.
+- **Accept**<br>
+Accept the risk if the business impact is tolerable and the mitigation is too costly or complex.
+- **Transfer**<br>
+Transfer the risk through insurance, outsourcing, or shifting responsibility to a vendor.
+- **Avoid**<br>
+Eliminate the risk entirely by discontinuing the risky service or system.
 
 The chosen response strategy should be part of a structured implementation plan.

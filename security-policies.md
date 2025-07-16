@@ -168,3 +168,30 @@ System updates can be checked using the commands above.
 To ensure sustainability, these checks should ideally be performed **centrally or remotely**.
 Updates applied through package managers (such as `apt`, `yum`, or `dnf`) have a **direct impact on both system security and stability**.  
 In critical systems, **controlled and manual updates** are often preferred over fully automated updates.
+
+- ### Virtual Patching
+In some cases, system updates cannot be applied immediately.  
+This is especially true in Linux server environments, where the diversity of distributions and applications makes it difficult to implement a practical and consistent update strategy.  
+While OS-level updates in Windows environments tend to be more unified, updates for services or applications running on top of the OS must still be planned separately.  
+This often prevents end-to-end updates from being applied.
+
+In practice:
+- The **OS** might be patchable, but the **application** may not yet be supported by the vendor.
+- The **application** might be ready for patching, but it could be incompatible with a newer OS version.
+
+A successful patching process requires that both OS and application layers align in terms of version compatibility and release schedules.  
+However, this alignment depends not only on vendors, but also on the organization’s own software development and system management practices.  
+Application patching is often tied to development cycles, making synchronized updates across OS, application, and patching layers unrealistic.
+
+As a result:
+- Regulatory compliance suffers  
+- Vulnerabilities remain unpatched  
+- Exposure to security threats increases
+
+In such cases, **alternative models or architectural changes** should be implemented. Examples include:
+
+- Placing a firewall (WAF or IPS) in front of the unpatched system  
+- Defining strict software firewall rules and access control  
+- Moving the system into a DMZ to enforce network isolation  
+- Closing all unused ports completely  
+- Analyzing all possible threats against the service still exposed via open ports

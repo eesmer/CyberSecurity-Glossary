@@ -308,3 +308,21 @@ Transfer the risk through insurance, outsourcing, or shifting responsibility to 
 Eliminate the risk entirely by discontinuing the risky service or system.
 
 The chosen response strategy should be part of a structured implementation plan.
+
+## Example Scenario and Action Plan
+
+Suppose a legacy application server in the organization is found to have a high-risk PHP vulnerability:
+
+- The application cannot be updated because third-party vendor support has ended  
+- The system is not publicly exposed, but it is accessible from within the internal network
+
+Based on this context, a risk assessment is conducted.
+
+Following the assessment, the response plan might include:
+
+- **Mitigation:**<br>
+Restrict access to the server to specific internal IP addresses  
+- **Acceptance:**<br>
+Temporarily accept the vulnerability as-is  
+- **Transfer:**<br>
+Plan to migrate the application to a SaaS model in the future, shifting responsibility to the service provider

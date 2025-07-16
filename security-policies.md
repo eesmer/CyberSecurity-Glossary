@@ -437,3 +437,4 @@ The configuration above rotates the myapp.log file weekly, keeps a maximum of 4 
 ```bash
 logrotate -f /etc/logrotate.d/myapp
 ```
+This command runs the logrotate rule manually and displays the result.<br>

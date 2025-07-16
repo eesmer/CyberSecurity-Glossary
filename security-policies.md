@@ -86,3 +86,6 @@ This module should be integrated as follows:<br>
 - On Debian-based systems: /etc/pam.d/common-password
 - On RHEL-based systems: /etc/pam.d/system-auth
 
+```bash
+password requisite pam_pwquality.so retry=3
+```

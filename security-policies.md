@@ -139,3 +139,9 @@ Timely application of updates plays a critical role in ensuring the security of 
 Outdated systems are vulnerable to known exploits and may become easy targets in real-world attack scenarios.<br>
 Neglecting to keep software and operating systems up to date is a significant security oversight.<br>
 Therefore, update processes should be planned and executed on a defined schedule and within regular maintenance windows.<br>
+
+- ### Objectives of the Update Policy
+  - Regular updates for the operating system, applications, and services  
+  - Timely application of critical security patches  
+  - Monitoring of systems that do not support automatic updates  
+  - Activation of temporary protection mechanisms (virtual patching) for systems where the patching process cannot be completed

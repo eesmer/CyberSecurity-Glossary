@@ -221,3 +221,15 @@ Examples include:
 - Isolating the system into a DMZ environment  
 - Closing all ports except those strictly required for service delivery  
 - Thoroughly analyzing every possible exposure on the remaining open service port
+
+**Note:**  
+In exceptional situations, administrative control and workaround strategies may be necessary. For example:
+
+- Some packages may need to be **frozen** due to compatibility risks  
+- This can prevent a **critical service** from being updated automatically without vendor approval or proper testing
+
+On Linux systems, the following command can be used:
+```bash
+apt-mark hold package-name
+
+The apt-mark hold command locks the specified package, preventing it from being updated.

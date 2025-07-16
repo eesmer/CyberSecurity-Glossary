@@ -409,3 +409,25 @@ In Linux systems, **logrotate** ensures that log files are:
 - Rotated at defined intervals  
 - Compressed or deleted after rotation  
 - Limited to a specified number of retained files
+
+In Linux systems, **logrotate** is used to:
+
+- Rotate log files at specified intervals  
+- Delete or compress old log files  
+- Set a limit for the maximum number of archived logs
+
+- ###### Logrotate Configuration Example (Linux)
+```bash
+/var/log/myapp.log {
+    weekly
+    rotate 4
+    compress
+    missingok
+    notifempty
+    create 0640 root root
+    postrotate
+        systemctl reload myapp.service > /dev/null 2>&1 || true
+    endscript
+}
+
+The configuration above rotates the myapp.log file weekly, keeps a maximum of 4 old log files, and compresses them using .gz format.

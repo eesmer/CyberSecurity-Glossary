@@ -164,3 +164,7 @@ For RHEL-based distributions<br>
 ```bash
 yum check-update
 ```
+System updates can be checked using the commands above.  
+To ensure sustainability, these checks should ideally be performed **centrally or remotely**.
+Updates applied through package managers (such as `apt`, `yum`, or `dnf`) have a **direct impact on both system security and stability**.  
+In critical systems, **controlled and manual updates** are often preferred over fully automated updates.

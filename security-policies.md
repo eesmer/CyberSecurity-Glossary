@@ -329,7 +329,12 @@ Plan to migrate the application to a SaaS model in the future, shifting responsi
 
 ## Example Basic Commands
 
-#### Start a scan with OpenVAS:
+- ###### Start a scan with OpenVAS
 ```bash
 gvm-cli --gmp-username admin --gmp-password pass socket --xml "<create_target><name>ServerA</name><hosts>192.168.1.10</hosts></create_target>"
+```
+
+- ###### Quick port scan with Nmap
+```bash
+nmap -T4 -F 192.168.1.10
 ```

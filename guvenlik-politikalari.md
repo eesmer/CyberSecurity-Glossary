@@ -308,8 +308,8 @@ Loglama; sistemlerdeki olayların, kullanıcı işlemlerinin, servis hareketleri
 Bu iki yapı taşı, saldırı tespiti, anomali analizi, kullanıcı etkinliği izleme ve olay müdahalesi gibi birçok sürecin temelini oluşturur.<br>
 <br>
 Her uygulama veya servisin, detaylı log kayıtları alınmalı ve sistemin kaynak kullanımı ile çalışma durumu sürekli olarak izlenmelidir.<br>
-Ancak burada önemli bir denge kurmak gereklidir.<br>
-Detaylı log kayıtları disk alanını hızla tüketebilir ve izlenen servisin sağlığına dolaylı zarar verebilir.<br>
-Bu nedenle;
+Ancak burada önemli bir denge kurmak gereklidir. Detaylı log kayıtları disk alanını hızla tüketebilir ve izlenen servisin sağlığına dolaylı zarar verebilir.<br>
+<br>
+Bu nedenle;<br>
 - logrotate ayarları mutlaka yapılandırılmalı
 - Otomatik uyarı sistemleri (mail, SMS, webhook vb.) devreye alınmalıdır

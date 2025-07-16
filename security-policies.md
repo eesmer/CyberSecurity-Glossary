@@ -124,3 +124,13 @@ done
 
 The script above works for all local user accounts if the faillock PAM module is enabled and the faillock.conf file is properly configured.
 It ensures that faillock monitoring and account lockout settings are active for every local user on the system.
+
+- ###### Listing Locked User Accounts
+```bash
+#!/bin/bash
+
+echo "Faillock Check..."
+faillock --reset --dry-run 2>/dev/null | grep -B1 'currently locked' | grep '^user'
+```
+
+The script above lists user accounts for which the faillock mechanism is currently active. It shows accounts that are currently locked due to failed login attempts.

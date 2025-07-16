@@ -240,3 +240,28 @@ The apt-mark hold command locks the specified package, preventing it from being 
 
 This action blocks uncontrolled updates but it does not resolve the underlying vulnerability.<br>
 In such cases, external protection mechanisms such as WAF, IPS, or strict port filtering should be applied until the package can be safely updated. The hold command is not a security mechanism on its own, but it can serve as an administrative control technique when immediate patching is not feasible.<br>
+
+> ## 4. Vulnerability and Risk Management
+
+Risk management is the process of **identifying, measuring, and addressing** the threats and vulnerabilities that may affect an organization's information systems.  
+This process is not limited to technical scanning results — it also includes aspects such as **business continuity, regulatory compliance, and resource allocation**.
+
+- ### Objectives of the Risk Management Policy
+  - Vulnerability Identification  
+    - Automated Scans  
+    - Manual Assessments  
+  - Risk Analysis  
+  - Risk Prioritization  
+  - Risk Response Strategies
+
+- ###### Vulnerability Identification
+Organizations should perform both **automated and manual vulnerability scans** at the system and application levels.
+
+- ###### Automated Scans
+  - Open-source tools: OpenVAS, Nikto, Nmap  
+  - Commercial tools: Nessus, Qualys, Nexpose
+
+- ###### Manual Scans
+  - Configuration reviews  
+  - Port and service validation  
+  - Custom security testing scenarios

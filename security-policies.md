@@ -320,11 +320,11 @@ Based on this context, a risk assessment is conducted.
 
 Following the assessment, the response plan might include:
 
-- **Mitigation:**<br>
+- **Mitigation**<br>
 Restrict access to the server to specific internal IP addresses  
-- **Acceptance:**<br>
+- **Acceptance**<br>
 Temporarily accept the vulnerability as-is  
-- **Transfer:**<br>
+- **Transfer**<br>
 Plan to migrate the application to a SaaS model in the future, shifting responsibility to the service provider
 
 ## Example Basic Commands
@@ -345,3 +345,17 @@ nmap -T4 -F 192.168.1.10
 **Monitoring** refers to the real-time or scheduled analysis of these logs, system behaviors, and security indicators.
 
 Together, these two pillars form the foundation for processes such as **attack detection, anomaly analysis, user activity tracking, and incident response**
+
+- ### Objectives of the Logging and Monitoring Policy
+  - **Early detection of abnormal behavior** in systems and applications  
+  - Making user activity **observable** and **auditable**  
+  - Supporting **forensic investigation and evidence collection** in case of security incidents  
+  - Meeting legal and regulatory requirements (e.g., KVKK, ISO 27001, GDPR)
+
+- ###### What Logs Should Be Collected?
+  - **Authentication logs**: Successful and failed login attempts (SSH, RDP, MFA)  
+  - **Privilege escalation**: Commands like `sudo`, `runas`, `su`  
+  - **Service events**: Web server access errors, database errors  
+  - **Network events**: Firewall logs, connection attempts  
+  - **File system access**: Access to or changes in critical directories  
+  - **Software installation/removal activities**

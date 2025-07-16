@@ -338,3 +338,10 @@ gvm-cli --gmp-username admin --gmp-password pass socket --xml "<create_target><n
 ```bash
 nmap -T4 -F 192.168.1.10
 ```
+
+> ## 5. Logging and Monitoring Policy
+
+**Logging** is the process of recording events, user activities, service behavior, and security states within systems each with a timestamp.
+**Monitoring** refers to the real-time or scheduled analysis of these logs, system behaviors, and security indicators.
+
+Together, these two pillars form the foundation for processes such as **attack detection, anomaly analysis, user activity tracking, and incident response**

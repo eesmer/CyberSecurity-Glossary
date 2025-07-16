@@ -346,3 +346,13 @@ Bu yaklaşımın her sistemde planlı şekilde uygulanması gerekir.<br>
     - **Windows:** Event Forwarding + WEF/Winlogbeat
     - **Merkezi Analiz:** Graylog, ELK (Elasticsearch-Logstash-Kibana), Wazuh, Splunk
 
+- ###### İzleme ve Alarm Üretimi
+  Log toplamak tek başına yeterli değildir.
+  Bu logların analiz edilerek şüpheli durumların **otomatik olarak fark edilmesi** gerekir.<br>
+  
+  **SIEM sistemleri** bu amaçla kullanılır:
+  - Logları toplar, filtreler, normalize eder
+  - Anomali algılama kuralları uygular
+  - Kritik durumlar için alarm ve bildirim üretir
+  - Güvenlik olaylarını ilişkilendirerek görünürlük sağlar
+

@@ -265,3 +265,5 @@ Organizations should perform both **automated and manual vulnerability scans** a
   - Configuration reviews  
   - Port and service validation  
   - Custom security testing scenarios
+
+Automated scan results should be validated through manual verification in order to identify true findings and manage the false positive rate effectively.

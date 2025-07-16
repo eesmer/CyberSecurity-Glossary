@@ -323,7 +323,7 @@ Sonuç olarak; log ve monitoring çalışamarı sadece veri toplamak değil, top
 Bu yaklaşımın her sistemde planlı şekilde uygulanması gerekir.<br>
 
 - ### Log ve Monitoring Politikası Hedefleri
-- Sistem ve uygulamalardaki **anormal davranışların erken tespiti**
-- Kullanıcı etkinliklerinin **gözlemlenebilir** ve **denetlenebilir** hale gelmesi
-- Güvenlik ihlallerinde **kanıt ve adli analiz** desteği
-- Yasal ve düzenleyici gerekliliklerin (KVKK, ISO 27001, GDPR) karşılanması
+  - Sistem ve uygulamalardaki **anormal davranışların erken tespiti**
+  - Kullanıcı etkinliklerinin **gözlemlenebilir** ve **denetlenebilir** hale gelmesi
+  - Güvenlik ihlallerinde **kanıt ve adli analiz** desteği
+  - Yasal ve düzenleyici gerekliliklerin (KVKK, ISO 27001, GDPR) karşılanması

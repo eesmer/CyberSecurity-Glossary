@@ -283,3 +283,28 @@ Risk = Asset Value × Impact × Likelihood
 These values are typically classified by organizations using either numerical scores or qualitative levels (e.g., low / medium / high).  
 Various tools and applications are available to assist in determining these values during the risk assessment process.  
 To ensure realistic and accurate results, tool-assisted findings should be evaluated carefully, and appropriate response scenarios should be defined accordingly.
+
+- ###### Risk Prioritization
+
+Not all risks can be addressed at the same time.  
+Therefore, risks identified through analysis should be **classified and scheduled according to their importance**.
+
+For example:
+- High-risk issues on critical systems → Priority resolution  
+- Low-impact but widespread issues → Batch remediation  
+- Risks on isolated/internal systems → Monitor and address in due time  
+
+- ###### Risk Response Strategies
+
+One or more of the following strategies can be applied for each risk:
+
+- **Mitigate**
+  Apply patches, restrict access, use firewalls, implement segmentation.
+- **Accept**
+  Accept the risk if the business impact is tolerable and the mitigation is too costly or complex.
+- **Transfer**
+  Transfer the risk through insurance, outsourcing, or shifting responsibility to a vendor.
+- **Avoid**
+  Eliminate the risk entirely by discontinuing the risky service or system.
+
+The chosen response strategy should be part of a structured implementation plan.

@@ -302,3 +302,6 @@ gvm-cli --gmp-username admin --gmp-password pass socket --xml "<create_target><n
 ```bash
 nmap -T4 -F 192.168.1.10
 ```
+
+> ## 5. Loglama ve İzleme Politikası
+Loglama, sistemlerdeki olayların, kullanıcı işlemlerinin, servis hareketlerinin ve güvenlik olaylarının zaman damgalı olarak kaydedilmesi işlemidir.<br>

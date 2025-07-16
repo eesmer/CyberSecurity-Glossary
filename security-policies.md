@@ -368,3 +368,23 @@ Together, these two pillars form the foundation for processes such as **attack d
       - **Linux:** rsyslog, syslog-ng, journalbeat → Logstash → Elasticsearch
       - **Windows:** Event Forwarding + WEF / Winlogbeat
       - **Centralized Analysis:** Graylog, ELK Stack (Elasticsearch-Logstash-Kibana), Wazuh, Splunk
+
+- ###### Monitoring and Alerting
+Collecting logs is not sufficient on its own.  
+These logs must be analyzed to **automatically detect suspicious behavior**.
+
+**SIEM (Security Information and Event Management) systems** are used for this purpose:
+- Collect, filter, and normalize logs  
+- Apply anomaly detection rules  
+- Generate alerts and notifications for critical events  
+- Correlate security events to provide contextual visibility
+
+- ###### Example SIEM Rule Scenario
+**Scenario:**  
+A user attempts to log in unsuccessfully from 10 different sources within 5 minutes.
+
+**SIEM rule:**
+```
+if login_failed from >5 unique IP within 5 minutes
+then alert "Brute-force attempt suspected"
+```

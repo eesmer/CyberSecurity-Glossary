@@ -356,3 +356,13 @@ Bu yaklaşımın her sistemde planlı şekilde uygulanması gerekir.<br>
   - Kritik durumlar için alarm ve bildirim üretir
   - Güvenlik olaylarını ilişkilendirerek görünürlük sağlar
 
+  - ###### Örnek SIEM Kuralı Senaryosu
+    **Senaryo:**
+    Bir kullanıcı, 5 dakika içinde 10 farklı kaynaktan başarısız oturum açma denemesi yapıyor.
+
+    **SIEM kuralı:**
+    ```pseudocode
+    if login_failed from >5 unique IP within 5 minutes
+    then alert "Brute-force attempt suspected"
+    ```
+

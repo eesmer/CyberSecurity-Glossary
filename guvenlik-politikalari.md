@@ -306,3 +306,5 @@ nmap -T4 -F 192.168.1.10
 > ## 5. Loglama ve Monitoring Politikası
 Loglama; sistemlerdeki olayların, kullanıcı işlemlerinin, servis hareketlerinin ve güvenlik durumlarının zaman damgalı olarak kaydedilmesi işlemidir. Monitoring ise bu logların, sistem davranışlarının ve güvenlik göstergelerinin anlık veya periyodik olarak analiz edilmesi sürecidir.<br>
 Bu iki yapı taşı, saldırı tespiti, anomali analizi, kullanıcı etkinliği izleme ve olay müdahalesi gibi birçok sürecin temelini oluşturur.<br>
+<br>
+Her uygulama veya servisin, detaylı log kayıtları alınmalı ve sistemin kaynak kullanımı ile çalışma durumu sürekli olarak izlenmelidir.<br>

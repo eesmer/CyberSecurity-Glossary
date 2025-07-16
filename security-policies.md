@@ -290,9 +290,9 @@ Not all risks can be addressed at the same time.
 Therefore, risks identified through analysis should be **classified and scheduled according to their importance**.
 
 For example:
-- High-risk issues on critical systems → Priority resolution  
-- Low-impact but widespread issues → Batch remediation  
-- Risks on isolated/internal systems → Monitor and address in due time  
+- High-risk issues on critical systems -> Priority resolution  
+- Low-impact but widespread issues -> Batch remediation  
+- Risks on isolated/internal systems -> Monitor and address in due time  
 
 - ###### Risk Response Strategies
 

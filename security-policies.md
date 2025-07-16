@@ -59,3 +59,13 @@ Mechanisms such as authentication, authorization, user lifecycle management, and
   - Strong authentication mechanisms should be enforced when users access the system.  
   - **Password Policy:** Minimum length, complexity, and mandatory periodic changes should be applied.  
   - **Use of MFA:** Should be mandatory, especially for administrator accounts and remote access scenarios.
+
+**Configuration Examples for Linux Systems**
+
+- ###### Password Policy Settings - /etc/login.defs
+```bash
+PASS_MAX_DAYS   90    # Password must be changed every 90 days
+PASS_MIN_DAYS   1     # Password can be changed again after at least 1 day
+PASS_MIN_LEN    12    # Minimum password length
+PASS_WARN_AGE   7     # Warn the user 7 days before password expiration
+```

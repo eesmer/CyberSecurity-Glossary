@@ -319,7 +319,7 @@ Aksi halde;<br>
 - Servis sorunsuz çalışsa bile, log dosyalarının şişmesi nedeniyle durabilir
 - Monitor edilen kaynaklardaki sorunlar bildirim sistemi olmadığı için fark edilmeden ilerleyebilir
 <br>
-Sonuç olarak; log ve monitoring çalışamarı sadece veri toplamak değil, toplanan veriyi okuyabilir, sınıflandırabilir ve bildirim makanizmalarıyla servisi sürdürebilir hale getirmektir.
+Sonuç olarak; log ve monitoring çalışmaları sadece veri toplamak değil, toplanan veriyi okuyabilir, sınıflandırabilir ve bildirim mekanizmalarıyla servisi sürdürebilir hale getirmektir.
 Bu yaklaşımın her sistemde planlı şekilde uygulanması gerekir.<br>
 
 - ### Log ve Monitoring Politikası Hedefleri
@@ -327,3 +327,22 @@ Bu yaklaşımın her sistemde planlı şekilde uygulanması gerekir.<br>
   - Kullanıcı etkinliklerinin **gözlemlenebilir** ve **denetlenebilir** hale gelmesi
   - Güvenlik ihlallerinde **kanıt ve adli analiz** desteği
   - Yasal ve düzenleyici gerekliliklerin (KVKK, ISO 27001, GDPR) karşılanması
+
+- ###### Hangi Log'lar Toplanmalı?
+  - **Kimlik doğrulama:** Başarılı ve başarısız oturum açma girişimleri (SSH, RDP, MFA)
+  - **Yetki yükseltme:** sudo, runas, su komutları
+  - **Servis olayları:** Web sunucusu erişim hataları, DB hataları
+  - **Ağ olayları:** Firewall logları, bağlantı girişimleri
+  - **Dosya sistem erişimi:** Kritik dizinlere erişim veya değişiklikler
+  - **Yazılım kurulum/silme işlemleri**
+
+- ###### Logların Merkezi Toplanması
+  - Dağıtık sistemlerde log bütünlüğü sağlanır
+  - Tek bir merkezden analiz, arşivleme ve korelasyon yapılabilir
+  - Sistemler arası ilişki kurulabilir (örneğin: birden fazla sunucuda aynı IP üzerinden gelen saldırı)
+    
+  - ###### **Kullanılabiliecek araçlar;**
+    - **Linux:** rsyslog, syslog-ng, journalbeat -> Logstash -> Elasticsearch
+    - **Windows:** Event Forwarding + WEF/Winlogbeat
+    - **Merkezi Analiz:** Graylog, ELK (Elasticsearch-Logstash-Kibana), Wazuh, Splunk
+

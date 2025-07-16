@@ -224,6 +224,7 @@ Böyle bir konuda **hold** komutu doğrudan bir güvenlik mekanizması değil, f
 > ## 4. Güvenlik Açığı ve Risk Yönetimi
 Risk yönetimi, bir kurumun bilgi sistemlerinde karşılaşabileceği tehdit ve zafiyetlerin etkilerini analiz ederek bu riskleri **tanımlama, ölçme ve yönetme** çalışmasıdır.<br>
 Bu çalışma ve çalışma süreci, sadece teknik tarama sonuçlarından ibaret değildir. Aynı zamanda **iş sürekliliği, düzenleyici uyumluluk ve kaynak yönetimi** gibi unsurları da kapsar.<br>
+
 - ### Risk Yönetimi Politikası Hedefleri
   - Zafiyet Tespiti
     - Otomatik Taramalar
@@ -320,3 +321,9 @@ Aksi halde;<br>
 <br>
 Sonuç olarak; log ve monitoring çalışamarı sadece veri toplamak değil, toplanan veriyi okuyabilir, sınıflandırabilir ve bildirim makanizmalarıyla servisi sürdürebilir hale getirmektir.
 Bu yaklaşımın her sistemde planlı şekilde uygulanması gerekir.<br>
+
+- ### Log ve Monitoring Politikası Hedefleri
+- Sistem ve uygulamalardaki **anormal davranışların erken tespiti**
+- Kullanıcı etkinliklerinin **gözlemlenebilir** ve **denetlenebilir** hale gelmesi
+- Güvenlik ihlallerinde **kanıt ve adli analiz** desteği
+- Yasal ve düzenleyici gerekliliklerin (KVKK, ISO 27001, GDPR) karşılanması

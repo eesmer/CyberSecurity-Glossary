@@ -364,3 +364,7 @@ Together, these two pillars form the foundation for processes such as **attack d
   - Ensures log integrity across distributed systems  
   - Enables centralized analysis, archiving, and correlation  
   - Helps identify cross-system patterns (e.g., an attack originating from the same IP on multiple servers)
+    - ###### **Tools**
+      - **Linux:** rsyslog, syslog-ng, journalbeat → Logstash → Elasticsearch
+      - **Windows:** Event Forwarding + WEF / Winlogbeat
+      - **Centralized Analysis:** Graylog, ELK Stack (Elasticsearch-Logstash-Kibana), Wazuh, Splunk

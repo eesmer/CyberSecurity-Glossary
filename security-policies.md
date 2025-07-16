@@ -108,3 +108,16 @@ faillock --user username
 ```
 When run with --user, the faillock command applies the lock mechanism to the specified user based on the settings defined in faillock.conf.
 This enforces account lockout after multiple failed login attempts.
+
+- ###### Enabling faillock` for All Local User Accounts
+```bash
+#!/bin/bash
+
+echo "Faillock Check..."
+
+for user in $(awk -F: '$3 >= 1000 && $3 < 65534 {print $1}' /etc/passwd); do
+    faillock --user "$user" | grep -q "no access" && \
+        echo "[$user] : No failed login attempts yet (being monitored)" || \
+        echo "[$user] : Restrictions applied or past attempts detected"
+done
+```

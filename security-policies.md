@@ -8,3 +8,11 @@ Security policies are the principles, rules, and procedures defined by an organi
 The goal is to ensure that systems are designed and managed in accordance with the principles of confidentiality, integrity, and availability (CIA), and that users operate within these defined rules.
 
 ---
+
+## Core Security Policies
+
+> ## 1. Least Privilege Principle
+Users must be granted **only the minimum permissions necessary** to perform their job functions.  
+Excessive privileges can lead to unauthorized data access, system errors, and malicious activity — all of which expand the potential attack surface.  
+An environment with unused or overly broad permissions increases the need for oversight and introduces unnecessary risks.  
+To implement this policy effectively, the following practices should be applied during environment setup and configuration:

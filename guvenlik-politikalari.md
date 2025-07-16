@@ -307,20 +307,6 @@ nmap -T4 -F 192.168.1.10
 > ## 5. Loglama ve Monitoring Politikası
 Loglama; sistemlerdeki olayların, kullanıcı işlemlerinin, servis hareketlerinin ve güvenlik durumlarının zaman damgalı olarak kaydedilmesi işlemidir. Monitoring ise bu logların, sistem davranışlarının ve güvenlik göstergelerinin anlık veya periyodik olarak analiz edilmesi sürecidir.<br>
 Bu iki yapı taşı, saldırı tespiti, anomali analizi, kullanıcı etkinliği izleme ve olay müdahalesi gibi birçok sürecin temelini oluşturur.<br>
-<br>
-Her uygulama veya servisin, detaylı log kayıtları alınmalı ve sistemin kaynak kullanımı ile çalışma durumu sürekli olarak izlenmelidir.<br>
-Ancak burada **önemli bir denge** kurmak gereklidir. Detaylı log kayıtları **disk alanını hızla tüketebilir** ve izlenen servisin sağlığına dolaylı zarar verebilir.<br>
-
-Bu nedenle;<br>
-- **logrotate** ayarları mutlaka yapılandırılmalı
-- Otomatik uyarı sistemleri (**mail, SMS, webhook** vb.) devreye alınmalıdır
-
-Aksi halde;<br>
-- Servis sorunsuz çalışsa bile, log dosyalarının şişmesi nedeniyle durabilir
-- Monitor edilen kaynaklardaki sorunlar bildirim sistemi olmadığı için fark edilmeden ilerleyebilir
-<br>
-Sonuç olarak; log ve monitoring çalışmaları sadece veri toplamak değil, toplanan veriyi okuyabilir, sınıflandırabilir ve bildirim mekanizmalarıyla servisi sürdürebilir hale getirmektir.
-Bu yaklaşımın her sistemde planlı şekilde uygulanması gerekir.<br>
 
 - ### Log ve Monitoring Politikası Hedefleri
   - Sistem ve uygulamalardaki **anormal davranışların erken tespiti**
@@ -365,6 +351,19 @@ Bu yaklaşımın her sistemde planlı şekilde uygulanması gerekir.<br>
     if login_failed from >5 unique IP within 5 minutes
     then alert "Brute-force attempt suspected"
     ```
+- ### logrotate
+Her uygulama veya servisin, detaylı log kayıtları alınmalı ve sistemin kaynak kullanımı ile çalışma durumu sürekli olarak izlenmelidir.<br>
+Ancak burada **önemli bir denge** kurmak gereklidir. Detaylı log kayıtları **disk alanını hızla tüketebilir** ve izlenen servisin sağlığına dolaylı zarar verebilir.<br>
+
+Bu nedenle;<br>
+     - **logrotate** ayarları mutlaka yapılandırılmalı
+       - Otomatik uyarı sistemleri (**mail, SMS, webhook** vb.) devreye alınmalıdır
+Aksi halde;<br>
+     - Servis sorunsuz çalışsa bile, log dosyalarının şişmesi nedeniyle durabilir
+       - Monitor edilen kaynaklardaki sorunlar bildirim sistemi olmadığı için fark edilmeden ilerleyebilir
+   <br>
+Sonuç olarak; log ve monitoring çalışmaları sadece veri toplamak değil, toplanan veriyi okuyabilir, sınıflandırabilir ve bildirim mekanizmalarıyla servisi sürdürebilir hale getirmektir.
+Bu yaklaşımın her sistemde planlı şekilde uygulanması gerekir.<br>
 
 ## Örnek Temel Kontrol Komutları
 - ###### Linux – auth.log içinde başarısız oturum açma sayısı

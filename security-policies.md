@@ -359,3 +359,8 @@ Together, these two pillars form the foundation for processes such as **attack d
   - **Network events**: Firewall logs, connection attempts  
   - **File system access**: Access to or changes in critical directories  
   - **Software installation/removal activities**
+
+- ###### Centralized Log Collection
+  - Ensures log integrity across distributed systems  
+  - Enables centralized analysis, archiving, and correlation  
+  - Helps identify cross-system patterns (e.g., an attack originating from the same IP on multiple servers)

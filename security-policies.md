@@ -97,3 +97,9 @@ unlock_time = 600       # Automatically unlock after 10 minutes
 fail_interval = 900     # 5 failed attempts within 15 minutes triggers lock
 ```
 
+After configuring faillock.conf, the pam_faillock.so module must be added to /etc/pam.d/common-auth as follows<br>
+```bash
+auth required pam_faillock.so preauth silent audit
+auth [default=die] pam_faillock.so authfail audit
+```
+

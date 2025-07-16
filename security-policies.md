@@ -195,3 +195,29 @@ In such cases, **alternative models or architectural changes** should be impleme
 - Moving the system into a DMZ to enforce network isolation  
 - Closing all unused ports completely  
 - Analyzing all possible threats against the service still exposed via open ports
+
+In some cases, system updates cannot be applied immediately.  
+In Linux server environments, both distribution diversity and application heterogeneity often prevent the development of a unified and practical update strategy.
+
+Similarly, while Windows systems do not suffer from distribution fragmentation, they still present a different challenge:  
+**Operating system updates and application/service updates are managed separately**.  
+This separation creates difficulties when trying to apply full-stack updates.
+
+In order to perform a comprehensive and synchronized patching process:
+- OS-level and application-level updates must align in terms of **vendor support**  
+- Published patches must be compatible in both **version** and **release timeline**
+
+Unfortunately, this alignment depends not only on the vendor’s roadmap, but also on the organization’s internal **software development and maintenance discipline**.  
+Application patches, in particular, are often tied to development cycles and are therefore delayed or decoupled from OS-level updates.
+
+This disconnect becomes one of the **biggest obstacles** in meeting security requirements and complying with industry regulations.  
+A structured and disciplined update lifecycle is essential — including planning, testing, deployment, and fallback strategies.
+
+However, if any of these factors cannot be satisfied in practice, the environment must be protected using **compensating controls or architectural alternatives**.
+
+Examples include:
+- Placing a firewall (WAF, IPS) in front of the system that cannot be updated  
+- Applying local software firewall rules and strict access restrictions  
+- Isolating the system into a DMZ environment  
+- Closing all ports except those strictly required for service delivery  
+- Thoroughly analyzing every possible exposure on the remaining open service port

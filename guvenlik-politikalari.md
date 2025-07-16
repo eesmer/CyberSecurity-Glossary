@@ -366,3 +366,12 @@ Bu yaklaşımın her sistemde planlı şekilde uygulanması gerekir.<br>
     then alert "Brute-force attempt suspected"
     ```
 
+## Örnek Temel Kontrol Komutları
+- ###### Linux – auth.log içinde başarısız oturum açma sayısı
+```bash
+grep "Failed password" /var/log/auth.log | wc -l
+```
+- ###### Windows – PowerShell ile oturum olaylarını sorgulama
+```powershell
+Get-WinEvent -LogName Security -FilterXPath "*[System[(EventID=4625)]]"
+```

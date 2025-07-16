@@ -23,9 +23,19 @@ All user accounts should be reviewed regularly along with the permissions they h
 If a user's job role has changed, any previously granted privileges must be revoked.  
 The following basic queries can be used to retrieve permission information for user accounts in commonly used Active Directory environments.
 
-- ###### PowerShell command to list the groups a user is a member of (Active Directory):**
+> ###### PowerShell command to list the groups a user is a member of (Active Directory):
 ```powershell
 Get-ADUser -Identity "username" -Properties MemberOf | Select-Object -ExpandProperty MemberOf
 ```
 
-- ###### Bash commands to check local user permissions on Linux systems:
+> ###### Bash commands to check local user permissions on Linux systems:
+- ###### List user’s groups
+```bash
+id username
+```
+
+- ###### Check for user-specific entries in /etc/sudoers
+```bash
+grep -E "^username|^%.*" /etc/sudoers
+```
+

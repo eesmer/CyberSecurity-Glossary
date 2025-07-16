@@ -45,3 +45,17 @@ groups username | grep sudo
 ```
 
 These audits form a basic approach for controlling access in environments that use either DAC (Discretionary Access Control) or RBAC (Role-Based Access Control) through user or group-level authorizations.
+
+> ## 2. Access Management Policy
+Regulating access to an organization’s systems and resources is one of the core components of information security.  
+Mechanisms such as authentication, authorization, user lifecycle management, and multi-factor authentication (MFA) fall under the scope of this policy.
+
+- ### Objectives of the Access Management Policy
+  - Define authentication and authorization processes  
+  - Use of groups, roles, password policies, and multi-factor authentication (MFA)  
+  - Perform regular reviews of user accounts  
+
+- ### Authentication and Authorization
+  - Strong authentication mechanisms should be enforced when users access the system.  
+  - **Password Policy:** Minimum length, complexity, and mandatory periodic changes should be applied.  
+  - **Use of MFA:** Should be mandatory, especially for administrator accounts and remote access scenarios.

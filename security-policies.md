@@ -89,3 +89,11 @@ This module should be integrated as follows:<br>
 ```bash
 password requisite pam_pwquality.so retry=3
 ```
+
+- ###### Failed Login Attempt Limiting – /etc/security/faillock.conf
+```bash
+deny = 5                # Lock after 5 failed login attempts
+unlock_time = 600       # Automatically unlock after 10 minutes
+fail_interval = 900     # 5 failed attempts within 15 minutes triggers lock
+```
+

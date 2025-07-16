@@ -69,3 +69,5 @@ PASS_MIN_DAYS   1     # Password can be changed again after at least 1 day
 PASS_MIN_LEN    12    # Minimum password length
 PASS_WARN_AGE   7     # Warn the user 7 days before password expiration
 ```
+This configuration file sets default password policies for accounts created with commands like useradd.<br>
+The parameters above define the default behavior applied to new users.<br>

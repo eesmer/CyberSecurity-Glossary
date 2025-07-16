@@ -276,4 +276,7 @@ For each identified vulnerability, the following factors should be assessed:
 - **Likelihood**: How likely is it that this vulnerability will be exploited?  
 - **Asset Value**: Which system is affected? How critical is it?
 
-Based on these three factors, the risk level can be calculated:
+Based on these three factors, the risk level can be calculated
+```
+Risk = Asset Value × Impact × Likelihood
+```

@@ -280,3 +280,6 @@ Based on these three factors, the risk level can be calculated
 ```
 Risk = Asset Value × Impact × Likelihood
 ```
+These values are typically classified by organizations using either numerical scores or qualitative levels (e.g., low / medium / high).  
+Various tools and applications are available to assist in determining these values during the risk assessment process.  
+To ensure realistic and accurate results, tool-assisted findings should be evaluated carefully, and appropriate response scenarios should be defined accordingly.

@@ -233,4 +233,9 @@ On Linux systems, the following command can be used:
 apt-mark hold package-name
 ```
 
-The apt-mark hold command locks the specified package, preventing it from being updated.
+The apt-mark hold command locks the specified package, preventing it from being updated.<br>
+**Example:** apt-mark hold nginx<br>
+
+This action blocks uncontrolled updates — but it does not resolve the underlying vulnerability.<br>
+In such cases, external protection mechanisms such as WAF, IPS, or strict port filtering should be applied until the package can be safely updated.<br>
+The hold command is not a security mechanism on its own, but it can serve as an administrative control technique when immediate patching is not feasible.<br>

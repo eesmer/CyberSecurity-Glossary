@@ -432,3 +432,8 @@ In Linux systems, **logrotate** is used to:
 ```
 
 The configuration above rotates the myapp.log file weekly, keeps a maximum of 4 old log files, and compresses them using .gz format.
+
+**Test Command**<br>
+```bash
+logrotate -f /etc/logrotate.d/myapp
+```

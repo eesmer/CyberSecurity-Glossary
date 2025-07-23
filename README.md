@@ -13,8 +13,7 @@ Each document is prepared and published in both Turkish and English.
 
 ### Başlıklar / Topics
 
-- Bilgi Güvenliği / Information Security
-- [Bilgi Güvenliği](https://github.com/eesmer/CyberSecurity-Glossary/tree/main/TR/Bilgi_Guvenligi)
+- [Bilgi Güvenliği](https://github.com/eesmer/CyberSecurity-Glossary/tree/main/TR/Bilgi_Guvenligi) / [Information Security](https://github.com/eesmer/CyberSecurity-Glossary/tree/main/EN/Information_Security)
 - Bilgisayar Ağları / Computer Networks
 - Kablosuz Ağlar / Wireless Networks
 - Kimlik Doğrulama ve Yetkilendirme / Authentication and Authorization

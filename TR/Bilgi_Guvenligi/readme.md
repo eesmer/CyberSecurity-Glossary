@@ -1,3 +1,3 @@
 ## Bilgi Güvenliği
 
-- [Bilgi Güvenliği](https://github.com/eesmer/CyberSecurity-Glossary/tree/main/TR/Bilgi_Guvenligi)
+- [Veri Sınıflandırma](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/TR/Bilgi_Guvenligi/Veri-Siniflandirma.md)

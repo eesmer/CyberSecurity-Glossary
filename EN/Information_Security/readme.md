@@ -1,6 +1,6 @@
 ## Information Security
 
-> Bu başlık, Siber Güvenlik kapsamında Bilgi Güvenliği ve alt başlıklarını açıklamaktadır.<br>
+> This heading explains Information Security and its subheadings within the scope of Cyber Security.<br>
 
 ---
 

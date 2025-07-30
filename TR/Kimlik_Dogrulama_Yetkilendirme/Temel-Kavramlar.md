@@ -23,3 +23,7 @@ Sistem kaynaklarına erişim izni, rol ataması, izin (permission) ve ACL (Acces
 <br>
 Kimlik tanımının kaydı ve kimlik doğrulama mekanizmalarının desteği bu iki kavramın doğru şekilde yönetilmesi için yardımcıdır.<br>
 Oysa; Yetkilendirme, sistem yönetimi ve yapılandırma ağırlıklı çalışmaların içinde olduğunda hata payı ve bakım gereksinimi çok yüksektir. Yetkilendirme, sistemler üzerinde sıkı şekilde kontrol edilmeli ve politika uygunluğu sağlanmalıdır.<br>
+
+**Örnek temel senaryo** <br>
+Kullanıcı, kimliği doğrulanmış olarak sisteme dahil olur veya bağlanır.<br>
+Sistemde "admin" rolüne sahipse, sistem ayarlarını değiştirebilir. "read-only" yetkisi varsa yalnızca görüntüleyebilir.

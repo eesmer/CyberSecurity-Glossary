@@ -16,3 +16,9 @@ Kimlik doğrulama faktörleri olarak ifade edilen kavramları vardır;
 Kullanıcı USER1 kullanıcı adını girer.<br>
 Sistem kendinde kayıtlı olan bir kimliği kabul eder.<br>
 Kullanıcı, doğru şifreyi girerse "kimlik doğrulama" başarılı olur.<br>
+
+### 3. Yetkilendirme (Authorization)
+Yetkilendirme, doğrulanmış bir kimliğe sahip kullanıcının hangi kaynaklara, ne ölçüde erişebileceğinin yönetimidir.<br>
+Kimlik tanımının kaydı ve kimlik doğrulama mekanizmalarının desteği bu iki kavramın doğru şekilde yönetilmesi için yardımcıdır.<br>
+Oysa; Yetkilendirme, sistem yönetimi ve yapılandırma ağırlıklı çalışmaların içinde olduğunda hata payı ve bakım gereksinimi çok yüksektir.<br>
+Yetkilendirme, sistemler üzerinde sıkı şekilde kontrol edilmeli ve politika uygunluğu sağlanmalıdır.<br>

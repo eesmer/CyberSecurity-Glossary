@@ -11,3 +11,8 @@ Kimlik doğrulama faktörleri olarak ifade edilen kavramları vardır;
 - Bildiği birşey (Pin, şifre)
 - Sahip olduğu birşey (akıllı kart, token, telefon)
 - Olduğu birşey (parmak izi, yüzü)
+
+**Örnek temel senaryo:**<br>
+Kullanıcı USER1 kullanıcı adını girer.<br>
+Sistem kendinde kayıtlı olan bir kimliği kabul eder.<br>
+Kullanıcı, doğru şifreyi girerse "kimlik doğrulama" başarılı olur.<br>

@@ -4,4 +4,4 @@
 
 ---
 
-- [Temel Kavramlar](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/TR/)
+- [Temel Kavramlar](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/TR/Kimlik_Dogrulama_Yetkilendirme/belgeler/Temel-Kavramlar.md)

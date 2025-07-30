@@ -19,6 +19,7 @@ Kullanıcı, doğru şifreyi girerse "kimlik doğrulama" başarılı olur.<br>
 
 ### 3. Yetkilendirme (Authorization)
 Yetkilendirme, doğrulanmış bir kimliğe sahip kullanıcının hangi kaynaklara, ne ölçüde erişebileceğinin yönetimidir.<br>
+Sistem kaynaklarına erişim izni, rol ataması, izin (permission) ve ACL (Access Control List) gibi yöntemlerle yönetilir. Yetkilendirme işlemleri kimlik doğrulandıktan sonra gerçekleştirilir.<br>
+<br>
 Kimlik tanımının kaydı ve kimlik doğrulama mekanizmalarının desteği bu iki kavramın doğru şekilde yönetilmesi için yardımcıdır.<br>
-Oysa; Yetkilendirme, sistem yönetimi ve yapılandırma ağırlıklı çalışmaların içinde olduğunda hata payı ve bakım gereksinimi çok yüksektir.<br>
-Yetkilendirme, sistemler üzerinde sıkı şekilde kontrol edilmeli ve politika uygunluğu sağlanmalıdır.<br>
+Oysa; Yetkilendirme, sistem yönetimi ve yapılandırma ağırlıklı çalışmaların içinde olduğunda hata payı ve bakım gereksinimi çok yüksektir. Yetkilendirme, sistemler üzerinde sıkı şekilde kontrol edilmeli ve politika uygunluğu sağlanmalıdır.<br>

@@ -27,7 +27,8 @@ Bu sebeple;<br>
 - Karmaşık sistemlerde sürekli bakım ve denetim gerektirir.
 - Politikalara uygun şekilde yapılandırılmadığında, güvenlik açıkları doğar.
 
-Yetkilendirme, sistemler üzerinde sıkı şekilde kontrol edilmeli ve kurumsal erişim politikaları ile uyumlu bir şekilde yürütülmelidir. Özellikle büyük ölçekteki ortamlarda (örneğin AD/RBAC kullanılan yapılar) otomatikleştirilmiş erişim denetimleri ve periyodik yetki gözden geçirmeleri kritik önemdedir.
+Yetkilendirme, sistemler üzerinde sıkı şekilde kontrol edilmeli ve kurumsal erişim politikaları ile uyumlu bir şekilde yürütülmelidir. Özellikle büyük ölçekteki ortamlarda (örneğin AD/RBAC kullanılan yapılar) otomatikleştirilmiş erişim denetimleri ve periyodik yetki gözden geçirmeleri kritik önemdedir.<br>
+
 **Örnek temel senaryo** <br>
 Kullanıcı, kimliği doğrulanmış olarak sisteme dahil olur veya bağlanır.<br>
 Sistemde "admin" rolüne sahipse, sistem ayarlarını değiştirebilir. "read-only" yetkisi varsa yalnızca görüntüleyebilir.

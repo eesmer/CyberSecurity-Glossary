@@ -33,5 +33,7 @@ Yetkilendirme, sistemler üzerinde sıkı şekilde kontrol edilmeli ve kurumsal 
 Kullanıcı, kimliği doğrulanmış olarak sisteme dahil olur veya bağlanır.<br>
 Sistemde "admin" rolüne sahipse, sistem ayarlarını değiştirebilir. "read-only" yetkisi varsa yalnızca görüntüleyebilir.
 
-
+#### Kimlik Doğrulama ve Yetkilendirme Arasındaki Farklar
+Kimlik doğrulama, bir kullanıcının, cihazın ya da hizmetin iddia ettiği kimlikte olup olmadığını doğrulayan süreçtir. Bir kullanıcı sisteme giriş yaparken KullanıcıAdı ve Parolas girer ve sistem, bu bilgileri kontrol ederek kullanıcının gerçekten o kişi olup olmadığını kontrol eder ve doğrular.<br>
+Kimlik doğrulama süreci tamamlandığında, sistem o kullanıcıyı "tanımış" olur - fakat henüz neye, hangi kaynakalara, hangi yetkilerle erişebileceğini belirlememiştir.<br>
 

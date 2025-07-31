@@ -37,3 +37,5 @@ Sistemde "admin" rolüne sahipse, sistem ayarlarını değiştirebilir. "read-on
 Kimlik doğrulama, bir kullanıcının, cihazın ya da hizmetin iddia ettiği kimlikte olup olmadığını doğrulayan süreçtir. Bir kullanıcı sisteme giriş yaparken KullanıcıAdı ve Parolas girer ve sistem, bu bilgileri kontrol ederek kullanıcının gerçekten o kişi olup olmadığını kontrol eder ve doğrular.<br>
 Kimlik doğrulama süreci tamamlandığında, sistem o kullanıcıyı "tanımış" olur - fakat henüz neye, hangi kaynakalara, hangi yetkilerle erişebileceğini belirlememiştir.<br>
 
+Yetkilendirme, doğrulanmış bir kimliğe sahip kullanıcı hesabının hangi kaynaklara erişebileceğini ve hangi yetkilerle erişeceğini belirleyen süreçtir. Bir sistem yöneticisi sisteme giriş yapıp veritabanı sunucularını yönetebilirken, normal kullanıcı yalnızca raporlama yetkisine sahip olabilir. Bu ayrım; erişim hakları, roller, politikalar ve erişim kontrol listeleri (ACL) gibi mekanizmalarla yönetilir.
+

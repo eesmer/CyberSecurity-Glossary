@@ -40,4 +40,7 @@ Kimlik doğrulama süreci tamamlandığında, sistem o kullanıcıyı "tanımı�
 Yetkilendirme, doğrulanmış bir kimliğe sahip kullanıcı hesabının hangi kaynaklara erişebileceğini ve hangi yetkilerle erişeceğini belirleyen süreçtir. Bir sistem yöneticisi sisteme giriş yapıp veritabanı sunucularını yönetebilirken, normal kullanıcı yalnızca raporlama yetkisine sahip olabilir.<br>
 Bu ayrım; erişim hakları, roller, politikalar ve erişim kontrol listeleri (ACL) gibi mekanizmalarla yönetilir.<br>
 Her iki süreç art arda çalışır. Sistem kimlik doğrulama için giriş bilgilerini kontrol eder ve doğrulanmış kimliğe tanımlı yetkileri uygular.
+**Bir diğer örnek** Bir bina giriş noktasında kimlik göstermek, **Kimlik Doğrulamadır**<br>
+Binan hangi bölümlerine veya hangi katlara erişileceği **Yetkilendirmedir**
+<br>
 

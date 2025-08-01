@@ -51,3 +51,6 @@ Kimlik/Hesap hangi kaynakalara erişecek sorusu, kurumsal politikalar ile hatas�
 Accounting, kullanıcıların ne zaman ne yaptığına dair kayıt tutma sürecidir. <br>
 İzlenebilirlik, loglama ve denetim süreçlerinin tümüyle işletilmesidir. <br>
 **Örneğin;** Sisteme giriş/çıkış zamanı, işlem kayıtları (log), dosya erişimleri vb aktivitelerin takibi, kaydı ve denetimi<br>
+**Amaç;**<br>
+İzlenebilirlik ve tututal kayıtlarla denetelenebilir bir yetkinliği ortam yöntemine eklemektir.
+Buna göre en temel anlamlda; Hangi kullanıcı hesabı, ne zaman, hangi kayda erişti bilgisinin tutulmasıdır. Gerektiğinde erişilebilir ve yorumlanabilir olmasıdır.<br>

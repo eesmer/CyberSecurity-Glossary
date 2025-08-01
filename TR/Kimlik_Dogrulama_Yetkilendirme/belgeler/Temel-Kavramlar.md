@@ -50,5 +50,5 @@ Kimlik/Hesap hangi kaynakalara erişecek sorusu, kurumsal politikalar ile hatas�
 ### 4. Accounting
 Accounting, kullanıcıların ne zaman ne yaptığına dair kayıt tutma sürecidir. <br>
 İzlenebilirlik, loglama ve denetim süreçlerinin tümüyle işletilmesidir. <br>
-**Örneğin;** Sisteme giriş/çıkış zamanı, işlem kayıtları (log), dosya erişimleri vb aktivitelerin takibi, kaydı ve denetimi
-Türkçe kelime karşılığı itibariyla IT ve bilgi güvenliği süreçleri bağlamında tam karşılık olmadığı için accounting olarak orjinal isimlendirilmesi ile kullanılmıştır.<br>
+**Örneğin;** Sisteme giriş/çıkış zamanı, işlem kayıtları (log), dosya erişimleri vb aktivitelerin takibi, kaydı ve denetimi<br>
+Türkçe kelime karşılığı itibariyla IT ve bilgi güvenliği süreçleri bağlamında tam karşılığı sağlamadığı için accounting olarak orjinal isimlendirilmesi ile kullanılmıştır.<br>

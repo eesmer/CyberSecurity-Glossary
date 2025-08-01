@@ -46,3 +46,8 @@ Binanın hangi bölümlerine veya hangi katlara erişileceği **Yetkilendirmedir
 <br>
 Kimlik Doğrulamanın başarılı olması tüm kaynaklara erişim sağlanması anlamına gelmez.<br>
 Kimlik/Hesap hangi kaynakalara erişecek sorusu, kurumsal politikalar ile hatasız düzenlenmelidir.<br>
+
+### 4. Accounting
+Accounting, kullanıcıların ne zaman ne yaptığına dair kayıt tutma sürecidir. <br>
+İzlenebilirlik, loglama ve denetim süreçlerinin tümüyle işletilmesidir. <br>
+**Örneğin;** Sisteme giriş/çıkış zamanı, işlem kayıtları (log), dosya erişimleri vb aktivitelerin takibi, kaydı ve denetimi

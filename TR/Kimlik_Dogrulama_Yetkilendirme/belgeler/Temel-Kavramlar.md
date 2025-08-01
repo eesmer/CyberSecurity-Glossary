@@ -60,6 +60,7 @@ Böylece;<br>
 - Hangi Kullanıcı Hesabı,
 - Ne zaman,
 - Hangi kaynağa erişmiş
+
 bilgisi kayıt altına alınır ve gerektiğinde sistem yöneticisi veya bir denetleme mekanizması tarafından analiz edilebilir.<br>
 
 **Örnek Senaryolar**<br>

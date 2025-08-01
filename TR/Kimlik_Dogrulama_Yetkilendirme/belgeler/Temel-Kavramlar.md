@@ -54,3 +54,9 @@ Accounting, kullanıcıların ne zaman ne yaptığına dair kayıt tutma süreci
 **Amaç;**<br>
 İzlenebilirlik ve tututal kayıtlarla denetelenebilir bir yetkinliği ortam yöntemine eklemektir.
 Buna göre en temel anlamlda; Hangi kullanıcı hesabı, ne zaman, hangi kayda erişti bilgisinin tutulmasıdır. Gerektiğinde erişilebilir ve yorumlanabilir olmasıdır.<br>
+
+**Örnek Senaryolar**<br>
+**SSH erişimlerinde logları:** Hangi kullanıcı, hangi IP’den bağlanmış, ne zaman çıkış yapmış işlemlerinin izlenmesi<br>
+**Web sunucusu logları:** Hangi kullanıcı hangi sayfaya girdi, ne kadar kaldı, hata aldı mı?<br>
+**Veritabanı erişim logları:** Hangi sorgular çalıştırıldı, kimin tarafından yapıldı?<br>
+**Active Directory logları:** Grup değişikliği, şifre sıfırlama, nesne silme gibi işlemler kim tarafından yapıldı?<br>

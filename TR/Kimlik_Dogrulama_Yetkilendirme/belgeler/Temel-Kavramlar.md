@@ -48,18 +48,21 @@ Kimlik Doğrulamanın başarılı olması tüm kaynaklara erişim sağlanması a
 Kimlik/Hesap hangi kaynakalara erişecek sorusu, kurumsal politikalar ile hatasız düzenlenmelidir.<br>
 
 ### 4. İşlem Takibi / İşlem Kaydı (Accounting)
-Accounting, kullanıcıların ne zaman ne yaptığına dair kayıt tutma sürecidir. <br>
-İzlenebilirlik, loglama ve denetim süreçlerinin tümüyle işletilmesidir. <br>
-**Örneğin;** Sisteme giriş/çıkış zamanı, işlem kayıtları (log), dosya erişimleri vb aktivitelerin takibi, kaydı ve denetimi<br>
-**Amaç;**<br>
-İzlenebilirlik ve tututal kayıtlarla denetelenebilir bir yetkinliği ortam yöntemine eklemektir.
-Buna göre en temel anlamlda; Hangi kullanıcı hesabı, ne zaman, hangi kayda erişti bilgisinin tutulmasıdır. Gerektiğinde erişilebilir ve yorumlanabilir olmasıdır.<br>
+Accounting, kullanıcıların sistem üzerindeki hareketlerinin, ne zaman ve nasıl gerçekleştiğinin kayıt altına alındığı süreçtir.
+Bu süreç; izlenebilirlik, loglama ve denetim mekanizmalarının birlikte işletilmesini kapsar.
+
+**Örneğin:**
+Sisteme giriş-çıkış zamanları, gerçekleştirilen işlemler, dosya erişimleri gibi aktivitelerin kaydı ve takibi accounting kapsamındadır.
+
+Accounting'in temel amacı; kullanıcıların sistem kaynakları üzerindeki hareketlerinin **izlenebilir**, **denetlenebilir** ve gerektiğinde **raporlanabilir** hale getirilmesidir.<br>
+Böylece;<br>
+- Hangi Kullanıcı Hesabı,
+- Ne zaman,
+- Hangi kaynağa erişmiş
+bilgisi kayıt altına alınır ve gerektiğinde sistem yöneticisi veya bir denetleme mekanizması tarafından analiz edilebilir.<br>
 
 **Örnek Senaryolar**<br>
 **SSH erişimlerinde logları:** Hangi kullanıcı, hangi IP’den bağlanmış, ne zaman çıkış yapmış işlemlerinin izlenmesi<br>
 **Web sunucusu logları:** Hangi kullanıcı hangi sayfaya girdi, ne kadar kaldı, hata aldı mı?<br>
 **Veritabanı erişim logları:** Hangi sorgular çalıştırıldı, kimin tarafından yapıldı?<br>
 **Active Directory logları:** Grup değişikliği, şifre sıfırlama, nesne silme gibi işlemler kim tarafından yapıldı?<br>
-
-Accounting, sadece log kaydı tutmak değildir. Aynı zamanda sistemdeki kullanıcı işlemlerini ve davranışları görünür hale getirmek ve izlenebilir, denetlenebilirliği sağlamaktır.<br>
-Bununla beraber Authentication ve Authorizaton süreçlerinin de tamamlayıcısı olarak üçüncü bileşenidir.

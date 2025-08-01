@@ -74,3 +74,6 @@ Aynı zamanda kullanıcı işlemlerini görünür kılan, güvenlik politikalar�
 
 ### 5. AAA (Authentication, Authorization, Accounting)
 Bu 3 kavram birarada düşünülmelidir.<br>
+1. Authentication -> Kullanıcı hesabının kim olduğunu kanıtlaması
+2. Authorization  -> Kullanıcı hesabının ne yapacağının belirlenmesi
+3. Accounting     -> Kullanıcı hesabının ne yaptığının kaydı

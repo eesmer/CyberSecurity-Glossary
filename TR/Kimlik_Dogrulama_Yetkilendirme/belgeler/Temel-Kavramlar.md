@@ -63,10 +63,10 @@ Böylece;<br>
 bilgisi kayıt altına alınır ve gerektiğinde sistem yöneticisi veya bir denetleme mekanizması tarafından analiz edilebilir.<br>
 
 **Örnek Senaryolar**<br>
-**SSH erişimlerinde logları:** Hangi kullanıcı, hangi IP’den bağlanmış, ne zaman çıkış yapmış işlemlerinin izlenmesi<br>
-**Web sunucusu logları:** Hangi kullanıcı hangi sayfaya girdi, ne kadar kaldı, hata aldı mı?<br>
-**Veritabanı erişim logları:** Hangi sorgular çalıştırıldı, kimin tarafından yapıldı?<br>
-**Active Directory logları:** Grup değişikliği, şifre sıfırlama, nesne silme gibi işlemler kim tarafından yapıldı?<br>
+**SSH erişimlerinde loglarının tutulması:** Hangi kullanıcı, hangi IP’den bağlanmış, ne zaman çıkış yapmış işlemlerinin izlenmesi<br>
+**Web sunucusu erişim loglarının tutulması:** Hangi kullanıcı hangi sayfaya girdi, ne kadar kaldı, hata aldı mı?<br>
+**Veritabanı erişim loglarının tutulması:** Hangi sorgular çalıştırıldı, kimin tarafından yapıldı?<br>
+**Active Directory loglarının tutulması:** Grup değişikliği, şifre sıfırlama, nesne silme gibi işlemler kim tarafından yapıldı?<br>
 
 Accounting, yalnızca sistemin log kaydı tutması değildir.<br>
 Aynı zamanda kullanıcı işlemlerini görünür kılan, güvenlik politikaları çerçevesinde sistemin hesap verebilirliğini sağlayan bir süreçtir.<br>

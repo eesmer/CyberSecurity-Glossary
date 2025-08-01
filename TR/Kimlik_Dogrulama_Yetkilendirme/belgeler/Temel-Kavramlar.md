@@ -77,3 +77,5 @@ Bu 3 kavram birarada düşünülmelidir.<br>
 1. Authentication -> Kullanıcı hesabının kim olduğunu kanıtlaması
 2. Authorization  -> Kullanıcı hesabının ne yapacağının belirlenmesi
 3. Accounting     -> Kullanıcı hesabının ne yaptığının kaydı
+
+Kurumsal ortamlarda AAA altyapısı genellikle merkezi kimlik yönetimi ile sağlanır.<br>

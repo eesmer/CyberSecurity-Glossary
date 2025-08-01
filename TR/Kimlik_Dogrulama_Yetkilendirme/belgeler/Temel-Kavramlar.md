@@ -71,3 +71,6 @@ bilgisi kayıt altına alınır ve gerektiğinde sistem yöneticisi veya bir den
 
 Accounting, yalnızca sistemin log kaydı tutması değildir.<br>
 Aynı zamanda kullanıcı işlemlerini görünür kılan, güvenlik politikaları çerçevesinde sistemin hesap verebilirliğini sağlayan bir süreçtir.<br>
+
+### 5. AAA (Authentication, Authorization, Accounting)
+Bu 3 kavram birarada düşünülmelidir.<br>

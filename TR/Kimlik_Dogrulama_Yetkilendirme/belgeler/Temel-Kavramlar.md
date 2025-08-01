@@ -41,8 +41,8 @@ Yetkilendirme, doğrulanmış bir kimliğe sahip kullanıcı hesabının hangi k
 Bu ayrım; erişim hakları, roller, politikalar ve erişim kontrol listeleri (ACL) gibi mekanizmalarla yönetilir.<br>
 Her iki süreç art arda çalışır. Sistem kimlik doğrulama için giriş bilgilerini kontrol eder ve doğrulanmış kimliğe tanımlı yetkileri uygular.
 
-**Bir diğer örnek** Bir bina giriş noktasında kimlik göstermek, **Kimlik Doğrulamadır**<br>
-Binan hangi bölümlerine veya hangi katlara erişileceği **Yetkilendirmedir**
+**Bir diğer örnek** Bir bina giriş noktasında kimlik göstermek, **Kimlik Doğrulamasıdır**<br>
+Binanın hangi bölümlerine veya hangi katlara erişileceği **Yetkilendirmedir**
 <br>
 Kimlik Doğrulamanın başarılı olması tüm kaynaklara erişim sağlanması anlamına gelmez.<br>
 Kimlik/Hesap hangi kaynakalara erişecek sorusu, kurumsal politikalar ile hatasız düzenlenmelidir.<br>

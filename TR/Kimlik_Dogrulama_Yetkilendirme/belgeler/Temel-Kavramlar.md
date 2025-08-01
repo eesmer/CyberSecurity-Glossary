@@ -55,6 +55,7 @@ Bu süreç; izlenebilirlik, loglama ve denetim mekanizmalarının birlikte işle
 Sisteme giriş-çıkış zamanları, gerçekleştirilen işlemler, dosya erişimleri gibi aktivitelerin kaydı ve takibi accounting kapsamındadır.
 
 Accounting'in temel amacı; kullanıcıların sistem kaynakları üzerindeki hareketlerinin **izlenebilir**, **denetlenebilir** ve gerektiğinde **raporlanabilir** hale getirilmesidir.<br>
+
 Böylece;<br>
 - Hangi Kullanıcı Hesabı,
 - Ne zaman,
@@ -66,3 +67,6 @@ bilgisi kayıt altına alınır ve gerektiğinde sistem yöneticisi veya bir den
 **Web sunucusu logları:** Hangi kullanıcı hangi sayfaya girdi, ne kadar kaldı, hata aldı mı?<br>
 **Veritabanı erişim logları:** Hangi sorgular çalıştırıldı, kimin tarafından yapıldı?<br>
 **Active Directory logları:** Grup değişikliği, şifre sıfırlama, nesne silme gibi işlemler kim tarafından yapıldı?<br>
+
+Accounting, yalnızca sistemin log kaydı tutması değildir.<br>
+Aynı zamanda kullanıcı işlemlerini görünür kılan, güvenlik politikaları çerçevesinde sistemin hesap verebilirliğini sağlayan bir süreçtir.<br>

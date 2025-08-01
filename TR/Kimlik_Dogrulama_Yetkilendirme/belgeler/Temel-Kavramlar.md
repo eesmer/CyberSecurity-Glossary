@@ -60,3 +60,6 @@ Buna göre en temel anlamlda; Hangi kullanıcı hesabı, ne zaman, hangi kayda e
 **Web sunucusu logları:** Hangi kullanıcı hangi sayfaya girdi, ne kadar kaldı, hata aldı mı?<br>
 **Veritabanı erişim logları:** Hangi sorgular çalıştırıldı, kimin tarafından yapıldı?<br>
 **Active Directory logları:** Grup değişikliği, şifre sıfırlama, nesne silme gibi işlemler kim tarafından yapıldı?<br>
+
+Accounting, sadece log kaydı tutmak değildir. Aynı zamanda sistemdeki kullanıcı işlemlerini ve davranışları görünür hale getirmek ve izlenebilir, denetlenebilirliği sağlamaktır.<br>
+Bununla beraber Authentication ve Authorizaton süreçlerinin de tamamlayıcısı olarak üçüncü bileşenidir.

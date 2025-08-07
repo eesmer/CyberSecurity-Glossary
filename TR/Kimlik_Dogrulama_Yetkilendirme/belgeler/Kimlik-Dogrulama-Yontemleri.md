@@ -27,4 +27,4 @@ Aşağıdaki farktörlerin kombinasyonları kullanılır<br>
 2- Telefon veya Mail ile gelen OTP (örneğin google authenticator kullanımı)
 
 **Avantajları**<br>
-Şifre sızsa bile diğer faktörler güvenliği sağlar.<br>
+Şifre ele geçirilse bile diğer faktörler güvenliği sağlar.<br>

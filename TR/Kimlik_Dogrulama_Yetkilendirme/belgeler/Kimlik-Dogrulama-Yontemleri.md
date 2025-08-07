@@ -7,7 +7,7 @@ Kimlik doğrulama yöntemleri;<br>
 Genel olarak kullanıcının **sahip olduğu bilgiye**, **sahip olduğu nesneye** veya **kimliğine özgü fiziksel özellikler**e dayanır.
 
 ### 1. Tek Faktörlü Kimlik Doğrulama (SFA – Single Factor Authentication)
-Sadece tek bir unsur kullanılır. Genellikle bu unsur bir **şifre** veya **PIN** kodudur.
+Sadece tek bir unsur kullanılır. Genellikle bu unsur bir **şifre** veya **PIN** kodudur.<br>
 **Örnek Senaryo**<br>
 Kullanıcı Adı + Parola ile sisteme giriş yapmak.
 

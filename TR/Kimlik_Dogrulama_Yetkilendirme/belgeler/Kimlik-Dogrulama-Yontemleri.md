@@ -22,7 +22,9 @@ Aşağıdaki farktörlerin kombinasyonları kullanılır<br>
 - **Sahip olduğu bir şey**: Telefon, donanım token, akıllı kart
 - **Olduğu bir şey**: Biyometrik veri (parmak izi, yüz, retina)
 
-**Örnek Senaryo**
+**Örnek Senaryo**<br>
+1- Kullanıcı Adı + Şifre<br>
+2- Telefon veya Mail ile gelen OTP (örneğin google authenticator kullanımı)
 
 **Avantajları**<br>
-- Şifre sızsa bile diğer faktörler güvenliği sağlar.
+Şifre sızsa bile diğer faktörler güvenliği sağlar.<br>

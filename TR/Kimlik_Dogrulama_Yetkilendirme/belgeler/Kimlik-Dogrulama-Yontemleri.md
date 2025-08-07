@@ -14,3 +14,6 @@ Kullanıcı Adı + Parola ile sisteme giriş yapmak.
 **Dezavantajları**<br>
 Zayıf şifreler tahmin edilebilir.<br>
 Tek bir varlığın tahmin edilmesi veya elde edilmesi (örneğin parola) suistimal için yeterlidir.<br>
+
+ ## 2. Çok Faktörlü Kimlik Doğrulama (MFA – Multi-Factor Authentication)
+ Genellikle 2 veya daha fazla faktör kombinasyonlarla gerçekleştirilir.

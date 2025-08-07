@@ -11,3 +11,6 @@ Sadece tek bir unsur kullanılır. Genellikle bu unsur bir **şifre** veya **PIN
 **Örnek Senaryo**<br>
 Kullanıcı Adı + Parola ile sisteme giriş yapmak.
 
+**Dezavantajları**<br>
+Zayıf şifreler tahmin edilebilir.<br>
+Tek bir varlığın tahmin edilmesi veya elde edilmesi (örneğin parola) suistimal için yeterlidir.<br>

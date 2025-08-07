@@ -21,3 +21,8 @@ Aşağıdaki farktörlerin kombinasyonları kullanılır<br>
 - **Bildiği bir şey**: Şifre, PIN
 - **Sahip olduğu bir şey**: Telefon, donanım token, akıllı kart
 - **Olduğu bir şey**: Biyometrik veri (parmak izi, yüz, retina)
+
+**Örnek Senaryo**
+
+**Avantajları**<br>
+- Şifre sızsa bile diğer faktörler güvenliği sağlar.

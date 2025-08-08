@@ -5,6 +5,6 @@
 ---
 
 - [Data Classification](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/EN/Information_Security/docs/data-classification.md)
-- [CIA Triad](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/EN/Information_Security/docs/cia-triad)
+- [CIA Triad](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/EN/Information_Security/docs/cia-triad.md)
 - [Access Control](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/EN/Information_Security/docs/access-control.md)
 - [Security Policies](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/EN/Information_Security/docs/security-policies.md)

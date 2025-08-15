@@ -21,3 +21,16 @@ Common factor types:
 **Basic example:**
 User types USER1 as the username.
 If the system knows that identity and the user enters the correct password (or passes MFA), authentication succeeds.
+
+### 3) Authorization — “What are you allowed to do?”
+
+Authorization decides what a successfully authenticated identity can access and how.
+This is typically managed with roles, permissions, and access control lists (ACLs).
+
+Key points:
+- Authorization starts after authentication.
+- It depends on configuration and policy (e.g., RBAC in large environments like Active Directory).
+- It is easier to misconfigure than authentication and needs ongoing care: reviews, cleanups, and policy checks.
+
+**Basic example:**
+After login, a user with the *admin role* can change system settings; a *read-only* user can only view.

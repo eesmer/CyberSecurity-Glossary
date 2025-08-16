@@ -76,8 +76,8 @@ Why it matters:
 ### 5) AAA together, in practice
 
 These three belong together:
-- 1- Authentication -> prove identity
-- 2- Authorization -> apply the right access
-- 3- Accounting -> record and review activity
+**1-** Authentication -> prove identity<br>
+**2-** Authorization -> apply the right access<br>
+**3-** Accounting -> record and review activity<br>
 
 In most organizations, AAA is centralized (e.g., AD/LDAP, SSO, an IAM platform) and backed by policies such as least privilege, MFA, and regular access reviews.

@@ -75,7 +75,7 @@ Why it matters:
 
 ### 5) AAA together, in practice
 
-These three belong together:
+These three belong together:<br>
 **1-** Authentication -> prove identity<br>
 **2-** Authorization -> apply the right access<br>
 **3-** Accounting -> record and review activity<br>

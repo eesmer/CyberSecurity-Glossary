@@ -35,7 +35,7 @@ Key points:
 **Basic example:**
 After login, a user with the *admin role* can change system settings; a *read-only* user can only view.
 
-#### AuthN vs. AuthZ - quick contrast
+### AuthN vs. AuthZ - quick contrast
 
 - **Authentication (AuthN)**: Are you really who you say you are?
 Login checks, MFA prompts.

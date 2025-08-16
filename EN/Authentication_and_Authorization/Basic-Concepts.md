@@ -59,7 +59,7 @@ Why it matters:
 - Supports accountability and continuous improvement
 - Turns user actions into evidence you can analyze later
 
-### 4) Accounting — “What happened?”
+### 4) Accounting - “What happened?”
 In security, Accounting (often called audit & logging) tracks who did what, when, and from where so actions are traceable and reviewable.
 
 Typical records:
@@ -72,3 +72,12 @@ Why it matters:
 - Enables incident investigation and compliance reporting
 - Supports accountability and continuous improvement
 - Turns user actions into *evidence* you can analyze later
+
+### 5) AAA together, in practice
+
+These three belong together:
+1- Authentication -> prove identity
+2- Authorization -> apply the right access
+3- Accounting -> record and review activity
+
+In most organizations, AAA is centralized (e.g., AD/LDAP, SSO, an IAM platform) and backed by policies such as least privilege, MFA, and regular access reviews.

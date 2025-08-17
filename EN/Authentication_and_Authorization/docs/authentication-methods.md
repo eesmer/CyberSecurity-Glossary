@@ -19,3 +19,19 @@ A user logs in with a username + password.
 **Disadvantages:**<br>
 Weak passwords can be guessed.
 If someone steals or guesses the password, they can access the system easily.
+
+### 2. Multi-Factor Authentication (MFA)
+This method combines two or more authentication factors from different categories.
+
+**Typical factor types:**
+- Something you know: Password or PIN
+- Something you have: Phone, hardware token, smart card
+- Something you are: Biometric data (fingerprint, face, retina scan)
+
+**Example scenario:**
+The user enters their username and password
+Then, they enter a code sent to their phone or use an authenticator app
+
+**Advantages:**
+Even if the password is stolen, other factors help keep the system secure.
+Adds an extra layer of protection.

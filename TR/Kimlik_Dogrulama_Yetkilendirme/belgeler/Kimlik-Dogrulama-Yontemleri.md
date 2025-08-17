@@ -60,3 +60,20 @@ En yaygın ve klasik doğrulama yöntemidir.
 **Zayıflıklar:**
 - Brute force ve dictionary saldırılarına açıktır
 - Parola tekrar kullanımı ve paylaşımı risktir
+
+### 5. Donanım Tabanlı Doğrulama
+
+Fiziksel bir cihazın (token, kart) kullanılması esasına dayanır.
+
+**Örneğin:**
+- RSA SecurID Token
+- Akıllı Kartlar (Smartcard)
+- USB tabanlı FIDO2 cihazları (YubiKey)
+
+**Avantajları:**
+- Fiziksel erişim gerektiğinden çalınması zor
+- Kimlik sahteciliğini azaltır
+
+**Dezavantajları:**
+- Cihaz kaybı riski
+- Ek maliyet ve yönetim zorluğu

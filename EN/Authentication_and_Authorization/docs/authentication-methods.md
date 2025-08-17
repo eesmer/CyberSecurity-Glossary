@@ -83,3 +83,14 @@ Examples include:
 **Disadvantages:**
 - Risk of device loss or theft
 - Additional cost and complexity for management
+
+> ## 6. Time-Based Authentication (OTP / TOTP / HOTP)
+
+This method generates a one-time password (OTP) based on either time or a counter.<br>
+It is commonly used with mobile apps like Google Authenticator or FreeOTP.<br>
+
+- **HOTP (HMAC-based One-Time Password):** Counter-based
+- **TOTP (Time-based One-Time Password):** Time-based
+
+**Example:**<br>
+A 6-digit code that changes every 30 seconds

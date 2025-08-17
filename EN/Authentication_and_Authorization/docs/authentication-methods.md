@@ -13,9 +13,9 @@ Authentication methods generally rely on one or more of the following:
 ### 1. Single-Factor Authentication (SFA)
 This method uses only one element, usually a password or PIN.
 
-**Example scenario:**
+**Example scenario:**<br>
 A user logs in with a username + password.
 
-**Disadvantages:**
+**Disadvantages:**<br>
 Weak passwords can be guessed.
 If someone steals or guesses the password, they can access the system easily.

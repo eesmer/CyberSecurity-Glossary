@@ -5,3 +5,4 @@
 ---
 
 - [Basic Concepts](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/EN/Authentication_and_Authorization/docs/Basic-Concepts.md)
+- [Authentication Methods](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/EN/Authentication_and_Authorization/docs/authentication-methods.md)

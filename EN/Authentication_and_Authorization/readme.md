@@ -4,4 +4,4 @@
 
 ---
 
-- [Basic Concepts](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/EN/Authentication_and_Authorization/Basic-Concepts.md)
+- [Basic Concepts](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/EN/Authentication_and_Authorization/docs/Basic-Concepts.md)

@@ -54,3 +54,16 @@ Common Biometric Methods:
 - May produce false positives or false negatives
 - Raises privacy concerns
 If stolen, biometric data cannot be changed like passwords
+
+### 4. Password-Based Authentication
+
+This is the most common and traditional authentication method.
+
+**Security Factors That Matter:**
+- Password complexity (use of uppercase/lowercase letters, numbers, symbols)
+- Password change frequency
+- Use of secure hashing algorithms (e.g., SHA-256, bcrypt)
+
+**Disadvantages:**
+- Vulnerable to brute-force and dictionary attacks
+- Password reuse and sharing increase security risks

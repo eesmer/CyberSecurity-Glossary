@@ -28,10 +28,10 @@ This method combines two or more authentication factors from different categorie
 - Something you have: Phone, hardware token, smart card
 - Something you are: Biometric data (fingerprint, face, retina scan)
 
-**Example scenario:**
+**Example scenario:**<br>
 The user enters their username and password
 Then, they enter a code sent to their phone or use an authenticator app
 
-**Advantages:**
+**Advantages:**<br>
 Even if the password is stolen, other factors help keep the system secure.
 Adds an extra layer of protection.

@@ -2,14 +2,14 @@
 
 ---
 
-### 1. Kimlik (Identity)
+> ## 1. Kimlik (Identity)
 Kimlik, bir kullanıcının, cihazın ya da sistemin kendisini tanıttığı ve diğerlerinden ayırt edilebildiği özellikler bütünüdür.<br>
 **Örnek:** KullanıcıAdı, E-Posta Adresi, UUID, IP Adresi, MAC adresi, vb.<br>
 
 Kimlik, bir varlığın benzersiz olarak tanınmasını sağlar.<br>
 Kimlik, sadece beyana dayanır. Doğruluk, ancak kimlik doğrulama ile sağlanır. Yani kimlik bir tanımlamadır fakat kimlik doğrulama ile garanti edilir, kanıtlanır.<br>
 
-### 2. Kimlik Doğrulama (Authentication)
+> ## 2. Kimlik Doğrulama (Authentication)
 Kimlik Doğrulama, bir kullanıcının iddia ettiği kimliğin gerçekten o kişiye ait olduğunu kanıtlama sürecidir.<br>
 Kimlik doğrulama faktörleri olarak ifade edilen kavramları vardır;
 - Bildiği birşey (Pin, şifre)
@@ -21,7 +21,7 @@ Kullanıcı USER1 kullanıcı adını girer.<br>
 Sistem kendinde kayıtlı olan bir kimliği kabul eder.<br>
 Kullanıcı, doğru şifreyi girerse "kimlik doğrulama" başarılı olur.<br>
 
-### 3. Yetkilendirme (Authorization)
+> ## 3. Yetkilendirme (Authorization)
 Yetkilendirme, doğrulanmış bir kimliğe sahip kullanıcının hangi kaynaklara, ne ölçüde erişebileceğinin yönetimidir.<br>
 Sistem kaynaklarına erişim izinleri; rol ataması, izinler (permissions) ve Erişim Kontrol Listeleri (ACL – Access Control List) gibi yöntemlerle sağlanır.<br>
 Yetkilendirme işlemi, kimlik doğrulaması başarılı olduktan sonra devreye girer.<br>
@@ -51,7 +51,7 @@ Binanın hangi bölümlerine veya hangi katlara erişileceği **Yetkilendirmedir
 Kimlik Doğrulamanın başarılı olması tüm kaynaklara erişim sağlanması anlamına gelmez.<br>
 Kimlik/Hesap hangi kaynakalara erişecek sorusu, kurumsal politikalar ile hatasız düzenlenmelidir.<br>
 
-### 4. İşlem Takibi / İşlem Kaydı (Accounting)
+> ## 4. İşlem Takibi / İşlem Kaydı (Accounting)
 Accounting, kullanıcıların sistem üzerindeki hareketlerinin, ne zaman ve nasıl gerçekleştiğinin kayıt altına alındığı süreçtir.
 Bu süreç; izlenebilirlik, loglama ve denetim mekanizmalarının birlikte işletilmesini kapsar.
 
@@ -76,7 +76,7 @@ bilgisi kayıt altına alınır ve gerektiğinde sistem yöneticisi veya bir den
 Accounting, yalnızca sistemin log kaydı tutması değildir.<br>
 Aynı zamanda kullanıcı işlemlerini görünür kılan, güvenlik politikaları çerçevesinde sistemin hesap verebilirliğini sağlayan bir süreçtir.<br>
 
-### 5. AAA (Authentication, Authorization, Accounting)
+> ## 5. AAA (Authentication, Authorization, Accounting)
 Bu 3 kavram birarada düşünülmelidir.<br>
 1. Authentication -> Kullanıcı hesabının kim olduğunu kanıtlaması
 2. Authorization  -> Kullanıcı hesabının ne yapacağının belirlenmesi

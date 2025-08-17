@@ -48,3 +48,15 @@ Kişiye özgü fiziksel veya davranışsal özelliklerin kullanıldığı doğru
 - Hatalı pozitif/negatif oranı
 - Gizlilik kaygıları
 - Biyometrik verinin çalınması geri döndürülemez
+
+### 4. Parola (Password) Tabanlı Doğrulama
+En yaygın ve klasik doğrulama yöntemidir.
+
+**Güvenliği Etkileyen Unsurlar:**
+- Parola karmaşıklığı (büyük/küçük harf, rakam, sembol)
+- Parola yenileme sıklığı
+- Hashleme algoritmaları (SHA-256, bcrypt)
+
+**Zayıflıklar:**
+- Brute force ve dictionary saldırılarına açıktır
+- Parola tekrar kullanımı ve paylaşımı risktir

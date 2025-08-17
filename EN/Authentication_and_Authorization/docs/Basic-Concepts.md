@@ -59,21 +59,7 @@ Why it matters:
 - Supports accountability and continuous improvement
 - Turns user actions into evidence you can analyze later
 
-> ## 5) Accounting - “What happened?”
-In security, Accounting (often called audit & logging) tracks who did what, when, and from where so actions are traceable and reviewable.
-
-Typical records:
-- **SSH access logs**: which user, from which IP, login/logout times
-- **Web server logs**: which page was accessed, status codes, errors
-- **Database audit logs**: which queries ran and by whom
-- **Directory service logs (e.g., AD)**: group changes, password resets, object deletes
-
-Why it matters:
-- Enables incident investigation and compliance reporting
-- Supports accountability and continuous improvement
-- Turns user actions into *evidence* you can analyze later
-
-> ## 6) AAA together, in practice
+> ## 5) AAA together, in practice
 
 These three belong together:<br>
 **1-** Authentication -> prove identity<br>

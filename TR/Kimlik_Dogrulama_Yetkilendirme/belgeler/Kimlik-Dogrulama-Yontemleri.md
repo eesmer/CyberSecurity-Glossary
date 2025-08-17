@@ -87,3 +87,16 @@ Genellikle bir mobil uygulama (Google Authenticator, FreeOTP) kullanılır.
 
 **Örnek:**<br>
 30 saniyede bir değişen 6 haneli kod üretimi
+
+> ## Sosyal/Kolay Kimlik Doğrulama (Social Login / Federated Identity)
+
+Dış kimlik sağlayıcılarıyla (Google, Facebook, GitHub) giriş yapılmasını sağlar.<br>
+SSO ve kimlik federasyonu kapsamında değerlendirilebilir.<br>
+
+**Avantajları:**
+- Kullanıcı dostu deneyim
+- Hesap entegrasyonu kolaylığı
+
+**Riskler:**
+- Kimlik sağlayıcısına tam güven gerekir
+- Hesap ele geçirilirse tüm sistemler etkilenir

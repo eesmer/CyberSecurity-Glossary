@@ -10,7 +10,7 @@ Authentication methods generally rely on one or more of the following:
 - Something the user has (e.g., a device or a security token)
 - Something the user is (e.g., biometric data like a fingerprint)
 
-### 1. Single-Factor Authentication (SFA)
+> ## 1. Single-Factor Authentication (SFA)
 This method uses only one element, usually a password or PIN.
 
 **Example scenario:**<br>
@@ -20,7 +20,7 @@ A user logs in with a username + password.
 Weak passwords can be guessed.
 If someone steals or guesses the password, they can access the system easily.
 
-### 2. Multi-Factor Authentication (MFA)
+> ## 2. Multi-Factor Authentication (MFA)
 This method combines two or more authentication factors from different categories.
 
 **Typical factor types:**
@@ -36,7 +36,7 @@ Then, they enter a code sent to their phone or use an authenticator app
 Even if the password is stolen, other factors help keep the system secure.
 Adds an extra layer of protection.
 
-### 3. Biometric Authentication
+> ## 3. Biometric Authentication
 Biometric authentication uses a person’s unique physical or behavioral traits to verify their identity.
 
 Common Biometric Methods:
@@ -55,7 +55,7 @@ Common Biometric Methods:
 - Raises privacy concerns
 If stolen, biometric data cannot be changed like passwords
 
-### 4. Password-Based Authentication
+> ## 4. Password-Based Authentication
 
 This is the most common and traditional authentication method.
 
@@ -67,3 +67,19 @@ This is the most common and traditional authentication method.
 **Disadvantages:**
 - Vulnerable to brute-force and dictionary attacks
 - Password reuse and sharing increase security risks
+
+> ## 5. Hardware-Based Authentication
+This method relies on using a physical device (like a token or smart card) for authentication.
+
+Examples include:
+- RSA SecurID tokens
+- Smart cards
+- USB-based FIDO2 devices (e.g., YubiKey)
+
+**Advantages:**
+- Harder to steal because physical access is required
+- Helps reduce identity fraud
+
+**Disadvantages:**
+- Risk of device loss or theft
+- Additional cost and complexity for management

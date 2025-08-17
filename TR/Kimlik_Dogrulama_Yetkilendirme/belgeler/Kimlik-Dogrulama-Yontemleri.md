@@ -6,7 +6,7 @@ Kimlik doğrulama, farklı yöntemlerle yapılabilir. Güvenlik seviyesi arttık
 Kimlik doğrulama yöntemleri;<br>
 Genel olarak kullanıcının *sahip olduğu bilgiye*, *sahip olduğu nesneye* veya *kimliğine özgü fiziksel özellikler*e dayanır.
 
-### 1. Tek Faktörlü Kimlik Doğrulama (SFA – Single Factor Authentication)
+> ## 1. Tek Faktörlü Kimlik Doğrulama (SFA – Single Factor Authentication)
 Sadece tek bir unsur kullanılır. Genellikle bu unsur bir *şifre* veya *PIN* kodudur.<br>
 
 **Örnek Senaryo**<br>
@@ -16,7 +16,7 @@ Kullanıcı Adı + Parola ile sisteme giriş yapmak.
 - Zayıf şifreler tahmin edilebilir.
 - Tek bir varlığın tahmin edilmesi veya elde edilmesi (örneğin parola) suistimal için yeterlidir.
 
-### 2. Çok Faktörlü Kimlik Doğrulama (MFA – Multi-Factor Authentication)
+> ## 2. Çok Faktörlü Kimlik Doğrulama (MFA – Multi-Factor Authentication)
 Genellikle 2 veya daha fazla faktör kombinasyonlarla gerçekleştirilir.<br>
 Aşağıdaki farktörlerin kombinasyonları kullanılır<br>
 - **Bildiği bir şey**: Şifre, PIN
@@ -30,7 +30,7 @@ Aşağıdaki farktörlerin kombinasyonları kullanılır<br>
 **Avantajları:**
 Şifre ele geçirilse bile diğer faktörler güvenliği sağlar.<br>
 
-### 3. Biyometrik Kimlik Doğrulama
+> ## 3. Biyometrik Kimlik Doğrulama
 Kişiye özgü fiziksel veya davranışsal özelliklerin kullanıldığı doğrulama yöntemidir.
 
 **Yaygın Biyometrik Yöntemler:**
@@ -49,7 +49,7 @@ Kişiye özgü fiziksel veya davranışsal özelliklerin kullanıldığı doğru
 - Gizlilik kaygıları
 - Biyometrik verinin çalınması geri döndürülemez
 
-### 4. Parola (Password) Tabanlı Doğrulama
+> ## 4. Parola (Password) Tabanlı Doğrulama
 En yaygın ve klasik doğrulama yöntemidir.
 
 **Güvenliği Etkileyen Unsurlar:**
@@ -61,7 +61,7 @@ En yaygın ve klasik doğrulama yöntemidir.
 - Brute force ve dictionary saldırılarına açıktır
 - Parola tekrar kullanımı ve paylaşımı risktir
 
-### 5. Donanım Tabanlı Doğrulama
+> ## 5. Donanım Tabanlı Doğrulama
 
 Fiziksel bir cihazın (token, kart) kullanılması esasına dayanır.
 

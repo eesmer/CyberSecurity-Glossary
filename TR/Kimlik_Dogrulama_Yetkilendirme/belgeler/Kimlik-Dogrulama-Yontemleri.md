@@ -77,3 +77,12 @@ Fiziksel bir cihazın (token, kart) kullanılması esasına dayanır.
 **Dezavantajları:**
 - Cihaz kaybı riski
 - Ek maliyet ve yönetim zorluğu
+
+> ## 6. Zaman Tabanlı Doğrulama (OTP / TOTP / HOTP)
+Zamana ya da sayaca bağlı tek kullanımlık şifre (One-Time Password) üretir. Genellikle bir mobil uygulama (Google Authenticator, FreeOTP) kullanılır.
+
+- **HOTP:** Sayaç tabanlı
+- **TOTP:** Zaman tabanlı
+
+**Örnek:**<br>
+30 saniyede bir değişen 6 haneli kod üretimi

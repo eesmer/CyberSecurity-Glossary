@@ -94,3 +94,16 @@ It is commonly used with mobile apps like Google Authenticator or FreeOTP.<br>
 
 **Example:**<br>
 A 6-digit code that changes every 30 seconds
+
+> ## 7. Social / Easy Login (Social Login / Federated Identity)
+
+This method allows users to log in using external identity providers such as Google, Facebook, or GitHub.<br>
+It is often part of SSO (Single Sign-On) or identity federation systems.<br>
+
+**Advantages:**
+- User-friendly experience
+- Easy integration with existing accounts
+
+*Risks:**
+- Requires full trust in the identity provider
+- If the main account is compromised, all linked services can be affected

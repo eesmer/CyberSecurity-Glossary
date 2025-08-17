@@ -11,11 +11,11 @@ Sadece tek bir unsur kullanılır. Genellikle bu unsur bir *şifre* veya *PIN* k
 **Örnek Senaryo**<br>
 Kullanıcı Adı + Parola ile sisteme giriş yapmak.
 
-**Dezavantajları**<br>
-Zayıf şifreler tahmin edilebilir.<br>
-Tek bir varlığın tahmin edilmesi veya elde edilmesi (örneğin parola) suistimal için yeterlidir.<br>
+**Dezavantajları:**
+- Zayıf şifreler tahmin edilebilir.
+- Tek bir varlığın tahmin edilmesi veya elde edilmesi (örneğin parola) suistimal için yeterlidir.
 
-## 2. Çok Faktörlü Kimlik Doğrulama (MFA – Multi-Factor Authentication)
+### 2. Çok Faktörlü Kimlik Doğrulama (MFA – Multi-Factor Authentication)
 Genellikle 2 veya daha fazla faktör kombinasyonlarla gerçekleştirilir.<br>
 Aşağıdaki farktörlerin kombinasyonları kullanılır<br>
 - **Bildiği bir şey**: Şifre, PIN
@@ -26,5 +26,24 @@ Aşağıdaki farktörlerin kombinasyonları kullanılır<br>
 1- Kullanıcı Adı + Şifre<br>
 2- Telefon veya Mail ile gelen OTP (örneğin google authenticator kullanımı)
 
-**Avantajları**<br>
+**Avantajları:**
 Şifre ele geçirilse bile diğer faktörler güvenliği sağlar.<br>
+
+### 3. Biyometrik Kimlik Doğrulama
+Kişiye özgü fiziksel veya davranışsal özelliklerin kullanıldığı doğrulama yöntemidir.
+
+**Yaygın Biyometrik Yöntemler:**
+- Parmak izi
+- Yüz tanıma
+- Retina/iris taraması
+- Ses tanıma
+- Davranışsal (yazma ritmi, fare hareketi)
+
+**Avantajları:**
+- Unutulmaz, taşınmaz
+- Kimliğe doğrudan bağlı
+
+**Dezavantajları:**
+- Hatalı pozitif/negatif oranı
+- Gizlilik kaygıları
+- Biyometrik verinin çalınması geri döndürülemez

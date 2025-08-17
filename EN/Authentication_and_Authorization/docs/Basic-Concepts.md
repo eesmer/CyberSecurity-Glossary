@@ -45,7 +45,7 @@ Roles, permissions, ACLs.
 **Analogy:** Showing your ID at a building entrance is authentication.
 Which floors/rooms your badge opens is authorization.
 
-> ## 4) Accounting — “What happened?”
+> ## 4) Accounting - “What happened?”
 In security, Accounting (often called audit & logging) tracks who did what, when, and from where so actions are traceable and reviewable.
 
 Typical records:
@@ -59,7 +59,7 @@ Why it matters:
 - Supports accountability and continuous improvement
 - Turns user actions into evidence you can analyze later
 
-> ## 4) Accounting - “What happened?”
+> ## 5) Accounting - “What happened?”
 In security, Accounting (often called audit & logging) tracks who did what, when, and from where so actions are traceable and reviewable.
 
 Typical records:
@@ -73,7 +73,7 @@ Why it matters:
 - Supports accountability and continuous improvement
 - Turns user actions into *evidence* you can analyze later
 
-> ## 5) AAA together, in practice
+> ## 6) AAA together, in practice
 
 These three belong together:<br>
 **1-** Authentication -> prove identity<br>

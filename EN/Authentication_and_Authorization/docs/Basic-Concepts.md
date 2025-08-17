@@ -3,14 +3,14 @@
 ---
 
 Identity, Authentication, Authorization & Accounting (AAA)
-### 1) Identity - “Who is this?”
+> ## 1) Identity - “Who is this?”
 
 An identity is how a person, device, or service is named so we can tell it apart from others.<br>
 **Examples:** a username, email address, UUID, IP or MAC address.
 
 **Important:** identity alone is just a claim (“I am alice@example.loc”). It becomes trustworthy only after authentication proves it.
 
-### 2) Authentication - “Prove it”
+> ## 2) Authentication - “Prove it”
 Authentication is the process of proving that an identity really belongs to you.
 
 Common factor types:
@@ -22,7 +22,7 @@ Common factor types:
 User types USER1 as the username.
 If the system knows that identity and the user enters the correct password (or passes MFA), authentication succeeds.
 
-### 3) Authorization - “What are you allowed to do?”
+> ## 3) Authorization - “What are you allowed to do?”
 
 Authorization decides what a successfully authenticated identity can access and how.
 This is typically managed with roles, permissions, and access control lists (ACLs).
@@ -45,7 +45,7 @@ Roles, permissions, ACLs.
 **Analogy:** Showing your ID at a building entrance is authentication.
 Which floors/rooms your badge opens is authorization.
 
-4) Accounting — “What happened?”
+> ## 4) Accounting — “What happened?”
 In security, Accounting (often called audit & logging) tracks who did what, when, and from where so actions are traceable and reviewable.
 
 Typical records:
@@ -59,7 +59,7 @@ Why it matters:
 - Supports accountability and continuous improvement
 - Turns user actions into evidence you can analyze later
 
-### 4) Accounting - “What happened?”
+> ## 4) Accounting - “What happened?”
 In security, Accounting (often called audit & logging) tracks who did what, when, and from where so actions are traceable and reviewable.
 
 Typical records:
@@ -73,7 +73,7 @@ Why it matters:
 - Supports accountability and continuous improvement
 - Turns user actions into *evidence* you can analyze later
 
-### 5) AAA together, in practice
+> ## 5) AAA together, in practice
 
 These three belong together:<br>
 **1-** Authentication -> prove identity<br>

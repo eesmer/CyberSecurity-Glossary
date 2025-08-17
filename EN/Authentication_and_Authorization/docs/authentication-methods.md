@@ -35,3 +35,22 @@ Then, they enter a code sent to their phone or use an authenticator app
 **Advantages:**<br>
 Even if the password is stolen, other factors help keep the system secure.
 Adds an extra layer of protection.
+
+### 3. Biometric Authentication
+Biometric authentication uses a person’s unique physical or behavioral traits to verify their identity.
+
+Common Biometric Methods:
+- Fingerprint recognition
+- Facial recognition
+- Retina/Iris scanning
+- Voice recognition
+- Behavioral patterns (e.g., typing rhythm, mouse movement)
+
+**Advantages:**
+- Cannot be forgotten or lost
+- Tied directly to the individual’s identity
+
+**Disadvantages:**
+- May produce false positives or false negatives
+- Raises privacy concerns
+If stolen, biometric data cannot be changed like passwords

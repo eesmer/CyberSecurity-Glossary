@@ -104,6 +104,6 @@ It is often part of SSO (Single Sign-On) or identity federation systems.<br>
 - User-friendly experience
 - Easy integration with existing accounts
 
-*Risks:**
+**Disadvantages:**
 - Requires full trust in the identity provider
 - If the main account is compromised, all linked services can be affected

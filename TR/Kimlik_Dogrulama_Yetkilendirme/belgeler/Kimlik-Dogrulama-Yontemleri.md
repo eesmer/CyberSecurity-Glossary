@@ -101,4 +101,5 @@ SSO ve kimlik federasyonu kapsamında değerlendirilebilir.<br>
 - Kimlik sağlayıcısına tam güven gerekir
 - Hesap ele geçirilirse tüm sistemler etkilenir
 
-> ## 8) Şifresiz Kimlik Doğrulama (Passwordless Authentication)
+> ## 8. Şifresiz Kimlik Doğrulama (Passwordless Authentication)
+> ## 9. Sertifika Tabanlı Kimlik Doğrulama (Certificate‑Based Authentication)

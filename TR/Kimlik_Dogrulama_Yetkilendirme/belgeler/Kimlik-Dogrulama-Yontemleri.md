@@ -100,3 +100,5 @@ SSO ve kimlik federasyonu kapsamında değerlendirilebilir.<br>
 **Riskler:**
 - Kimlik sağlayıcısına tam güven gerekir
 - Hesap ele geçirilirse tüm sistemler etkilenir
+
+> ## 8) Şifresiz Kimlik Doğrulama (Passwordless Authentication)

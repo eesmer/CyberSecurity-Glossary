@@ -113,4 +113,12 @@ Bu modelde doğrulama genellikle;
 
 Temel amaç; parolaların oluşturduğu riskleri ortadan kaldırmaktır.
 
+**Neden Passwordless?**<br>
+Parolalar;
+- Tahmin edilebilir
+- Tekrar kullanılabilir
+- Phishing saldırılarına açıktır
+- Veri sızıntılarında topluca ele geçirilebilir
+- Passwordless mimariler bu riskleri azaltmayı hedefler.
+
 > ## 9. Sertifika Tabanlı Kimlik Doğrulama (Certificate‑Based Authentication)

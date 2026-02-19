@@ -102,4 +102,15 @@ SSO ve kimlik federasyonu kapsamında değerlendirilebilir.<br>
 - Hesap ele geçirilirse tüm sistemler etkilenir
 
 > ## 8. Şifresiz Kimlik Doğrulama (Passwordless Authentication)
+
+Şifresiz kimlik doğrulama, kullanıcının sisteme erişim sağlamak için geleneksel parola kullanmadığı kimlik doğrulama yaklaşımıdır.
+Bu modelde doğrulama genellikle;
+- Kriptografik anahtar çiftleri
+- Donanım tabanlı güvenlik anahtarları
+- Biyometrik doğrulama
+- Push bildirim onayları
+üzerinden gerçekleştirilir.
+
+Temel amaç; parolaların oluşturduğu riskleri ortadan kaldırmaktır.
+
 > ## 9. Sertifika Tabanlı Kimlik Doğrulama (Certificate‑Based Authentication)

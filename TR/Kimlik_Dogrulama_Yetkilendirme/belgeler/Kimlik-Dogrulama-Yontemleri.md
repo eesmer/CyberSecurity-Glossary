@@ -114,6 +114,7 @@ Bu modelde doğrulama genellikle;
 Temel amaç; parolaların oluşturduğu riskleri ortadan kaldırmaktır.
 
 **Neden Passwordless?**<br>
+<br>
 Parolalar;
 - Tahmin edilebilir
 - Tekrar kullanılabilir

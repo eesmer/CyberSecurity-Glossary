@@ -120,6 +120,15 @@ Parolalar;
 - Tekrar kullanılabilir
 - Phishing saldırılarına açıktır
 - Veri sızıntılarında topluca ele geçirilebilir
-- Passwordless mimariler bu riskleri azaltmayı hedefler.
+- Passwordless mimariler bu riskleri azaltmayı hedefler
+
+Passwordless sistemler genellikle asimetrik kriptografi kullanır;
+- Kullanıcı cihazında bir özel anahtar (private key) oluşturulur.
+- Açık anahtar (public key) sunucuya kaydedilir.
+- Giriş sırasında sunucu bir challenge üretir.
+- Cihaz, challenge’ı private key ile imzalar.
+- Sunucu public key ile doğrular.
+
+Özel anahtar cihazdan çıkmaz.
 
 > ## 9. Sertifika Tabanlı Kimlik Doğrulama (Certificate‑Based Authentication)

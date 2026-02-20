@@ -148,7 +148,7 @@ Passwordless sistemler genellikle asimetrik kriptografi kullanır;
 
 **Kullanılan Teknolojiler**<br>
 - **FIDO2**<br>
-FIDO2, FIDO Alliance tarafından geliştirilen ve parola kullanımını ortadan kaldırmayı hedefleyen açık kimlik doğrulama standardıdır.<br>
+FIDO2, [FIDO Alliance](https://en.wikipedia.org/wiki/FIDO_Alliance) tarafından geliştirilen ve parola kullanımını ortadan kaldırmayı hedefleyen açık kimlik doğrulama standardıdır.<br>
 FIDO2 iki ana bileşenden oluşur:
    - WebAuthn (tarayıcı tarafı API standardı)
    - CTAP2 (Client to Authenticator Protocol)
@@ -156,8 +156,9 @@ FIDO2 iki ana bileşenden oluşur:
 Teknik olarak FIDO2, asimetrik kriptografi kullanır. Her servis için benzersiz bir anahtar çifti üretilir:
   - Private key -> Kullanıcının cihazında veya donanım anahtarında saklanır.
   - Public  key -> Sunucuya kayıt edilir.
+Kimlik doğrulama sırasında sunucu bir challenge üretir, istemci bu challenge’ı private key ile imzalar ve sunucu public key ile doğrular.
 
----
+*Challenge, kimlik doğrulama sırasında sunucu tarafından üretilen rastgele, tek kullanımlık ve kriptografik olarak güvenli bir veridir.*
 
   **References**<br>
   - FIDO Alliance: https://en.wikipedia.org/wiki/FIDO_Alliance

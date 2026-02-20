@@ -157,6 +157,8 @@ Teknik olarak FIDO2, asimetrik kriptografi kullanır. Her servis için benzersiz
   - Private key -> Kullanıcının cihazında veya donanım anahtarında saklanır.
   - Public  key -> Sunucuya kayıt edilir.
 
+---
+
   **References**<br>
   https://en.wikipedia.org/wiki/FIDO_Alliance
 

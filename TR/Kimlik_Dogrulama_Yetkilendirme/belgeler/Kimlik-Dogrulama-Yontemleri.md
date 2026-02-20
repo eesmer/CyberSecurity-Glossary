@@ -186,6 +186,13 @@ Passkeys, FIDO2/WebAuthn tabanlı modern kimlik doğrulama metodudur. Apple, Goo
  
 **Not:** Passkeys aslında “parolasız FIDO2 credential modelidir.
 
+- **YubiKey ve Benzeri Donanım Güvenlik Anahtarları** <br>
+YubiKey gibi cihazlar “roaming authenticator” olarak çalışır.<br>
+  - USB / NFC / Lightning üzerinden bağlanır.
+  - Private key cihaz dışına çıkmaz.
+  - Donanım içindeki güvenli element (secure element) içinde anahtar üretir ve saklar.
+    
+
   **References**<br>
   - FIDO Alliance: https://en.wikipedia.org/wiki/FIDO_Alliance
   - W3C: https://en.wikipedia.org/wiki/World_Wide_Web_Consortium

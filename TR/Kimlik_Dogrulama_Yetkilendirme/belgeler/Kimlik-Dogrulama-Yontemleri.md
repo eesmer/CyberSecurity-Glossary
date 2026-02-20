@@ -147,46 +147,50 @@ Passwordless sistemler genellikle asimetrik kriptografi kullanır;
 - Özel anahtar cihazdan çıkmaz.
 
 ## Kullanılan Teknolojiler
-### FIDO2
+- ### FIDO2
 FIDO2, [FIDO Alliance](https://en.wikipedia.org/wiki/FIDO_Alliance) tarafından geliştirilen ve parola kullanımını ortadan kaldırmayı hedefleyen açık kimlik doğrulama standardıdır.<br>
-FIDO2 iki ana bileşenden oluşur:
-   - WebAuthn (tarayıcı tarafı API standardı)
-   - CTAP2 (Client to Authenticator Protocol)
 
-     Kimlik doğrulama sırasında sunucu, her oturum için kriptografik olarak güvenli ve tek kullanımlık bir rastgele veri (challenge/nonce) üretir.
-     İstemci bu veriyi private key ile imzalar ve sunucu public key ile doğrular.
-   - Private key Kullanıcının cihazında veya donanım anahtarında saklanır.
-   - Public  key Sunucuya kayıt edilir.
-     
-     **Önemli özellikleri:**
-   - Phishing’e karşı dirençlidir (origin binding sayesinde)
-   - Replay saldırılarına karşı korumalıdır
-   - Her servis için ayrı anahtar üretir (credential reuse yoktur)
+#### FIDO2 iki ana bileşenden oluşur:
+    - WebAuthn (tarayıcı tarafı API standardı)
+    - CTAP2 (Client to Authenticator Protocol)
 
-### WebAuthn (Web Authentication API)
+#### Challenge/Nonce
+    - Kimlik doğrulama sırasında sunucu, her oturum için kriptografik olarak güvenli ve tek kullanımlık bir rastgele veri (challenge/nonce) üretir.
+    - İstemci bu veriyi private key ile imzalar ve sunucu public key ile doğrular.
+    - Private key Kullanıcının cihazında veya donanım anahtarında saklanır.
+    - Public  key Sunucuya kayıt edilir.
+
+#### Önemli özellikleri:
+    - Phishing’e karşı dirençlidir (origin binding sayesinde)
+    - Replay saldırılarına karşı korumalıdır
+    - Her servis için ayrı anahtar üretir (credential reuse yoktur)
+    
+- ### WebAuthn (Web Authentication API)
 WebAuthn, [W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) tarafından standartlaştırılmış bir tarayıcı API’sidir ve FIDO2’nin web tarafındaki bileşenidir.<br>
 Tarayıcı ile sunucu arasında kriptografik kimlik doğrulama sürecini yönetir.<br>
-Teknik olarak;<br>
-  - Tarayıcı, authenticator (platform veya roaming) ile iletişim kurar.
-  - Public key credential oluşturma ve doğrulama işlemlerini yönetir.
-  - Origin kontrolü yapar (example.com için üretilen credential başka domain’de çalışmaz).
+
+#### Teknik olarak
+    - Tarayıcı, authenticator (platform veya roaming) ile iletişim kurar.
+    - Public key credential oluşturma ve doğrulama işlemlerini yönetir.
+    - Origin kontrolü yapar (example.com için üretilen credential başka domain’de çalışmaz).
   
   WebAuthn, REST veya klasik form-based login’den farklı olarak challenge-response modeline dayanır.
 
-### Passkeys
+- ### Passkeys
 Passkeys, FIDO2/WebAuthn tabanlı modern kimlik doğrulama metodudur. Apple, Google ve Microsoft tarafından desteklenmektedir.
-  - Asimetrik anahtar çifti üretir.
-  - Private key cihazın güvenli alanında saklanır (Secure Enclave / TPM).
-  - Public key servis tarafında tutulur.
+
+    - Asimetrik anahtar çifti üretir.
+    - Private key cihazın güvenli alanında saklanır (Secure Enclave / TPM).
+    - Public key servis tarafında tutulur.
  
-  Passkeys’in farkı:
-  - Kullanıcı deneyimini sadeleştirir.
-  - Parola yerine biyometrik veya cihaz kilidi ile private key erişimi sağlar.
-  - iCloud Keychain veya Google Password Manager üzerinden senkronize edilebilir.
+ #### Passkeys’in farkı:
+    - Kullanıcı deneyimini sadeleştirir.
+    - Parola yerine biyometrik veya cihaz kilidi ile private key erişimi sağlar
+    - iCloud Keychain veya Google Password Manager üzerinden senkronize edilebilir.
  
 **Not:** Passkeys aslında “parolasız FIDO2 credential modelidir.
 
-### YubiKey ve Benzeri Donanım Güvenlik Anahtarları
+- ### YubiKey ve Benzeri Donanım Güvenlik Anahtarları
 YubiKey gibi cihazlar “roaming authenticator” olarak çalışır.<br>
 
     - USB / NFC / Lightning üzerinden bağlanır.
@@ -205,7 +209,7 @@ YubiKey gibi cihazlar “roaming authenticator” olarak çalışır.<br>
     - Phishing’e yüksek direnç
     - Anahtar extraction pratikte mümkün değildir
 
-### Windows Hello / Apple Face ID Tabanlı Sistemler
+- ### Windows Hello / Apple Face ID Tabanlı Sistemler
 “platform authenticator” kategorisindedir. Yani authenticator doğrudan işletim sistemine entegredir. <br>
 
     - Private key → TPM (Windows) veya Secure Enclave (Apple) içinde saklanır.

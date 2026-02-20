@@ -163,10 +163,19 @@ FIDO2 iki ana bileşenden oluşur:
    - Replay saldırılarına karşı korumalıdır
    - Her servis için ayrı anahtar üretir (credential reuse yoktur)
 
-- **WebAuthn (Web Authentication API)**<br>
+- **WebAuthn (Web Authentication API)** <br>
 WebAuthn, [W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) tarafından standartlaştırılmış bir tarayıcı API’sidir ve FIDO2’nin web tarafındaki bileşenidir.<br>
 Tarayıcı ile sunucu arasında kriptografik kimlik doğrulama sürecini yönetir.<br>
 Teknik olarak;<br>
+  - Tarayıcı, authenticator (platform veya roaming) ile iletişim kurar.
+  - Public key credential oluşturma ve doğrulama işlemlerini yönetir.
+  - Origin kontrolü yapar (example.com için üretilen credential başka domain’de çalışmaz).
+  - WebAuthn, REST veya klasik form-based login’den farklı olarak challenge-response modeline dayanır.
+
+- **WebAuthn (Web Authentication API)** <br>
+WebAuthn, W3C tarafından standartlaştırılmış bir tarayıcı API’sidir ve FIDO2’nin web tarafındaki bileşenidir.
+Tarayıcı ile sunucu arasında kriptografik kimlik doğrulama sürecini yönetir.
+**Teknik olarak:** <br>
   - Tarayıcı, authenticator (platform veya roaming) ile iletişim kurar.
   - Public key credential oluşturma ve doğrulama işlemlerini yönetir.
   - Origin kontrolü yapar (example.com için üretilen credential başka domain’de çalışmaz).

@@ -144,7 +144,11 @@ Passwordless sistemler genellikle asimetrik kriptografi kullanır;
 - Giriş sırasında sunucu bir challenge üretir.
 - Cihaz, challenge’ı private key ile imzalar.
 - Sunucu public key ile doğrular.
+- Özel anahtar cihazdan çıkmaz.
 
-Özel anahtar cihazdan çıkmaz.
+**Kullanılan Teknolojiler**<br>
+- **FIDO2**<br>
+FIDO2, FIDO Alliance tarafından geliştirilen ve parola kullanımını ortadan kaldırmayı hedefleyen açık kimlik doğrulama standardıdır.<br>
+
 
 > ## 9. Sertifika Tabanlı Kimlik Doğrulama (Certificate‑Based Authentication)

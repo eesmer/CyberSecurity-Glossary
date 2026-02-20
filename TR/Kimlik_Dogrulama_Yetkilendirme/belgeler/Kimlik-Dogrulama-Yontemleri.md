@@ -158,7 +158,7 @@ Teknik olarak FIDO2, asimetrik kriptografi kullanır. Her servis için benzersiz
   - Public  key -> Sunucuya kayıt edilir.
 Kimlik doğrulama sırasında sunucu bir challenge üretir, istemci bu challenge’ı private key ile imzalar ve sunucu public key ile doğrular.
 
-*Challenge, kimlik doğrulama sırasında sunucu tarafından üretilen rastgele, tek kullanımlık ve kriptografik olarak güvenli bir veridir.*
+***Challenge**, kimlik doğrulama sırasında sunucu tarafından üretilen rastgele, tek kullanımlık ve kriptografik olarak güvenli bir veridir.*
 
   **References**<br>
   - FIDO Alliance: https://en.wikipedia.org/wiki/FIDO_Alliance

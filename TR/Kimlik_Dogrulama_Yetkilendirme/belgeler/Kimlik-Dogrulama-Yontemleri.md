@@ -173,6 +173,12 @@ Teknik olarak;<br>
   
   WebAuthn, REST veya klasik form-based login’den farklı olarak challenge-response modeline dayanır.
 
+- **Passkeys** <br>
+Passkeys, FIDO2/WebAuthn tabanlı modern kimlik doğrulama metodudur. Apple, Google ve Microsoft tarafından desteklenmektedir.
+  - Asimetrik anahtar çifti üretir.
+  - Private key cihaz güvenli alanında saklanır (Secure Enclave / TPM).
+  - Public key servis tarafında tutulur.
+
   **References**<br>
   - FIDO Alliance: https://en.wikipedia.org/wiki/FIDO_Alliance
   - W3C: https://en.wikipedia.org/wiki/World_Wide_Web_Consortium

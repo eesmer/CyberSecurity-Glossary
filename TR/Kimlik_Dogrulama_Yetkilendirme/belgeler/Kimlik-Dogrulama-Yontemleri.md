@@ -102,8 +102,8 @@ SSO ve kimlik federasyonu kapsamında değerlendirilebilir.<br>
 - Hesap ele geçirilirse tüm sistemler etkilenir
 
 **Yöntemler ve Değerlendirmeleri**<br>
-**Parola:**<br> Kullanım kolaylığı yüksektir ve ek gereksinimleri yoktur. Fakat günümüz güvenlik gereksinimlerine uygunluğu düşüktür.<br>
-**MFA:**<br> Günümüzde neredeyse tüm erişimlerde seçilen yöntemdir.<br>
+- **Parola**<br> Kullanım kolaylığı yüksektir ve ek gereksinimleri yoktur. Fakat günümüz güvenlik gereksinimlerine uygunluğu düşüktür.<br>
+- **MFA**<br> Günümüzde neredeyse tüm erişimlerde seçilen yöntemdir.<br>
   Kullanım kolaylığı erişim için en az bir katman daha eklediği için orta seviyededir.Çünkü parola veya token iletimi için farklı erişim veya araçlar gerektirir.<br>
   
 

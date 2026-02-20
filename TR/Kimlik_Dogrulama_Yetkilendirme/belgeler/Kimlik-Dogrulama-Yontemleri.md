@@ -175,7 +175,7 @@ Teknik olarak;<br>
 - **WebAuthn (Web Authentication API)** <br>
 WebAuthn, W3C tarafından standartlaştırılmış bir tarayıcı API’sidir ve FIDO2’nin web tarafındaki bileşenidir.
 Tarayıcı ile sunucu arasında kriptografik kimlik doğrulama sürecini yönetir. <br>
-**Teknik olarak:** <br>
+**Teknik olarak:**
   - Tarayıcı, authenticator (platform veya roaming) ile iletişim kurar.
   - Public key credential oluşturma ve doğrulama işlemlerini yönetir.
   - Origin kontrolü yapar (example.com için üretilen credential başka domain’de çalışmaz).

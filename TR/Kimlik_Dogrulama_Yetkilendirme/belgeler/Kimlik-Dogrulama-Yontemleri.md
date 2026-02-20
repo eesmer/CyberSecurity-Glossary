@@ -153,7 +153,7 @@ FIDO2 iki ana bileşenden oluşur:
    - WebAuthn (tarayıcı tarafı API standardı)
    - CTAP2 (Client to Authenticator Protocol)
 
-Teknik olarak FIDO2, asimetrik kriptografi kullanır. Her servis için benzersiz bir anahtar çifti üretilir:
+Teknik olarak FIDO2, asimetrik kriptografi kullanır. Her servis için benzersiz bir anahtar çifti üretilir:<br>
     - Private key -> Kullanıcının cihazında veya donanım anahtarında saklanır.
     - Public  key -> Sunucuya kayıt edilir.
 

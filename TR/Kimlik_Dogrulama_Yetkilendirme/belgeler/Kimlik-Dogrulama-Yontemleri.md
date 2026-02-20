@@ -176,7 +176,7 @@ Teknik olarak;<br>
 - **Passkeys** <br>
 Passkeys, FIDO2/WebAuthn tabanlı modern kimlik doğrulama metodudur. Apple, Google ve Microsoft tarafından desteklenmektedir.
   - Asimetrik anahtar çifti üretir.
-  - Private key cihaz güvenli alanında saklanır (Secure Enclave / TPM).
+  - Private key cihazın güvenli alanında saklanır (Secure Enclave / TPM).
   - Public key servis tarafında tutulur.
  
   Passkeys’in farkı:
@@ -190,7 +190,16 @@ Passkeys, FIDO2/WebAuthn tabanlı modern kimlik doğrulama metodudur. Apple, Goo
 YubiKey gibi cihazlar “roaming authenticator” olarak çalışır.<br>
   - USB / NFC / Lightning üzerinden bağlanır.
   - Private key cihaz dışına çıkmaz.
-  - Donanım içindeki güvenli element (secure element) içinde anahtar üretir ve saklar.
+  - Donanım içindeki güvenli element (secure element) içinde anahtar üretir ve saklar. <br>
+    <br>
+    **Desteklediği Protokoller:** <br>
+  - FIDO2 / WebAuthn
+  - U2F
+  - PIV (Smart Card)
+  - OTP
+  - OpenPGP
+
+
     
 
   **References**<br>

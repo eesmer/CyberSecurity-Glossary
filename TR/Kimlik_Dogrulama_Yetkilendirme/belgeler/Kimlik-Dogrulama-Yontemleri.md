@@ -157,11 +157,14 @@ FIDO2 iki ana bileşenden oluşur:
      İstemci bu veriyi private key ile imzalar ve sunucu public key ile doğrular.
    - Private key Kullanıcının cihazında veya donanım anahtarında saklanır.
    - Public  key Sunucuya kayıt edilir.
-
-
+     
+     **Önemli özellikleri:**
+   - Phishing’e karşı dirençlidir (origin binding sayesinde)
+   - Replay saldırılarına karşı korumalıdır
+   - Her servis için ayrı anahtar üretir (credential reuse yoktur)
 
 - **WebAuthn (Web Authentication API)**<br>
-WebAuthn, W3C tarafından standartlaştırılmış bir tarayıcı API’sidir ve FIDO2’nin web tarafındaki bileşenidir.<br>
+WebAuthn, [W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) tarafından standartlaştırılmış bir tarayıcı API’sidir ve FIDO2’nin web tarafındaki bileşenidir.<br>
 Tarayıcı ile sunucu arasında kriptografik kimlik doğrulama sürecini yönetir.<br>
 Teknik olarak;<br>
   - Tarayıcı, authenticator (platform veya roaming) ile iletişim kurar.
@@ -171,5 +174,6 @@ Teknik olarak;<br>
 
   **References**<br>
   - FIDO Alliance: https://en.wikipedia.org/wiki/FIDO_Alliance
+  - W3C: https://en.wikipedia.org/wiki/World_Wide_Web_Consortium
 
 > ## 9. Sertifika Tabanlı Kimlik Doğrulama (Certificate‑Based Authentication)

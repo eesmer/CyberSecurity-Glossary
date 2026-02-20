@@ -178,6 +178,11 @@ Passkeys, FIDO2/WebAuthn tabanlı modern kimlik doğrulama metodudur. Apple, Goo
   - Asimetrik anahtar çifti üretir.
   - Private key cihaz güvenli alanında saklanır (Secure Enclave / TPM).
   - Public key servis tarafında tutulur.
+ 
+  Passkeys’in farkı:
+  - Kullanıcı deneyimini sadeleştirir.
+  - Parola yerine biyometrik veya cihaz kilidi ile private key erişimi sağlar.
+  - iCloud Keychain veya Google Password Manager üzerinden senkronize edilebilir.
 
   **References**<br>
   - FIDO Alliance: https://en.wikipedia.org/wiki/FIDO_Alliance

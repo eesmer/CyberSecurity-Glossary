@@ -156,9 +156,9 @@ FIDO2 iki ana bileşenden oluşur:
 Teknik olarak FIDO2, asimetrik kriptografi kullanır. Her servis için benzersiz bir anahtar çifti üretilir:
   - Private key -> Kullanıcının cihazında veya donanım anahtarında saklanır.
   - Public  key -> Sunucuya kayıt edilir.
-Kimlik doğrulama sırasında sunucu bir challenge üretir, istemci bu challenge’ı private key ile imzalar ve sunucu public key ile doğrular.
 
-***Challenge**, kimlik doğrulama sırasında sunucu tarafından üretilen rastgele, tek kullanımlık ve kriptografik olarak güvenli bir veridir.*
+Kimlik doğrulama sırasında sunucu, her oturum için kriptografik olarak güvenli ve tek kullanımlık bir rastgele veri (challenge/nonce) üretir.<br>
+İstemci bu veriyi private key ile imzalar ve sunucu public key ile doğrular.<br>
 
   **References**<br>
   - FIDO Alliance: https://en.wikipedia.org/wiki/FIDO_Alliance

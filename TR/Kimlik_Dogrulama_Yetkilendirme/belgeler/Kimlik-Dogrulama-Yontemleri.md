@@ -197,10 +197,14 @@ YubiKey gibi cihazlar “roaming authenticator” olarak çalışır.<br>
   - U2F
   - PIV (Smart Card)
   - OTP
-  - OpenPGP
+  - OpenPGP <br>
+    <br>
+    **Avantajı:** <br>
+  - Cihaz tabanlı fiziksel doğrulama
+  - Phishing’e yüksek direnç
+  - Anahtar extraction pratikte mümkün değildir
+ 
 
-
-    
 
   **References**<br>
   - FIDO Alliance: https://en.wikipedia.org/wiki/FIDO_Alliance

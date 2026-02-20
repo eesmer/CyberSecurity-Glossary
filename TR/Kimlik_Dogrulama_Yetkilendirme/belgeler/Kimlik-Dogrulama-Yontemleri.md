@@ -4,7 +4,12 @@
 
 Kimlik doğrulama, farklı yöntemlerle yapılabilir. Güvenlik seviyesi arttıkça tek bir yöntem yerine çoklu doğrulama yaklaşımları tercih edilmeye başlanmıştır.<br>
 Kimlik doğrulama yöntemleri;<br>
-Genel olarak kullanıcının *sahip olduğu bilgiye*, *sahip olduğu nesneye* veya *kimliğine özgü fiziksel özellikler*e dayanır.
+Genel olarak kullanıcının *sahip olduğu bilgiye*, *sahip olduğu nesneye* veya *kimliğine özgü fiziksel özellikler*e dayanır.<br>
+<br>
+Kimlik doğrulama yöntemlerinin seçimi, sistemin güvenlik ihtiyaçları ve kullanım senaryosuna göre yapılmalıdır.<br>
+Tek faktörlü yöntemler kolaylık sağlar ama güvenlik zaafı yaratabilir.<br>
+Çok faktörlü kimlik doğrulama (MFA) ise bugün artık güvenlikte altın standart olarak kabul edilir.<br>
+Kurumsal yapılarda hem güvenlik politikaları hem de kullanıcı deneyimi gözetilerek hibrit modeller tercih edilmelidir.<br>
 
 > ## 1. Tek Faktörlü Kimlik Doğrulama (SFA – Single Factor Authentication)
 Sadece tek bir unsur kullanılır. Genellikle bu unsur bir *şifre* veya *PIN* kodudur.<br>

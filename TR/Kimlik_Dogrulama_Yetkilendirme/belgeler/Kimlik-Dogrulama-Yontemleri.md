@@ -160,6 +160,6 @@ Teknik olarak FIDO2, asimetrik kriptografi kullanır. Her servis için benzersiz
 ---
 
   **References**<br>
-  https://en.wikipedia.org/wiki/FIDO_Alliance
+  - FIDO Alliance: https://en.wikipedia.org/wiki/FIDO_Alliance
 
 > ## 9. Sertifika Tabanlı Kimlik Doğrulama (Certificate‑Based Authentication)

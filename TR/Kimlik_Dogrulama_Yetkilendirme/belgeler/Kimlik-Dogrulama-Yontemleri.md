@@ -188,29 +188,38 @@ Passkeys, FIDO2/WebAuthn tabanlı modern kimlik doğrulama metodudur. Apple, Goo
 
 ### YubiKey ve Benzeri Donanım Güvenlik Anahtarları
 YubiKey gibi cihazlar “roaming authenticator” olarak çalışır.<br>
-  - USB / NFC / Lightning üzerinden bağlanır.
-  - Private key cihaz dışına çıkmaz.
-  - Donanım içindeki güvenli element (secure element) içinde anahtar üretir ve saklar. <br>
-    <br>
-    **Desteklediği Protokoller:** <br>
-  - FIDO2 / WebAuthn
-  - U2F
-  - PIV (Smart Card)
-  - OTP
-  - OpenPGP <br>
-    <br>
-    **Avantajı:** <br>
-  - Cihaz tabanlı fiziksel doğrulama
-  - Phishing’e yüksek direnç
-  - Anahtar extraction pratikte mümkün değildir
+
+    - USB / NFC / Lightning üzerinden bağlanır.
+    - Private key cihaz dışına çıkmaz.
+    - Donanım içindeki güvenli element (secure element) içinde anahtar üretir ve saklar. <br>
+
+#### Desteklediği Protokoller:
+    - FIDO2 / WebAuthn
+    - U2F
+    - PIV (Smart Card)
+    - OTP
+    - OpenPGP <br>
+    
+#### Avantajı:
+    - Cihaz tabanlı fiziksel doğrulama
+    - Phishing’e yüksek direnç
+    - Anahtar extraction pratikte mümkün değildir
 
 ### Windows Hello / Apple Face ID Tabanlı Sistemler
 “platform authenticator” kategorisindedir. Yani authenticator doğrudan işletim sistemine entegredir. <br>
 
-  - Private key → TPM (Windows) veya Secure Enclave (Apple) içinde saklanır.
-  - Kullanıcı doğrulaması → Biyometrik sensör veya cihaz PIN’i ile yapılır.
-  - Biyometrik veri hiçbir zaman sunucuya gönderilmez.
+    - Private key → TPM (Windows) veya Secure Enclave (Apple) içinde saklanır.
+    - Kullanıcı doğrulaması → Biyometrik sensör veya cihaz PIN’i ile yapılır.
+    - Biyometrik veri hiçbir zaman sunucuya gönderilmez.
 
+#### Windows Hello
+    - TPM tabanlı anahtar üretir.
+    - Active Directory / Azure AD entegrasyonu vardır.
+    - Kerberos ve FIDO2 ile çalışabilir.
+#### Apple Face ID / Touch ID:
+    - Secure Enclave içinde anahtar üretir.
+    - WebAuthn uyumludur.
+    - iCloud üzerinden passkey senkronizasyonu yapabilir.
 
 
 #### Karşılaştırma Tablosu

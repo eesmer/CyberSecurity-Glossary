@@ -107,8 +107,9 @@ SSO ve kimlik federasyonu kapsamında değerlendirilebilir.<br>
   Kullanım kolaylığı erişim için en az bir katman daha eklediği için orta seviyededir. Çünkü parola veya token iletimi için erişim sağlanması gereken bir
   uygulama veya araç/donanım gerektirir.<br>
 - **Biyometrik**<br> Kullanım kolaylığı ve günümüz güvenlik gereksinimlerine uygunluğu yüksektir. Fakat bir altyapı ve donanım gereksinimi vardır.<br>
-
-  
+- **Token/Kart**<br> Kullanım kolaylığı araç veya kart ve uygulanması için donanım gereksinimi sebebiyle düşük olarak değerlendirilebilir.
+    Fakat güvenlik gereksinimlerini sağlama kriterine göre değerlendirmesi yüksektir.<br>
+- **TOTP**<br> Mobil uygulama üzerinden kullanılır ve günümüz güvenlik gereksinimlerine uygundur.<br>
 
 > ## 8. Şifresiz Kimlik Doğrulama (Passwordless Authentication)
 

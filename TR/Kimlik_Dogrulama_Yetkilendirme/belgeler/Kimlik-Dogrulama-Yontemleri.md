@@ -101,6 +101,11 @@ SSO ve kimlik federasyonu kapsamında değerlendirilebilir.<br>
 - Kimlik sağlayıcısına tam güven gerekir
 - Hesap ele geçirilirse tüm sistemler etkilenir
 
+**Yöntemler ve Değerlendirmeleri**
+**Parola:** Kullanım kolaylığı yüksektir ve ek gereksinimleri yoktur. Fakat günümüz güvenlik gereksinimlerine uygunluğu düşüktür.
+**MFA:** Günümüzde neredeyse tüm erişimlerde seçilen yöntemdir.
+  Kullanım kolaylığı erişim için en az bir katman daha eklediği için orta seviyededir.
+
 > ## 8. Şifresiz Kimlik Doğrulama (Passwordless Authentication)
 
 Şifresiz kimlik doğrulama, kullanıcının sisteme erişim sağlamak için geleneksel parola kullanmadığı kimlik doğrulama yaklaşımıdır.

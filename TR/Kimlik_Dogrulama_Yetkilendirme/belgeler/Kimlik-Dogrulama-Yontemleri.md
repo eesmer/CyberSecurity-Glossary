@@ -154,8 +154,8 @@ FIDO2 iki ana bileşenden oluşur:
    - CTAP2 (Client to Authenticator Protocol)
 
 Teknik olarak FIDO2, asimetrik kriptografi kullanır. Her servis için benzersiz bir anahtar çifti üretilir:<br>
-    - Private key -> Kullanıcının cihazında veya donanım anahtarında saklanır.
-    - Public  key -> Sunucuya kayıt edilir.
+  - Private key -> Kullanıcının cihazında veya donanım anahtarında saklanır.
+  - Public  key -> Sunucuya kayıt edilir.
 
 Kimlik doğrulama sırasında sunucu, her oturum için kriptografik olarak güvenli ve tek kullanımlık bir rastgele veri (challenge/nonce) üretir.<br>
 İstemci bu veriyi private key ile imzalar ve sunucu public key ile doğrular.<br>

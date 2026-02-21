@@ -252,3 +252,17 @@ Parola yerine, bir özel anahtar (private key) ve bu anahtara karşılık gelen,
     - X.509 Sertifikası
     - Güven zinciri (Certificate Chain)
     - Sertifika Otoritesi (CA)
+
+#### Doğrulama Akışı (Örnek: mTLS)
+    - İstemci, sunucuya bağlanır.
+    - Sunucu istemciden sertifika ister.
+    - İstemci kendi sertifikasını gönderir.
+    - Sunucu:
+      - Sertifikanın CA tarafından imzalanıp imzalanmadığını kontrol eder.
+      - Sertifikanın süresini kontrol eder.
+      - CRL/OCSP üzerinden iptal durumunu kontrol eder.
+    - İstemci, private key’e sahip olduğunu kriptografik imza ile kanıtlar.
+    - Doğrulama başarılıysa kimlik doğrulama tamamlanır.
+
+  **Not:** Private key hiçbir zaman sunucuya gönderilmez.
+  

@@ -296,3 +296,11 @@ Parola yerine, bir özel anahtar (private key) ve bu anahtara karşılık gelen,
     - Sertifika süresi dolduğunda erişim kesilebilir
     - CRL/OCSP altyapısı düzgün çalışmazsa güvenlik zayıflar
     - Private key korunamazsa kimlik ele geçirilebilir
+
+| Özellik                        | Parola | FIDO2 | Sertifika Tabanlı |
+| ------------------------------ | ------ | ----- | ----------------- |
+| Asimetrik kripto               | ❌      | ✅     | ✅                 |
+| Private key sunucuya gider mi? | ❌      | ❌     | ❌                 |
+| PKI gerektirir mi?             | ❌      | ❌     | ✅                 |
+| Yönetim karmaşıklığı           | Düşük  | Orta  | Yüksek            |
+| Kurumsal kullanım              | Orta   | Artan | Yüksek            |

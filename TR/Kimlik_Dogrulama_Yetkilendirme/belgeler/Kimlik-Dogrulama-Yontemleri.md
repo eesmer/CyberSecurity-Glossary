@@ -273,3 +273,10 @@ Parola yerine, bir özel anahtar (private key) ve bu anahtara karşılık gelen,
     - SSH Certificate Authentication
     - IoT cihaz kimlik doğrulaması
     - Servis-to-servis (microservice) kimlik doğrulaması
+
+  #### PKI Bileşenleri
+    - Root CA
+    - Intermediate CA
+    - Certificate Revocation List (CRL)
+    - Online Certificate Status Protocol (OCSP)
+    - Certificate lifecycle management

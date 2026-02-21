@@ -242,3 +242,4 @@ YubiKey gibi cihazlar “roaming authenticator” olarak çalışır.<br>
   - W3C: https://en.wikipedia.org/wiki/World_Wide_Web_Consortium
 
 > ## 9. Sertifika Tabanlı Kimlik Doğrulama (Certificate‑Based Authentication)
+Sertifika tabanlı kimlik doğrulama, bir kullanıcının, cihazın veya servisin kimliğini dijital sertifika aracılığıyla kanıtladığı kimlik doğrulama yöntemidir.

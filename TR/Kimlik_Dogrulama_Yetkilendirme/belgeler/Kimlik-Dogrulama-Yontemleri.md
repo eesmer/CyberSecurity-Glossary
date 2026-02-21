@@ -265,4 +265,11 @@ Parola yerine, bir özel anahtar (private key) ve bu anahtara karşılık gelen,
     - Doğrulama başarılıysa kimlik doğrulama tamamlanır.
 
   **Not:** Private key hiçbir zaman sunucuya gönderilmez.
-  
+
+  #### Kullanım Alanları
+    - VPN erişimi (IPsec, SSL VPN)
+    - 802.1X (EAP-TLS) ile kurumsal Wi-Fi erişimi
+    - Windows Smart Card logon
+    - SSH Certificate Authentication
+    - IoT cihaz kimlik doğrulaması
+    - Servis-to-servis (microservice) kimlik doğrulaması

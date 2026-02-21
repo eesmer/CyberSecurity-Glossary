@@ -280,3 +280,5 @@ Parola yerine, bir özel anahtar (private key) ve bu anahtara karşılık gelen,
     - Certificate Revocation List (CRL)
     - Online Certificate Status Protocol (OCSP)
     - Certificate lifecycle management
+
+    PKI güvenliği, tüm sistemin güvenliğini belirler.

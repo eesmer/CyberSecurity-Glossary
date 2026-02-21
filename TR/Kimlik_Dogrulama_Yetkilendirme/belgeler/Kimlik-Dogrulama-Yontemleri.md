@@ -243,3 +243,5 @@ YubiKey gibi cihazlar “roaming authenticator” olarak çalışır.<br>
 
 > ## 9. Sertifika Tabanlı Kimlik Doğrulama (Certificate‑Based Authentication)
 Sertifika tabanlı kimlik doğrulama, bir kullanıcının, cihazın veya servisin kimliğini dijital sertifika aracılığıyla kanıtladığı kimlik doğrulama yöntemidir.
+Bu yöntem, Public Key Infrastructure (PKI) mimarisi üzerine kuruludur ve doğrulama işlemi asimetrik kriptografi kullanılarak gerçekleştirilir. <br>
+Parola yerine, bir özel anahtar (private key) ve bu anahtara karşılık gelen, bir Sertifika Otoritesi (CA) tarafından imzalanmış X.509 dijital sertifika kullanılır.

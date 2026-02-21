@@ -282,3 +282,17 @@ Parola yerine, bir özel anahtar (private key) ve bu anahtara karşılık gelen,
     - Certificate lifecycle management
 
     PKI güvenliği, tüm sistemin güvenliğini belirler.
+
+ #### Avantajları
+    - Parola gerektirmez
+    - Yüksek kriptografik güvenlik sağlar
+    - Kimlik doğrulama cihaz bazlı yapılabilir
+    - Merkezi iptal (revocation) imkanı vardır
+    - Otomasyon ile büyük ölçekli sistemlerde uygulanabilir
+
+ #### Zorlukları / Riskleri
+    - PKI kurulumu ve yönetimi gerektirir
+    - Sertifika yaşam döngüsü yönetimi gerektirir
+    - Sertifika süresi dolduğunda erişim kesilebilir
+    - CRL/OCSP altyapısı düzgün çalışmazsa güvenlik zayıflar
+    - Private key korunamazsa kimlik ele geçirilebilir

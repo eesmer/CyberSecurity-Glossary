@@ -1,19 +1,19 @@
 # CyberSecurity-Glossary
 This is an open-source knowledge base project that clearly explains fundamental cybersecurity concepts from both practical and technical perspectives.<br>
-Topics and concepts are examined and explained through technical and up-to-date documentation. The Lab/Kit section includes configuration, installation, and automation work on Debian systems for reference studies in production environments.<br>
+Topics and concepts are examined and explained through technical and up-to-date documentation. The Labs. section includes configuration, installation, and automation work on Debian systems for reference studies in production environments.<br>
 
 ---
 
 **TR** / **CyberSecurity-Glossary**, siber güvenlik alanında kullanılan kavramları teknik ve uygulanabilir biçimde açıklayan açık kaynaklı bir bilgi deposudur.
 Amaç; kablosuz ağlar, kriptoloji, sistem güvenliği, kimlik doğrulama, sızma testleri gibi başlıklarda sade, anlaşılır ve aynı zamanda teknik doğruluğu yüksek içerikler sunmaktır.<br>
-Her belge Türkçe ve İngilizce olarak hazırlanır ve yayınlanır.
+Her belge Türkçe ve İngilizce olarak hazırlanır ve yayınlanır. Bununla birlikte işlenen konu ile ilgili prtaik çalışmalar için Labs. dizininde kod, komut ve yapılandırma scriptleri yer alır.
  
 **EN** / **CyberSecurity-Glossary** is an open-source knowledge base that explains key concepts in the field of cybersecurity with practical and technical clarity.
 It covers areas such as wireless networking, cryptography, system hardening, authentication, penetration testing, and more-written in clear language while maintaining technical accuracy.
-Each document is prepared and published in both Turkish and English.
+Each document is prepared and published in both Turkish and English. Additionally, code, commands, and configuration scripts for practical work related to the topic covered are located in the Labs directory.
 
-**Lab/Kit** / **CyberSecurity-Glossary**
-Includes practical exercises, configurations, and scripts related to topics and concepts. Exercises are performed on Debian systems.<br>
+**Labs.** / **CyberSecurity-Glossary**
+The Labs directory is a workspace where concepts, techniques, and methodologies from the CyberSecurity-Glossary repository are demonstrated in practice on the Debian GNU/Linux system. <br>
 
 ### Başlıklar / Topics
 

@@ -304,3 +304,5 @@ Parola yerine, bir özel anahtar (private key) ve bu anahtara karşılık gelen,
 | PKI gerektirir mi?             | ❌      | ❌     | ✅                 |
 | Yönetim karmaşıklığı           | Düşük  | Orta  | Yüksek            |
 | Kurumsal kullanım              | Orta   | Artan | Yüksek            |
+
+Günümüz itibariyle; Sertifika tabanlı kimlik doğrulama, modern passwordless sistemlerin daha geleneksel ve kurumsal versiyonu olarak düşünülebilir.

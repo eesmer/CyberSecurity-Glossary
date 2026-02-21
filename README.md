@@ -8,7 +8,7 @@ Topics and concepts are examined and explained through technical and up-to-date 
 Amaç; kablosuz ağlar, kriptoloji, sistem güvenliği, kimlik doğrulama, sızma testleri gibi başlıklarda sade, anlaşılır ve aynı zamanda teknik doğruluğu yüksek içerikler sunmaktır.<br>
 Her belge Türkçe ve İngilizce olarak hazırlanır ve yayınlanır. Bununla birlikte işlenen konu ile ilgili pratik çalışmalar için Labs. dizininde kod, komut ve yapılandırma scriptleri yer alır.
  
-**[EN / CyberSecurity-Glossary](https://github.com/eesmer/CyberSecurity-Glossary/tree/main/ENG)** is an open-source knowledge base that explains key concepts in the field of cybersecurity with practical and technical clarity.
+**[EN / CyberSecurity-Glossary](https://github.com/eesmer/CyberSecurity-Glossary/tree/main/EN)** is an open-source knowledge base that explains key concepts in the field of cybersecurity with practical and technical clarity.
 It covers areas such as wireless networking, cryptography, system hardening, authentication, penetration testing, and more-written in clear language while maintaining technical accuracy.
 Each document is prepared and published in both Turkish and English. Additionally, code, commands, and configuration scripts for practical work related to the topic covered are located in the Labs directory.
 

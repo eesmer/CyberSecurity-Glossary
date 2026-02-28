@@ -12,7 +12,7 @@ Her belge Türkçe ve İngilizce olarak hazırlanır ve yayınlanır. Bununla bi
 It covers areas such as wireless networking, cryptography, system hardening, authentication, penetration testing, and more-written in clear language while maintaining technical accuracy.
 Each document is prepared and published in both Turkish and English. Additionally, code, commands, and configuration scripts for practical work related to the topic covered are located in the Labs directory.
 
-**Labs.** / **CyberSecurity-Glossary**
+**LABS** / **CyberSecurity-Glossary**
 The Labs directory is a workspace where concepts, techniques, and methodologies from the CyberSecurity-Glossary repository are demonstrated in practice on the Debian GNU/Linux system. <br>
 
 ### Başlıklar / Topics

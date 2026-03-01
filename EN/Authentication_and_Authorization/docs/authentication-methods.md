@@ -290,3 +290,10 @@ PKI security determines the overall security of the system.
      - Supports centralized revocation
      - Scalable with automation for large-scale systems
 
+#### Challenges / Risks
+     - Requires PKI deployment and management
+     - Requires certificate lifecycle management
+     - Expired certificates may interrupt access
+     - If CRL/OCSP infrastructure fails, security weakens
+
+If the private key is compromised, identity is compromised

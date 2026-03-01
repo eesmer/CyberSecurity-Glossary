@@ -142,3 +142,5 @@ Passwords are:
 - Reusable
 - Vulnerable to phishing attacks
 - Susceptible to mass compromise during data breaches
+
+Passwordless architectures aim to reduce these risks.

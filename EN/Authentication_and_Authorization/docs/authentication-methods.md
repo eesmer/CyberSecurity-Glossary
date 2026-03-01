@@ -207,3 +207,7 @@ Devices such as YubiKey function as “roaming authenticators.”
     - PIV (Smart Card)
     - OTP
     - OpenPGP
+#### Advantages:
+     - Device-based physical authentication
+     - Strong phishing resistance
+     - Key extraction is practically infeasible

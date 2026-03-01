@@ -170,3 +170,6 @@ FIDO2 is an open authentication standard developed by the [FIDO Alliance](https:
     - Resistant to phishing (due to origin binding)
     - Protected against replay attacks
     - Generates separate keys per service (no credential reuse)
+
+- ### WebAuthn (Web Authentication API)
+WebAuthn is a browser API standardized by W3C and represents the web component of FIDO2. It manages the cryptographic authentication process between the browser and the server.

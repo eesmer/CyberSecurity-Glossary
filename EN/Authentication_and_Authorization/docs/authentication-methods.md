@@ -195,3 +195,8 @@ Passkeys are a modern authentication method based on FIDO2/WebAuthn and are supp
 **Note:** Passkeys are essentially passwordless FIDO2 credentials.
 
 - ### YubiKey and Similar Hardware Security Keys
+Devices such as YubiKey function as “roaming authenticators.”
+
+    - Connect via USB / NFC / Lightning.
+    - The private key never leaves the device.
+    - Keys are generated and stored inside a secure element within the hardware.

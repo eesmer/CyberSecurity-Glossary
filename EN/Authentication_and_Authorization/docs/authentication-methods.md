@@ -246,3 +246,10 @@ Certificate-based authentication is a method where a user, device, or service pr
 This method is built upon a Public Key Infrastructure (PKI) architecture and uses asymmetric cryptography for verification.
 Instead of a password, a private key and a corresponding X.509 digital certificate signed by a Certificate Authority (CA) are used.
 
+#### Certificate-Based Authentication Relies On:
+     - Private Key (stored on user/device side)
+     - Public Key (contained within the certificate)
+     - X.509 Certificate
+     - Certificate Chain (trust chain)
+     - Certificate Authority (CA)
+

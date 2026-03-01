@@ -191,3 +191,6 @@ Passkeys are a modern authentication method based on FIDO2/WebAuthn and are supp
     - Simplifies user experience.
     - Allows access to the private key via biometrics or device lock instead of passwords.
     - Can be synchronized via iCloud Keychain or Google Password Manager.
+
+**Note:** Passkeys are essentially passwordless FIDO2 credentials.
+

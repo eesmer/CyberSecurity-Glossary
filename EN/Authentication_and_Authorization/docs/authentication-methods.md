@@ -282,3 +282,12 @@ Instead of a password, a private key and a corresponding X.509 digital certifica
      - Certificate lifecycle management
 
 PKI security determines the overall security of the system.
+
+#### Advantages
+     - Does not require passwords
+     - Provides strong cryptographic security
+     - Enables device-based authentication
+     - Supports centralized revocation
+
+
+Scalable with automation for large-scale systems

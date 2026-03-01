@@ -57,6 +57,6 @@ Aynı kurumun yayımladığı eğitim takvimi ise **Genel** düzeydedir ve web s
 Bu fark, bilgilerin saklanma, erişim ve imha kurallarını da belirler.
 
 ### İlgili Sayfalar
-- [Bilgi Güvenliği](giris.md)
+- [Bilgi Güvenliği](https://github.com/eesmer/CyberSecurity-Glossary/tree/main/TR/Bilgi_Guvenligi)
 - [Gizlilik İlkesi](cia-ucgeni.md#Gizlilik-Confidentiality)
 - [Erişim Kontrolü](../04-kimlik-dogrulama/erisim-kontrol.md)

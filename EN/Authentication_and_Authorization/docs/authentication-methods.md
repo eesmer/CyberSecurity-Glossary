@@ -200,3 +200,10 @@ Devices such as YubiKey function as “roaming authenticators.”
     - Connect via USB / NFC / Lightning.
     - The private key never leaves the device.
     - Keys are generated and stored inside a secure element within the hardware.
+
+#### Supported Protocols:
+    - FIDO2 / WebAuthn
+    - U2F
+    - PIV (Smart Card)
+    - OTP
+    - OpenPGP

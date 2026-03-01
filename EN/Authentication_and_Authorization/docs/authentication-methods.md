@@ -265,3 +265,12 @@ Instead of a password, a private key and a corresponding X.509 digital certifica
      - If validation succeeds, authentication is completed. 
 
 **Note:** The private key is never transmitted to the server.
+
+#### Use Cases
+     - VPN access (IPsec, SSL VPN)
+     - Enterprise Wi-Fi access using 802.1X (EAP-TLS)
+     - Windows Smart Card logon
+     - SSH certificate authentication
+     - IoT device authentication
+
+Service-to-service (microservice) authentication

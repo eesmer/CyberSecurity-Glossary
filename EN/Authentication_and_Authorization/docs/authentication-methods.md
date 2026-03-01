@@ -121,3 +121,6 @@ Usability may be considered low due to the requirement for a physical device and
 
 - ##### MFA (Multi-Factor Authentication)
 Currently the preferred method for most access scenarios. Usability is moderate because it adds at least one additional verification layer. It requires access to an application, hardware token, or similar device to complete authentication.
+
+- ##### TOTP (Time-Based One-Time Password)
+Used via mobile applications and aligns well with modern security requirements.

@@ -295,5 +295,6 @@ PKI security determines the overall security of the system.
      - Requires certificate lifecycle management
      - Expired certificates may interrupt access
      - If CRL/OCSP infrastructure fails, security weakens
+     - If the private key is compromised, identity is compromised
 
-If the private key is compromised, identity is compromised
+

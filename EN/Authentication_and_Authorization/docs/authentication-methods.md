@@ -264,3 +264,4 @@ Instead of a password, a private key and a corresponding X.509 digital certifica
      - The client proves possession of the private key through a cryptographic signature.
      - If validation succeeds, authentication is completed. 
 
+**Note:** The private key is never transmitted to the server.

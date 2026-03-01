@@ -208,6 +208,13 @@ Devices such as YubiKey function as “roaming authenticators.”
     - OTP
     - OpenPGP
 #### Advantages:
-     - Device-based physical authentication
-     - Strong phishing resistance
-     - Key extraction is practically infeasible
+    - Device-based physical authentication
+    - Strong phishing resistance
+    - Key extraction is practically infeasible
+
+- ### Windows Hello / Apple Face ID-Based Systems
+These belong to the “platform authenticator” category, meaning the authenticator is directly integrated into the operating system.
+
+    - Private key → stored inside TPM (Windows) or Secure Enclave (Apple).
+    - User verification → performed via biometric sensor or device PIN.
+    - Biometric data is never transmitted to the server.

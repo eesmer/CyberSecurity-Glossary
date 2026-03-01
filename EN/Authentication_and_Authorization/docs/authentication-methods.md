@@ -129,3 +129,7 @@ Used via mobile applications and aligns well with modern security requirements.
 
 Passwordless authentication is an authentication approach where users access systems without using traditional passwords.
 In this model, verification is typically performed through:
+- Cryptographic key pairs
+- Hardware-based security keys
+- Biometric verification
+- Push notification approvals

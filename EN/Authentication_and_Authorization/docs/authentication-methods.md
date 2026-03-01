@@ -182,3 +182,11 @@ Unlike REST or traditional form-based login, WebAuthn is based on a challenge-re
 
 - ### Passkeys
 Passkeys are a modern authentication method based on FIDO2/WebAuthn and are supported by Apple, Google, and Microsoft.
+    - Generates an asymmetric key pair.
+    - The private key is stored in the device’s secure area (Secure Enclave / TPM).
+    - The public key is stored on the service side.
+
+#### What Makes Passkeys Different:
+    - Simplifies user experience.
+    - Allows access to the private key via biometrics or device lock instead of passwords.
+    - Can be synchronized via iCloud Keychain or Google Password Manager.

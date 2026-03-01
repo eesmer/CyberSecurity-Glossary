@@ -257,9 +257,10 @@ Instead of a password, a private key and a corresponding X.509 digital certifica
      - The client connects to the server.
      - The server requests a client certificate.
      - The client sends its certificate.
-     
-#### The server:
-     - Verifies whether the certificate is signed by a trusted CA.
-     - Checks certificate validity dates.
-     - Checks revocation status via CRL/OCSP.
+     The server:
+      - Verifies whether the certificate is signed by a trusted CA.
+      - Checks certificate validity dates.
+      - Checks revocation status via CRL/OCSP.
+     - The client proves possession of the private key through a cryptographic signature.
+     - If validation succeeds, authentication is completed. 
 

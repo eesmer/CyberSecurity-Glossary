@@ -298,3 +298,10 @@ PKI security determines the overall security of the system.
      - If the private key is compromised, identity is compromised
 
 
+| Feature                        | Password | FIDO2   | Certificate-Based |
+| ------------------------------ | -------- | ------- | ----------------- |
+| Asymmetric cryptography        | ❌        | ✅       | ✅                 |
+| Does private key reach server? | ❌        | ❌       | ❌                 |
+| Requires PKI?                  | ❌        | ❌       | ✅                 |
+| Management complexity          | Low      | Medium  | High              |
+| Enterprise adoption            | Medium   | Growing | High              |

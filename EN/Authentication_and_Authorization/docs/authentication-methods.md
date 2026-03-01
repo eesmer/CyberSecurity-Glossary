@@ -107,3 +107,12 @@ It is often part of SSO (Single Sign-On) or identity federation systems.<br>
 **Disadvantages:**
 - Requires full trust in the identity provider
 - If the main account is compromised, all linked services can be affected
+
+#### Methods and Evaluations
+
+- ##### Password
+Easy to use and requires no additional components. However, it has low suitability for modern security requirements.
+
+- ##### MFA (Multi-Factor Authentication)
+Currently the preferred method for most access scenarios.
+Usability is moderate because it adds at least one additional verification layer. It requires access to an application, hardware token, or similar device to complete authentication.

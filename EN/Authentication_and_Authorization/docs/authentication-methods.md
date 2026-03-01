@@ -133,3 +133,5 @@ In this model, verification is typically performed through:
 - Hardware-based security keys
 - Biometric verification
 - Push notification approvals
+
+The primary goal is to eliminate risks associated with passwords.

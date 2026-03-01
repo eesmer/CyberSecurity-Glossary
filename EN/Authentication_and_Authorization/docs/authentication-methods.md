@@ -179,3 +179,6 @@ WebAuthn is a browser API standardized by W3C and represents the web component o
     - It manages public key credential creation and verification.
     - It enforces origin validation (a credential generated for example.com cannot be used on another domain).
 Unlike REST or traditional form-based login, WebAuthn is based on a challenge-response model.
+
+- ### Passkeys
+Passkeys are a modern authentication method based on FIDO2/WebAuthn and are supported by Apple, Google, and Microsoft.

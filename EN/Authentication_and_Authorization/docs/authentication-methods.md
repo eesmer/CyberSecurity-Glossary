@@ -297,7 +297,7 @@ PKI security determines the overall security of the system.
      - If CRL/OCSP infrastructure fails, security weakens
      - If the private key is compromised, identity is compromised
 
-
+#### Comparison Table
 | Feature                        | Password | FIDO2   | Certificate-Based |
 | ------------------------------ | -------- | ------- | ----------------- |
 | Asymmetric cryptography        | ❌        | ✅       | ✅                 |

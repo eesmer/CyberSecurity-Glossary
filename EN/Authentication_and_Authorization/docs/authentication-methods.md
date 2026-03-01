@@ -305,3 +305,5 @@ PKI security determines the overall security of the system.
 | Requires PKI?                  | ❌        | ❌       | ✅                 |
 | Management complexity          | Low      | Medium  | High              |
 | Enterprise adoption            | Medium   | Growing | High              |
+
+As of today, certificate-based authentication can be considered a more traditional and enterprise-oriented version of modern passwordless systems.

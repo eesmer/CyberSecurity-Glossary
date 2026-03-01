@@ -236,3 +236,7 @@ These belong to the “platform authenticator” category, meaning the authentic
 | Passkeys                | FIDO2 credential model  | Secure Enclave / TPM | High                |
 | YubiKey                 | Hardware token          | Secure Element       | Very High           |
 | Windows Hello / Face ID | Platform authenticator  | TPM / Secure Enclave | High                |
+
+#### References
+FIDO Alliance: https://en.wikipedia.org/wiki/FIDO_Alliance
+W3C: https://en.wikipedia.org/wiki/World_Wide_Web_Consortium

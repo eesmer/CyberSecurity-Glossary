@@ -59,4 +59,3 @@ Bu fark, bilgilerin saklanma, erişim ve imha kurallarını da belirler.
 ### İlgili Sayfalar
 - [Bilgi Güvenliği](https://github.com/eesmer/CyberSecurity-Glossary/tree/main/TR/Bilgi_Guvenligi)
 - [Gizlilik İlkesi](cia-ucgeni.md#Gizlilik-Confidentiality)
-- [Erişim Kontrolü](../04-kimlik-dogrulama/erisim-kontrol.md)

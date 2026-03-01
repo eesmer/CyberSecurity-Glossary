@@ -160,3 +160,10 @@ FIDO2 is an open authentication standard developed by the [FIDO Alliance](https:
 #### FIDO2 consists of two main components:
     - WebAuthn (browser-side API standard)
     - CTAP2 (Client to Authenticator Protocol)
+
+#### Challenge / Nonce
+    - During authentication, the server generates a cryptographically secure, one-time random value (challenge/nonce).
+    - The client signs this value with the private key, and the server verifies it with the public key.
+    - The private key is stored on the user’s device or hardware key.
+    - The public key is registered on the server.
+#### Key Features:

@@ -227,3 +227,12 @@ These belong to the “platform authenticator” category, meaning the authentic
     - Generates keys inside Secure Enclave.
     - WebAuthn compatible.
     - Supports passkey synchronization via iCloud.
+
+#### Comparison Table
+| Technology              | Core Architecture       | Key Storage          | Phishing Resistance |
+| ----------------------- | ----------------------- | -------------------- | ------------------- |
+| FIDO2                   | Asymmetric cryptography | Device / Hardware    | High                |
+| WebAuthn                | Browser API             | Device               | High                |
+| Passkeys                | FIDO2 credential model  | Secure Enclave / TPM | High                |
+| YubiKey                 | Hardware token          | Secure Element       | Very High           |
+| Windows Hello / Face ID | Platform authenticator  | TPM / Secure Enclave | High                |

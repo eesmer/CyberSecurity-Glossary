@@ -52,6 +52,5 @@ On the other hand, its training schedule is **Public** and can be shared via the
 This distinction determines the rules for storage, access, and disposal.
 
 ### Related Pages
-- [Information Security](giris.md)
+- [Information Security](https://github.com/eesmer/CyberSecurity-Glossary/tree/main/TR/Bilgi_Guvenligi)
 - [Confidentiality Principle](cia-triad.md#Confidentiality)
-- [Access Control](../04-authentication/access-control.md)

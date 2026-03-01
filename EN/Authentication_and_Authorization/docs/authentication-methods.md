@@ -149,3 +149,6 @@ Passwordless systems generally use asymmetric cryptography:
 - A private key is generated on the user’s device.
 - The public key is registered on the server.
 - During login, the server generates a challenge.
+- The device signs the challenge using the private key.
+- The server verifies the signature using the public key.
+- The private key never leaves the device.

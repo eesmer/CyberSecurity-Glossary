@@ -153,7 +153,7 @@ Passwordless systems generally use asymmetric cryptography:
 - The server verifies the signature using the public key.
 - The private key never leaves the device.
 
-## Technologies Used
+### Technologies Used
 - ### FIDO2
 FIDO2 is an open authentication standard developed by the [FIDO Alliance](https://en.wikipedia.org/wiki/FIDO_Alliance), designed to eliminate the need for passwords.
 

@@ -218,3 +218,12 @@ These belong to the “platform authenticator” category, meaning the authentic
     - Private key → stored inside TPM (Windows) or Secure Enclave (Apple).
     - User verification → performed via biometric sensor or device PIN.
     - Biometric data is never transmitted to the server.
+
+#### Windows Hello
+    - Generates TPM-based keys.
+    - Integrates with Active Directory / Azure AD.
+    - Works with Kerberos and FIDO2.
+#### Apple Face ID / Touch ID
+    - Generates keys inside Secure Enclave.
+    - WebAuthn compatible.
+    - Supports passkey synchronization via iCloud.

@@ -194,3 +194,4 @@ Passkeys are a modern authentication method based on FIDO2/WebAuthn and are supp
 
 **Note:** Passkeys are essentially passwordless FIDO2 credentials.
 
+- ### YubiKey and Similar Hardware Security Keys

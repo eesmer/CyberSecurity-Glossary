@@ -124,3 +124,8 @@ Currently the preferred method for most access scenarios. Usability is moderate 
 
 - ##### TOTP (Time-Based One-Time Password)
 Used via mobile applications and aligns well with modern security requirements.
+
+> ## Passwordless Authentication
+
+Passwordless authentication is an authentication approach where users access systems without using traditional passwords.
+In this model, verification is typically performed through:

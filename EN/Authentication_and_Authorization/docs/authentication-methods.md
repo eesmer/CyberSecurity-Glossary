@@ -135,3 +135,10 @@ In this model, verification is typically performed through:
 - Push notification approvals
 
 The primary goal is to eliminate risks associated with passwords.
+
+##### Why Passwordless?
+Passwords are:
+- Predictable
+- Reusable
+- Vulnerable to phishing attacks
+- Susceptible to mass compromise during data breaches

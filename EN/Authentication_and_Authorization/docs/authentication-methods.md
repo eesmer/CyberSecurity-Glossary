@@ -253,3 +253,7 @@ Instead of a password, a private key and a corresponding X.509 digital certifica
      - Certificate Chain (trust chain)
      - Certificate Authority (CA)
 
+#### Authentication Flow (Example: mTLS)
+     - The client connects to the server.
+     - The server requests a client certificate.
+     - The client sends its certificate.

@@ -145,3 +145,7 @@ Passwords are:
 
 Passwordless architectures aim to reduce these risks.
 
+Passwordless systems generally use asymmetric cryptography:
+- A private key is generated on the user’s device.
+- The public key is registered on the server.
+- During login, the server generates a challenge.

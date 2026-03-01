@@ -272,5 +272,4 @@ Instead of a password, a private key and a corresponding X.509 digital certifica
      - Windows Smart Card logon
      - SSH certificate authentication
      - IoT device authentication
-
-Service-to-service (microservice) authentication
+     - Service-to-service (microservice) authentication

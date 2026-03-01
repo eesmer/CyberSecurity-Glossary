@@ -125,7 +125,7 @@ Currently the preferred method for most access scenarios. Usability is moderate 
 - ##### TOTP (Time-Based One-Time Password)
 Used via mobile applications and aligns well with modern security requirements.
 
-> ## Passwordless Authentication
+> ## 8. Passwordless Authentication
 
 Passwordless authentication is an authentication approach where users access systems without using traditional passwords.
 In this model, verification is typically performed through:
@@ -238,5 +238,11 @@ These belong to the “platform authenticator” category, meaning the authentic
 | Windows Hello / Face ID | Platform authenticator  | TPM / Secure Enclave | High                |
 
 #### References
-FIDO Alliance: https://en.wikipedia.org/wiki/FIDO_Alliance
-W3C: https://en.wikipedia.org/wiki/World_Wide_Web_Consortium
+- FIDO Alliance: https://en.wikipedia.org/wiki/FIDO_Alliance
+- W3C: https://en.wikipedia.org/wiki/World_Wide_Web_Consortium
+
+> ## 9. Certificate-Based Authentication
+Certificate-based authentication is a method where a user, device, or service proves its identity through a digital certificate.
+This method is built upon a Public Key Infrastructure (PKI) architecture and uses asymmetric cryptography for verification.
+Instead of a password, a private key and a corresponding X.509 digital certificate signed by a Certificate Authority (CA) are used.
+

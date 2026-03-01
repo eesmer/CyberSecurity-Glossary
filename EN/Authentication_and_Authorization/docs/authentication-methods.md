@@ -167,3 +167,6 @@ FIDO2 is an open authentication standard developed by the [FIDO Alliance](https:
     - The private key is stored on the user’s device or hardware key.
     - The public key is registered on the server.
 #### Key Features:
+    - Resistant to phishing (due to origin binding)
+    - Protected against replay attacks
+    - Generates separate keys per service (no credential reuse)

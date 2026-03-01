@@ -273,3 +273,12 @@ Instead of a password, a private key and a corresponding X.509 digital certifica
      - SSH certificate authentication
      - IoT device authentication
      - Service-to-service (microservice) authentication
+
+#### PKI Components
+     - Root CA
+     - Intermediate CA
+     - Certificate Revocation List (CRL)
+     - Online Certificate Status Protocol (OCSP)
+     - Certificate lifecycle management
+
+PKI security determines the overall security of the system.

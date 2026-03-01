@@ -113,6 +113,11 @@ It is often part of SSO (Single Sign-On) or identity federation systems.<br>
 - ##### Password
 Easy to use and requires no additional components. However, it has low suitability for modern security requirements.
 
+- ##### Biometric Authentication
+High usability and strong alignment with modern security requirements. However, it requires supporting infrastructure and compatible hardware.
+
+- ##### Token / Smart Card
+Usability may be considered low due to the requirement for a physical device and supporting hardware. However, from a security compliance perspective, it provides strong assurance.
+
 - ##### MFA (Multi-Factor Authentication)
-Currently the preferred method for most access scenarios.
-Usability is moderate because it adds at least one additional verification layer. It requires access to an application, hardware token, or similar device to complete authentication.
+Currently the preferred method for most access scenarios. Usability is moderate because it adds at least one additional verification layer. It requires access to an application, hardware token, or similar device to complete authentication.

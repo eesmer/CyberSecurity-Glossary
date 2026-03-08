@@ -32,6 +32,15 @@ The Labs directory is a workspace where concepts, techniques, and methodologies 
 ### Methodology
 This repository does not only document cybersecurity concepts, it also demonstrates how these concepts can be applied on real systems.
 
+For this purpose, each topic may follow the workflow below:
+
+1. **Concept (Glossary)**  
+   The theoretical definition of the security concept.
+2. **Architecture Discussion**  
+   How the concept fits into security architectures and system design.
+3. **Risk Analysis**  
+   What kinds of threats and failures affect this concept.
+
 ---
 
 Lisans / License: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)

@@ -30,26 +30,14 @@ The Labs directory is a workspace where concepts, techniques, and methodologies 
 - Mobil Haberleşme Sistemleri / Mobile Communication Systems
 
 ### Methodology
-This repository documents cybersecurity concepts together with practical experimentation.
+This repository documents cybersecurity concepts alongside practical experiments.
 
-For this purpose, each topic may follow the workflow below:
+The general objective for each topic is as follows:
 
-1. **Concept (Glossary)**  
-   The theoretical definition of the security concept.
-2. **Architecture Discussion**  
-   How the concept fits into security architectures and system design.
-3. **Risk Analysis**  
-   What kinds of threats and failures affect this concept.
-4. **Real-world Scenario**  
-   Practical examples of how the concept appears in real systems.
-5. **Debian-based Lab**  
-   A practical implementation of the concept on a Debian system.
-6. **Scripts and Tools**  
-   Reproducible scripts used during the lab environment.
-7. **Security Analysis**  
-   Evaluation of the results and discussion of operational implications.
-
-This approach aims to bridge the gap between **security theory and practical system administration**.
+- Explain the concept from a theoretical perspective
+- Explain the relevant technical details
+- Demonstrate a practical configuration or workshop-style lab
+- Provide the scripts or small tools used during the experiment
 
 ---
 

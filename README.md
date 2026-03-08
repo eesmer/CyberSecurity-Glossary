@@ -44,8 +44,10 @@ This approach aims to bridge the gap between **security theory and practical sys
 
 ### Scope of the Labs
 All practical work in this repository is implemented on **Debian GNU/Linux systems**. <br>
+<br>
 The focus on Linux environments, and experiments are conducted in Debian environments.
-The goal is to explore security concepts through repeatable and realistic system configurations.
+The goal is to explore security concepts through repeatable and realistic system configurations. <br>
+Another goal of the repository is to provide technical cybersecurity content in Turkish and to review and interpret existing technical documentation.
 
 ---
 

@@ -40,7 +40,12 @@ For this purpose, each topic may follow the workflow below:
    How the concept fits into security architectures and system design.
 3. **Risk Analysis**  
    What kinds of threats and failures affect this concept.
+4. **Real-world Scenario**  
+   Practical examples of how the concept appears in real systems.
+5. **Debian-based Lab**  
+   A practical implementation of the concept on a Debian system.
 
+   
 ---
 
 Lisans / License: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)

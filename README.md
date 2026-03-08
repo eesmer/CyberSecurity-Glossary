@@ -43,7 +43,7 @@ Rather than just presenting definitions, the goal is to observe how these concep
 This approach aims to bridge the gap between **security theory and practical system administration**.
 
 ### Scope of the Labs
-All practical work in this repository is implemented on **Debian GNU/Linux systems**.
+All practical work in this repository is implemented on **Debian GNU/Linux systems**. <br>
 The focus on Linux environments, and experiments are conducted in Debian environments.
 The goal is to explore security concepts through repeatable and realistic system configurations.
 

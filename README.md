@@ -44,7 +44,10 @@ For this purpose, each topic may follow the workflow below:
    Practical examples of how the concept appears in real systems.
 5. **Debian-based Lab**  
    A practical implementation of the concept on a Debian system.
-
+6. **Scripts and Tools**  
+   Reproducible scripts used during the lab environment.
+7. **Security Analysis**  
+   Evaluation of the results and discussion of operational implications.
    
 ---
 

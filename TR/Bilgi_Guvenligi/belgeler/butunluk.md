@@ -14,3 +14,8 @@ CIA bağlamında bütünlük;
 - Değişikliklerin izlenebilir olması
 
 anlamına gelir.
+
+Ancak bütünlük yalnızca teorik bir prensip değil; teknik, kriptografik ve operasyonel mekanizmalarla sağlanan bir güvenlik özelliğidir.
+Bu belge, bütünlüğü kavramsal seviyeden teknik seviyeye taşıyarak detaylandırmayı amaçlar.
+
+---

@@ -30,7 +30,7 @@ The Labs directory is a workspace where concepts, techniques, and methodologies 
 - Mobil Haberleşme Sistemleri / Mobile Communication Systems
 
 ### Methodology
-This repository does not only document cybersecurity concepts, it also demonstrates how these concepts can be applied on real systems.
+This repository documents cybersecurity concepts together with practical experimentation.
 
 For this purpose, each topic may follow the workflow below:
 

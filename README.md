@@ -39,6 +39,12 @@ The general objective for each topic is as follows:
 - Demonstrate a practical configuration or workshop-style lab
 - Provide the scripts or small tools used during the experiment
 
+Rather than just presenting definitions, the goal is to observe how these concepts behave in a real system.
+This approach aims to bridge the gap between **security theory and practical system administration**.
+
+### Scope of the Labs
+All practical work in this repository is implemented on **Debian GNU/Linux systems**.
+
 ---
 
 Lisans / License: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)

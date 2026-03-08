@@ -48,7 +48,9 @@ For this purpose, each topic may follow the workflow below:
    Reproducible scripts used during the lab environment.
 7. **Security Analysis**  
    Evaluation of the results and discussion of operational implications.
-   
+
+This approach aims to bridge the gap between **security theory and practical system administration**.
+
 ---
 
 Lisans / License: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)

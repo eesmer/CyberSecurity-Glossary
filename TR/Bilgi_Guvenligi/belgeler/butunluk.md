@@ -155,3 +155,19 @@ Olası senaryolar:
 - Backdoor yerleştirme
 
 **Önemli:** Bütünlük kontrolü olmadan bu değişiklik tespit edilemeyebilir.
+
+## 7. Uygulamalı Çalışma
+Bu kavramın Debian üzerinde uygulanışı:
+`LABS -> Information Security -> Integrity -> Tripwire` [link eklenecek] <br>
+başlığı altında hazırlanan uygulamalı çalışma incelenmelidir.
+
+Bu lab çalışması:
+- Baseline oluşturma
+- Politika tanımlama
+- Periyodik kontrol
+- Rapor üretimi
+- JSON/Markdown çıktısı alma
+- Hardening önerileri
+
+gibi pratik uygulamaları içerir.
+

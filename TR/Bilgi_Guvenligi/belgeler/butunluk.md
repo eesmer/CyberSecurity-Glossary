@@ -81,3 +81,8 @@ Bütünlük yalnızca saldırgan kaynaklı değil, operasyonel hatalar nedeniyle
 - Disk hataları
 - Yanlış konfigürasyon
 - İnsan hatası
+
+### 3.3 Zararlı Yazılımlar
+- Ransomware
+- Backdoor
+- Yetkisiz konfigürasyon değişiklikleri

@@ -25,3 +25,11 @@ Teknik anlamda bütünlük, bir veri nesnesinin (dosya, veri tabanı kaydı, ağ
 Bu doğrulama genellikle kriptografik yöntemlerle yapılır:
 ### 2.1 Hash Fonksiyonları
 Hash fonksiyonları (örn. SHA-256), bir veri kümesinden sabit uzunlukta bir özet (digest) üretir.
+
+Özellikleri:
+- Deterministik
+- Tek yönlü
+- Çarpışmaya dayanıklı (collision resistant)
+
+Bir dosyanın hash değeri değişmişse, içeriği değişmiştir.
+Ancak hash tek başına kimlik doğrulama sağlamaz; sadece değişiklik tespiti sağlar.

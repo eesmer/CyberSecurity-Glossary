@@ -143,3 +143,15 @@ Sağlıklı bir model:
 5. Gerekirse baseline güncelleme
 
 şeklinde ilerler.
+
+---
+
+## 6. Örnek Senaryo
+Örnek: Bir Linux sunucuda `/usr/sbin/sshd` dosyasının değiştirilmesi.
+
+Olası senaryolar:
+- Paket güncellemesi
+- Yetkisiz binary değiştirme
+- Backdoor yerleştirme
+
+**Önemli:** Bütünlük kontrolü olmadan bu değişiklik tespit edilemeyebilir.

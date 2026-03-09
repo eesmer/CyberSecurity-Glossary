@@ -34,7 +34,6 @@ Hash fonksiyonları (örn. SHA-256), bir veri kümesinden sabit uzunlukta bir ö
 ---
 
 ### 2.2 Message Authentication Code (MAC)
-
 MAC, hash + gizli anahtar kombinasyonudur. 
 
 Bu sayede:
@@ -49,10 +48,16 @@ Ancak hash tek başına kimlik doğrulama sağlamaz; sadece değişiklik tespiti
 ---
 
 ### 2.3 Dijital İmza (Digital Signature)
-
 Dijital imza, hem bütünlük hem de inkâr edilemezlik (non-repudiation) sağlar.
 
 Örnek kullanım alanları:
 - Yazılım paket imzaları
 - Güncelleme mekanizmaları
 - TLS sertifikaları
+
+---
+
+### 2.4 Checksum vs Kriptografik Hash
+Checksum algoritmaları (örn. CRC32):
+- Hata tespiti için tasarlanmıştır
+- Güvenlik amaçlı değildir

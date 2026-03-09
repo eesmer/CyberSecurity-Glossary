@@ -45,3 +45,14 @@ sorularına cevap verilebilir.
 
 Bir dosyanın hash değeri değişmişse, içeriği değişmiştir.
 Ancak hash tek başına kimlik doğrulama sağlamaz; sadece değişiklik tespiti sağlar.
+
+---
+
+### 2.3 Dijital İmza (Digital Signature)
+
+Dijital imza, hem bütünlük hem de inkâr edilemezlik (non-repudiation) sağlar.
+
+Örnek kullanım alanları:
+- Yazılım paket imzaları
+- Güncelleme mekanizmaları
+- TLS sertifikaları

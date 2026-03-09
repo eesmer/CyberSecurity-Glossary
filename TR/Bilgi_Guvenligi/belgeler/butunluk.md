@@ -70,3 +70,9 @@ Bu ayrım özellikle güvenlik tasarımında kritiktir.
 
 ## 3. Bütünlüğü Tehdit Eden Faktörler
 Bütünlük yalnızca saldırgan kaynaklı değil, operasyonel hatalar nedeniyle de bozulabilir.
+
+### 3.1 Kasıtlı Müdahale
+- Rootkit yerleştirme
+- Sistem dosyası değiştirme
+- Log manipülasyonu
+- Web uygulaması defacement

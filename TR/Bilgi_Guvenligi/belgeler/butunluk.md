@@ -124,3 +124,13 @@ FIM sistemleri genellikle:
 - Sahiplik değişikliği kontrolü
 
 gibi mekanizmalar kullanır.
+
+---
+
+## 6. Bütünlük ve Değişiklik Yönetimi
+Bütünlük denetimi, değişiklik yönetimi ile birlikte çalışmalıdır.
+
+Aksi takdirde:
+- Planlı güncellemeler "alarm" üretir
+- Gürültü artar
+- Güvenlik ekipleri alarmlara karşı duyarsızlaşır

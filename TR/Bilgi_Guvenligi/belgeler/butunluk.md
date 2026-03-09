@@ -171,3 +171,17 @@ Bu lab çalışması:
 
 gibi pratik uygulamaları içerir.
 
+---
+
+## 8. Modern Yaklaşımlar
+Günümüzde bütünlük yalnızca dosya seviyesinde değil:
+
+- Container image signing
+- Supply chain security
+- SBOM doğrulama
+- Infrastructure as Code drift detection
+- GitOps bütünlüğü
+
+gibi alanlara da genişlemiştir.
+
+Dolayısıyla bütünlük kontrolü yalnızca bir dosya kontrolü değil; modern sistem mimarilerinin temel güvenlik bileşenidir.

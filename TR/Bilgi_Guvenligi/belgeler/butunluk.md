@@ -107,7 +107,7 @@ Bütünlüğü sağlamak için kullanılan kontroller iki ana gruba ayrılabilir
 
 ---
 
-## 5. File Integrity Monitoring (FIM)
+## 4. File Integrity Monitoring (FIM)
 File Integrity Monitoring (FIM), sistem üzerindeki dosya ve dizinlerin önceden belirlenmiş bir referans durum (baseline) ile karşılaştırılarak 
 değişikliklerin tespit edilmesi yöntemidir.
 
@@ -127,10 +127,19 @@ gibi mekanizmalar kullanır.
 
 ---
 
-## 6. Bütünlük ve Değişiklik Yönetimi
+## 5. Bütünlük ve Değişiklik Yönetimi
 Bütünlük denetimi, değişiklik yönetimi ile birlikte çalışmalıdır.
 
 Aksi takdirde:
 - Planlı güncellemeler "alarm" üretir
 - Gürültü artar
 - Güvenlik ekipleri alarmlara karşı duyarsızlaşır
+
+Sağlıklı bir model:
+1. Değişiklik talebi (change ticket)
+2. Planlı uygulama
+3. FIM kontrolü
+4. Rapor analizi
+5. Gerekirse baseline güncelleme
+
+şeklinde ilerler.

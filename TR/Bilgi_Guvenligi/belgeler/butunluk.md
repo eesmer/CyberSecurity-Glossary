@@ -116,3 +116,11 @@ FIM’in temel prensipleri:
 2. Periyodik karşılaştırma
 3. Raporlama
 4. Değişiklik yönetimi (change management)
+
+FIM sistemleri genellikle:
+- Hash karşılaştırması
+- Dosya metadata kontrolü
+- İzin değişikliği kontrolü
+- Sahiplik değişikliği kontrolü
+
+gibi mekanizmalar kullanır.

@@ -21,3 +21,7 @@ Bu belge, bütünlüğü kavramsal seviyeden teknik seviyeye taşıyarak detayla
 
 ## 2. Teknik Olarak Bütünlük Nedir?
 Teknik anlamda bütünlük, bir veri nesnesinin (dosya, veri tabanı kaydı, ağ paketi, konfigürasyon dosyası vb.) oluşturulduğu andaki durumunun sonradan değişip değişmediğinin doğrulanabilmesidir.
+
+Bu doğrulama genellikle kriptografik yöntemlerle yapılır:
+### 2.1 Hash Fonksiyonları
+Hash fonksiyonları (örn. SHA-256), bir veri kümesinden sabit uzunlukta bir özet (digest) üretir.

@@ -104,3 +104,15 @@ Bütünlüğü sağlamak için kullanılan kontroller iki ana gruba ayrılabilir
 - Dosya bütünlük izleme (File Integrity Monitoring - FIM)
 - Paket imza doğrulama
 - Konfigürasyon drift tespiti
+
+---
+
+## 5. File Integrity Monitoring (FIM)
+File Integrity Monitoring (FIM), sistem üzerindeki dosya ve dizinlerin önceden belirlenmiş bir referans durum (baseline) ile karşılaştırılarak 
+değişikliklerin tespit edilmesi yöntemidir.
+
+FIM’in temel prensipleri:
+1. Baseline oluşturma
+2. Periyodik karşılaştırma
+3. Raporlama
+4. Değişiklik yönetimi (change management)

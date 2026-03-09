@@ -31,5 +31,17 @@ Hash fonksiyonları (örn. SHA-256), bir veri kümesinden sabit uzunlukta bir ö
 - Tek yönlü
 - Çarpışmaya dayanıklı (collision resistant)
 
+---
+
+### 2.2 Message Authentication Code (MAC)
+
+MAC, hash + gizli anahtar kombinasyonudur. 
+
+Bu sayede:
+- Veri değiştirilmiş mi?
+- Veri gerçekten beklenen kaynaktan mı?
+
+sorularına cevap verilebilir.
+
 Bir dosyanın hash değeri değişmişse, içeriği değişmiştir.
 Ancak hash tek başına kimlik doğrulama sağlamaz; sadece değişiklik tespiti sağlar.

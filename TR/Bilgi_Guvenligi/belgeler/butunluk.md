@@ -86,3 +86,14 @@ Bütünlük yalnızca saldırgan kaynaklı değil, operasyonel hatalar nedeniyle
 - Ransomware
 - Backdoor
 - Yetkisiz konfigürasyon değişiklikleri
+
+---
+
+## 4. Bütünlük Kontrolleri
+Bütünlüğü sağlamak için kullanılan kontroller iki ana gruba ayrılabilir:
+
+### 4.1 Önleyici Kontroller
+- Erişim kontrol mekanizmaları
+- Dosya izinleri
+- Immutable flag (chattr +i)
+- Versiyon kontrol sistemleri

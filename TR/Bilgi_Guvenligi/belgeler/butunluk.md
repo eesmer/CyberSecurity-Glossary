@@ -20,11 +20,11 @@ Bu belge, bütünlüğü kavramsal seviyeden teknik seviyeye taşıyarak detayla
 
 ---
 
-## 2. Teknik Olarak Bütünlük Nedir?
+## 1. Teknik Olarak Bütünlük Nedir?
 Teknik anlamda bütünlük, bir veri nesnesinin (dosya, veri tabanı kaydı, ağ paketi, konfigürasyon dosyası vb.) oluşturulduğu andaki durumunun sonradan değişip değişmediğinin doğrulanabilmesidir.
 
 Bu doğrulama genellikle kriptografik yöntemlerle yapılır:
-### 2.1 Hash Fonksiyonları
+### 1.1 Hash Fonksiyonları
 Hash fonksiyonları (örn. SHA-256), bir veri kümesinden sabit uzunlukta bir özet (digest) üretir.
 
 Özellikleri:
@@ -34,7 +34,7 @@ Hash fonksiyonları (örn. SHA-256), bir veri kümesinden sabit uzunlukta bir ö
 
 ---
 
-### 2.2 Message Authentication Code (MAC)
+### 1.2 Message Authentication Code (MAC)
 MAC, hash + gizli anahtar kombinasyonudur. 
 
 Bu sayede:
@@ -48,7 +48,7 @@ Ancak hash tek başına kimlik doğrulama sağlamaz; sadece değişiklik tespiti
 
 ---
 
-### 2.3 Dijital İmza (Digital Signature)
+### 1.3 Dijital İmza (Digital Signature)
 Dijital imza, hem bütünlük hem de inkâr edilemezlik (non-repudiation) sağlar.
 
 Örnek kullanım alanları:
@@ -58,7 +58,7 @@ Dijital imza, hem bütünlük hem de inkâr edilemezlik (non-repudiation) sağla
 
 ---
 
-### 2.4 Checksum vs Kriptografik Hash
+### 1.4 Checksum vs Kriptografik Hash
 Checksum algoritmaları (örn. CRC32):
 - Hata tespiti için tasarlanmıştır
 - Güvenlik amaçlı değildir
@@ -69,37 +69,37 @@ Bu ayrım özellikle güvenlik tasarımında kritiktir.
 
 ---
 
-## 3. Bütünlüğü Tehdit Eden Faktörler
+## 2. Bütünlüğü Tehdit Eden Faktörler
 Bütünlük yalnızca saldırgan kaynaklı değil, operasyonel hatalar nedeniyle de bozulabilir.
 
-### 3.1 Kasıtlı Müdahale
+### 2.1 Kasıtlı Müdahale
 - Rootkit yerleştirme
 - Sistem dosyası değiştirme
 - Log manipülasyonu
 - Web uygulaması defacement
 
-### 3.2 Kazara Bozulma
+### 2.2 Kazara Bozulma
 - Disk hataları
 - Yanlış konfigürasyon
 - İnsan hatası
 
-### 3.3 Zararlı Yazılımlar
+### 2.3 Zararlı Yazılımlar
 - Ransomware
 - Backdoor
 - Yetkisiz konfigürasyon değişiklikleri
 
 ---
 
-## 4. Bütünlük Kontrolleri
+## 3. Bütünlük Kontrolleri
 Bütünlüğü sağlamak için kullanılan kontroller iki ana gruba ayrılabilir:
 
-### 4.1 Önleyici Kontroller
+### 3.1 Önleyici Kontroller
 - Erişim kontrol mekanizmaları
 - Dosya izinleri
 - Immutable flag (chattr +i)
 - Versiyon kontrol sistemleri
 
-### 4.2 Tespit Edici Kontroller (Detective Controls)
+### 3.2 Tespit Edici Kontroller (Detective Controls)
 - Log izleme
 - Dosya bütünlük izleme (File Integrity Monitoring - FIM)
 - Paket imza doğrulama

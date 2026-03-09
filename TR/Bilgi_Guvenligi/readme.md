@@ -8,3 +8,4 @@
 - [CIA Üçgeni](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/TR/Bilgi_Guvenligi/belgeler/cia-ucgeni.md)
 - [Erişim Kontrolü](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/TR/Bilgi_Guvenligi/belgeler/erisim-kontrolu.md)
 - [Güvenlik Politikaları](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/TR/Bilgi_Guvenligi/belgeler/guvenlik-politikalari.md)
+- [Bütünlük](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/TR/Bilgi_Guvenligi/belgeler/butunluk.md)

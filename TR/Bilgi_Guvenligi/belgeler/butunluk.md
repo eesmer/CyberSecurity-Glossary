@@ -188,7 +188,7 @@ Dolayısıyla bütünlük kontrolü yalnızca bir dosya kontrolü değil; modern
 
 ---
 
-## 10. Sonuç
+## 9. Sonuç
 Bütünlük (Integrity), bilgi güvenliğinin en kritik prensiplerinden biridir.
 
 Teknik olarak:

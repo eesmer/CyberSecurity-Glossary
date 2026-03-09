@@ -185,3 +185,15 @@ Günümüzde bütünlük yalnızca dosya seviyesinde değil:
 gibi alanlara da genişlemiştir.
 
 Dolayısıyla bütünlük kontrolü yalnızca bir dosya kontrolü değil; modern sistem mimarilerinin temel güvenlik bileşenidir.
+
+---
+
+## 10. Sonuç
+Bütünlük (Integrity), bilgi güvenliğinin en kritik prensiplerinden biridir.
+
+Teknik olarak:
+- Hash ve imza mekanizmaları
+- FIM sistemleri
+- Change management süreçleri
+
+ile sağlanır.

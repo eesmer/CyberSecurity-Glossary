@@ -76,3 +76,8 @@ Bütünlük yalnızca saldırgan kaynaklı değil, operasyonel hatalar nedeniyle
 - Sistem dosyası değiştirme
 - Log manipülasyonu
 - Web uygulaması defacement
+
+### 3.2 Kazara Bozulma
+- Disk hataları
+- Yanlış konfigürasyon
+- İnsan hatası

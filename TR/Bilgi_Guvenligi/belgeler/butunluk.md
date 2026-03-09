@@ -197,3 +197,12 @@ Teknik olarak:
 - Change management süreçleri
 
 ile sağlanır.
+
+Operasyonel olarak:
+- Sürekli izleme
+- Rapor analizi
+- Güvenli baseline yönetimi
+
+gerektirir.
+
+Bu belge, bütünlük kavramını teorik seviyeden teknik uygulama seviyesine taşımayı amaçlamıştır.

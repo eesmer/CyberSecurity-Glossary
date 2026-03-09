@@ -61,3 +61,7 @@ Dijital imza, hem bütünlük hem de inkâr edilemezlik (non-repudiation) sağla
 Checksum algoritmaları (örn. CRC32):
 - Hata tespiti için tasarlanmıştır
 - Güvenlik amaçlı değildir
+
+Kriptografik hash:
+- Kasıtlı manipülasyonlara karşı dayanıklıdır
+Bu ayrım özellikle güvenlik tasarımında kritiktir.

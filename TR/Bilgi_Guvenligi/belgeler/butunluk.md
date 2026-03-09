@@ -65,3 +65,8 @@ Checksum algoritmaları (örn. CRC32):
 Kriptografik hash:
 - Kasıtlı manipülasyonlara karşı dayanıklıdır
 Bu ayrım özellikle güvenlik tasarımında kritiktir.
+
+---
+
+## 3. Bütünlüğü Tehdit Eden Faktörler
+Bütünlük yalnızca saldırgan kaynaklı değil, operasyonel hatalar nedeniyle de bozulabilir.

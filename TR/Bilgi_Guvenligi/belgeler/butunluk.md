@@ -97,3 +97,9 @@ Bütünlüğü sağlamak için kullanılan kontroller iki ana gruba ayrılabilir
 - Dosya izinleri
 - Immutable flag (chattr +i)
 - Versiyon kontrol sistemleri
+
+### 4.2 Tespit Edici Kontroller (Detective Controls)
+- Log izleme
+- Dosya bütünlük izleme (File Integrity Monitoring - FIM)
+- Paket imza doğrulama
+- Konfigürasyon drift tespiti

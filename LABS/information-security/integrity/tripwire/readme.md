@@ -42,7 +42,7 @@ Example environment:
 
 The lab can be reproduced on any standard Debian installation.
 
-# Lab Structure
+### Lab Structure
 This directory contains:
 
 scripts/

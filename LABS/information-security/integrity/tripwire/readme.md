@@ -13,3 +13,11 @@ The purpose of this lab is to observe how **File Integrity Monitoring (FIM)** wo
 ---
 
 ### What is File Integrity Monitoring (FIM)?
+File Integrity Monitoring (FIM) is a technique used to detect changes in files and directories by comparing their current state with a previously recorded baseline.
+
+A typical FIM workflow consists of:
+1. Creating a baseline of the system
+2. Monitoring files and directories
+3. Detecting changes
+4. Generating reports
+5. Updating the baseline when legitimate changes occur

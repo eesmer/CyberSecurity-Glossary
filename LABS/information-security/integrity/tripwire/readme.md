@@ -27,3 +27,5 @@ FIM is commonly used to detect:
 - malware or rootkits
 - configuration drift
 - suspicious changes in critical binaries
+
+Tripwire is one of the classic tools used to implement this approach.

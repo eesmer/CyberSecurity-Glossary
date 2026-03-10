@@ -21,3 +21,9 @@ A typical FIM workflow consists of:
 3. Detecting changes
 4. Generating reports
 5. Updating the baseline when legitimate changes occur
+
+FIM is commonly used to detect:
+- unauthorized system modifications
+- malware or rootkits
+- configuration drift
+- suspicious changes in critical binaries

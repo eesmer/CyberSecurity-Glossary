@@ -32,5 +32,12 @@ Tripwire is one of the classic tools used to implement this approach.
 
 ---
 
-# Lab Environment
+### Lab Environment
 This lab was performed on a minimal Debian system.
+
+Example environment:
+- OS: Debian GNU/Linux
+- Tool: Tripwire (from Debian repo)
+- Privileges: root
+
+The lab can be reproduced on any standard Debian installation.

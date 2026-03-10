@@ -29,3 +29,8 @@ FIM is commonly used to detect:
 - suspicious changes in critical binaries
 
 Tripwire is one of the classic tools used to implement this approach.
+
+---
+
+# Lab Environment
+This lab was performed on a minimal Debian system.

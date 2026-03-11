@@ -28,3 +28,10 @@ The lab can be reproduced on any standard Debian installation.
 ### Setup and Use
 
 The test environment is set up using the [tripwire-installer](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/LABS/information-security/integrity/tripwire/tripwire-installer.sh) script.
+
+tripwire-installer;
+- Performs installation in the test environment.
+- Creates a baseline using tripwire --init. This is the first post-installation process that takes a snapshot of the system.
+- Performs integrity checks using tripwire --check and saves the report output to the “/var/lib/tripwire/report/” directory.
+
+The report can be read using the command: twprint --print-report --twrfile /var/lib/tripwire/report/$REPORT_NAME.twr.

@@ -41,16 +41,3 @@ Example environment:
 - Privileges: root
 
 The lab can be reproduced on any standard Debian installation.
-
-### Lab Structure
-This directory contains:
-
-scripts/
-- install.sh
-- baseline.sh
-- check.sh
-- report.sh
-
-systemd/
-- tripwire-check.service
-- tripwire-check.timer

@@ -26,18 +26,19 @@ The lab can be reproduced on any standard Debian installation.
 ---
 
 ## Setup and Use
-### tripwire installer
+### Tripwire Installer
 
 The test environment is set up using the [tripwire-installer](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/LABS/information-security/integrity/tripwire/tripwire-installer.sh) script.
 
 tripwire-installer;
 - Performs installation in the test environment.
-- Creates a baseline using *tripwire --init*. This is the first post-installation process that takes a snapshot of the system.
-- Performs integrity checks using *tripwire --check* and saves the report output to the “/var/lib/tripwire/report/” directory.
+- Creates a baseline using `tripwire --init` This is the first post-installation process that takes a snapshot of the system.
+- Performs integrity checks using `tripwire --check` and saves the report output to the **“/var/lib/tripwire/report/”** directory.
 
-The report can be read using the command: twprint --print-report --twrfile /var/lib/tripwire/report/$REPORT_NAME.twr.
+**The report can be read using the command:** `twprint --print-report --twrfile /var/lib/tripwire/report/$REPORT_NAME.twr`
 
-#### In the report; <br>
+### Tripwire Report
+**Important sections in the report** <br>
 Under the Rule Summary heading;
 **The values for System binaries** and **Critical configuration files** are important.
 - **Total objects scanned:** Shows how many files were checked.
@@ -52,14 +53,21 @@ Change -> May be due to an upgrade process. <br>
 Change -> May have been made by an admin process. <br>
 Change -> May be due to malware or a rootkit. <br>
 
-### tripwire configuration
-##### /etc/tripwire
+### twadmin
+### twprint
 
-- ##### $HOSTNAME-local.key and site.key
-Keys used in policy/config and database operations
-- ##### tw.cfg ve twcfg.txt
-Plain text and active/signed configuration files
-- ##### tw.pol
-Policy file. This file is used for policy definition.
-- ##### twpol.txt
-Encoded active policy used by Tripwire
+### Tripwire Configuration
+##### /etc/tripwire
+- **$HOSTNAME-local.key and site.key** Keys used in policy/config and database operations
+- **tw.cfg ve twcfg.txt** Plain text and active/signed configuration files
+- **tw.pol** Policy file. This file is used for policy definition.
+- **twpol.txt** Encoded active policy used by Tripwire
+
+### Other Useful Commands
+- Deletes reports older than 30 days <br>
+  `find /var/lib/tripwire/report -type f -name "*.twr" -mtime +30 -delete`
+- Tripwire reports can be filtered to focus only on modified files <br>
+  `twprint --print-report --twrfile /var/lib/tripwire/report/$REPORT_NAME.twr | grep -E "Modified"`
+- Prints the most recent report to the file <br>
+`LATEST_REPORT="$(ls -1t /var/lib/tripwire/report/*.twr | head -n1)"` <br>
+`twprint --print-report --twrfile "$LATEST_REPORT" > tripwire-report.txt`

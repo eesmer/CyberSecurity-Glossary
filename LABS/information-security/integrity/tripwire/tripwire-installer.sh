@@ -11,9 +11,9 @@
 
 set -euo pipefail
 
+[[ "$EUID" -eq 0 ]] || { echo "Please run this script as root."; exit 1; }
 LAB_TW_SITE_PASSPHRASE="${LAB_TW_SITE_PASSPHRASE:-tripwire-site-lab-pass}"
 LAB_TW_LOCAL_PASSPHRASE="${LAB_TW_LOCAL_PASSPHRASE:-tripwire-local-lab-pass}"
-
 export DEBIAN_FRONTEND=noninteractive
 
 echo "Updating package index"
@@ -34,6 +34,7 @@ apt-get install -y tripwire
 echo "Initializing Tripwire database..."
 tripwire --init --local-passphrase "${LAB_TW_LOCAL_PASSPHRASE}"
 echo "Running first integrity check..."
+# The first check may report violations depending on system state. Do not stop the lab execution only because Tripwire reports changes.
 tripwire --check --local-passphrase "${LAB_TW_LOCAL_PASSPHRASE}" || true
 
 LATEST_REPORT="$(ls -1t /var/lib/tripwire/report/*.twr 2>/dev/null | head -n1 || true)"

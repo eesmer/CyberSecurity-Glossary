@@ -41,3 +41,12 @@ Under the Rule Summary heading;
 **The values for System binaries** and **Critical configuration files** are important.
 - **Total objects scanned:** Shows how many files were checked.
 - **Total violations found:** Shows how many changes were found.
+- **Added:** “/etc/newfile.conf”
+Indicates a new file added during the check that was not present when the baseline was created.
+- **Removed:** “/usr/bin/oldbinary”
+Indicates a file that was present when the baseline was created but is not present during the check (deleted/removed). (This result may be critical and should be investigated.)
+- **Modified:** “/etc/ssh/sshd_config”
+Indicates files whose hash value has changed. <br>
+Change -> May be due to an upgrade process. <br>
+Change -> May have been made by an admin process. <br>
+Change -> May be due to malware or a rootkit. <br>

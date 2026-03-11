@@ -13,7 +13,7 @@ The purpose of this lab is to observe how **File Integrity Monitoring (FIM)** wo
 
 ---
 
-### Lab Environment
+## Lab Environment
 This lab was performed on a minimal Debian system.
 
 Example environment:
@@ -25,7 +25,8 @@ The lab can be reproduced on any standard Debian installation.
 
 ---
 
-### Setup and Use
+## Setup and Use
+### tripwire installer
 
 The test environment is set up using the [tripwire-installer](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/LABS/information-security/integrity/tripwire/tripwire-installer.sh) script.
 
@@ -36,7 +37,7 @@ tripwire-installer;
 
 The report can be read using the command: twprint --print-report --twrfile /var/lib/tripwire/report/$REPORT_NAME.twr.
 
-In the report; <br>
+#### In the report; <br>
 Under the Rule Summary heading;
 **The values for System binaries** and **Critical configuration files** are important.
 - **Total objects scanned:** Shows how many files were checked.
@@ -50,3 +51,15 @@ Indicates files whose hash value has changed. <br>
 Change -> May be due to an upgrade process. <br>
 Change -> May have been made by an admin process. <br>
 Change -> May be due to malware or a rootkit. <br>
+
+### tripwire configuration
+##### /etc/tripwire
+
+- ##### $HOSTNAME-local.key and site.key
+Keys used in policy/config and database operations
+- ##### tw.cfg ve twcfg.txt
+Plain text and active/signed configuration files
+- ##### tw.pol
+Policy file. This file is used for policy definition.
+- ##### twpol.txt
+Encoded active policy used by Tripwire

@@ -19,3 +19,12 @@ echo "tripwire tripwire/use-localkey boolean true" | debconf-set-selections
 echo "tripwire tripwire/rebuild-config boolean true" | debconf-set-selections
 echo "tripwire tripwire/rebuild-policy boolean true" | debconf-set-selections
 
+echo "Installing Tripwire..."
+apt-get install -y tripwire
+echo "Initializing Tripwire database..."
+tripwire --init --local-passphrase "${LAB_TW_LOCAL_PASSPHRASE}"
+echo "Running first integrity check..."
+tripwire --check --local-passphrase "${LAB_TW_LOCAL_PASSPHRASE}" || true
+
+LATEST_REPORT="$(ls -1t /var/lib/tripwire/report/*.twr 2>/dev/null | head -n1 || true)"
+

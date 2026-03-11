@@ -27,4 +27,4 @@ The lab can be reproduced on any standard Debian installation.
 
 ### Setup and Use
 
-The test environment is set up using the [tripwire-installer] script.
+The test environment is set up using the [tripwire-installer](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/LABS/information-security/integrity/tripwire/tripwire-installer.sh) script.

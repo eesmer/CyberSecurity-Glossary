@@ -31,7 +31,13 @@ The test environment is set up using the [tripwire-installer](https://github.com
 
 tripwire-installer;
 - Performs installation in the test environment.
-- Creates a baseline using tripwire --init. This is the first post-installation process that takes a snapshot of the system.
-- Performs integrity checks using tripwire --check and saves the report output to the “/var/lib/tripwire/report/” directory.
+- Creates a baseline using *tripwire --init*. This is the first post-installation process that takes a snapshot of the system.
+- Performs integrity checks using *tripwire --check* and saves the report output to the “/var/lib/tripwire/report/” directory.
 
 The report can be read using the command: twprint --print-report --twrfile /var/lib/tripwire/report/$REPORT_NAME.twr.
+
+In the report; <br>
+Under the Rule Summary heading;
+**The values for System binaries** and **Critical configuration files** are important.
+- **Total objects scanned:** Shows how many files were checked.
+- **Total violations found:** Shows how many changes were found.

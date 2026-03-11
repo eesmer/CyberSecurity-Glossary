@@ -1,4 +1,14 @@
 #!/usr/bin/env bash
+
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# This script installs the tripwire package, creates a baseline, and performs an initial check on the system.
+# Debian compatible.
+# Should be run in a test environment.
+# This lab predefines Tripwire site and local passphrases in order to make the installation non-interactive and reproducible on Debian systems.
+# This is done only for laboratory purposes.
+# In production environments, Tripwire keys and passphrases must be protected carefully and should never be embedded in scripts.
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 set -euo pipefail
 
 LAB_TW_SITE_PASSPHRASE="${LAB_TW_SITE_PASSPHRASE:-tripwire-site-lab-pass}"
@@ -28,7 +38,7 @@ tripwire --check --local-passphrase "${LAB_TW_LOCAL_PASSPHRASE}" || true
 
 LATEST_REPORT="$(ls -1t /var/lib/tripwire/report/*.twr 2>/dev/null | head -n1 || true)"
 
-echo ""
+echo
 echo "Tripwire setup completed."
 if [[ -n "$LATEST_REPORT" ]]; then
     echo "Latest report: $LATEST_REPORT"

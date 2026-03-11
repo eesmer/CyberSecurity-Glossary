@@ -1,13 +1,10 @@
 #!/usr/bin/env bash
 
-#------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# This script installs the tripwire package, creates a baseline, and performs an initial check on the system.
-# Debian compatible.
-# Should be run in a test environment.
-# This lab predefines Tripwire site and local passphrases in order to make the installation non-interactive and reproducible on Debian systems.
+# This script installs Tripwire, initializes its database, and performs an initial integrity check on a Debian lab system.
+# Tested for Debian 12 and Debian 13 based lab environments. This script should be used in a lab or test environment.
+# The script predefines Tripwire site and local passphrases in order to make the installation non-interactive and reproducible.
 # This is done only for laboratory purposes.
 # In production environments, Tripwire keys and passphrases must be protected carefully and should never be embedded in scripts.
-#------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 set -euo pipefail
 

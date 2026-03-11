@@ -28,3 +28,13 @@ tripwire --check --local-passphrase "${LAB_TW_LOCAL_PASSPHRASE}" || true
 
 LATEST_REPORT="$(ls -1t /var/lib/tripwire/report/*.twr 2>/dev/null | head -n1 || true)"
 
+echo ""
+echo "Tripwire setup completed."
+if [[ -n "$LATEST_REPORT" ]]; then
+    echo "Latest report: $LATEST_REPORT"
+    echo "Print report with:"
+    echo "    twprint --print-report --twrfile \"$LATEST_REPORT\" | less"
+else
+    echo "[!] No report file found yet under /var/lib/tripwire/report/"
+fi
+

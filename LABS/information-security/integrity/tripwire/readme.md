@@ -91,6 +91,9 @@ Change -> May be due to malware or a rootkit. <br>
     - detailed file integrity information
 
 ### Tripwire Policy Configuration
+Tripwire's behavior is determined by the policy file. <br>
+This file defines which files and directories on the system will be monitored and which attributes will be compared. <br>
+
 ##### Directory: /etc/tripwire
 - **$HOSTNAME-local.key and site.key** Keys used in policy/config and database operations
 - **tw.cfg ve twcfg.txt** Plain text and active/signed configuration files

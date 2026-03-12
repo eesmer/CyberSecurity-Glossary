@@ -155,9 +155,12 @@ Objectives;
   /usr/sbin   -> $(ReadOnly);
 }
 ```
-The above rule system monitors binary files
+The above rule system monitors binary files <br>
 
-
+Changes in these directories usually mean;
+- package update
+- malicious software
+- malware or rootkit
 
 ---
 

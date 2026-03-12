@@ -68,7 +68,13 @@ Change -> May be due to malware or a rootkit. <br>
     - generates the active policy file used by Tripwire
   
 - **twprint** <br>
-  `twprint` 
+  `twprint` is used to display Tripwire databases and reports in a readable format. <br>
+  Tripwire reports are stored in a binary .twr format. <br>
+  They must be converted to a human-readable format before analysis. <br>
+  This is the main purpose of twprint. <br>
+  **Printing Report** <br>
+  `twprint --print-report --twrfile /var/lib/tripwire/report/$REPORT_NAME.twr`
+  
 
 ### Tripwire Configuration
 ##### /etc/tripwire

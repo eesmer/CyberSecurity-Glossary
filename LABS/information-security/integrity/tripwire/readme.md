@@ -100,6 +100,7 @@ This file is a plaintext configuration file. <br>
 Tripwire does not use this file directly. It is first signed and converted into an active policy file. <br>
 **Active policy file:** `/etc/tripwire/tw.pol` <br>
 
+#### Policy File Structure
 Tripwire policy file typically consists of the following sections;
 - Variables
 - Rule definitions
@@ -213,6 +214,14 @@ After making changes to twpol.txt, the policy must be re-signed. <br>
 ```
 tripwire --update-policy /etc/tripwire/twpol.txt
 ```
+
+#### Rebuilding the Database
+When the policy is changed, the Tripwire database must be rebuilt. <br>
+```
+tripwire --init
+```
+
+This process creates a new baseline according to the new policy.
 
 ---
 

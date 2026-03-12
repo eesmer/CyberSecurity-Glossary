@@ -37,6 +37,13 @@ tripwire-installer;
 
 **The report can be read using the command:** `twprint --print-report --twrfile /var/lib/tripwire/report/$REPORT_NAME.twr`
 
+#### Typical Workflow
+  In a typical Tripwire workflow these tools are used as follows;
+  - Configure policy using twadmin
+  - Initialize the database using tripwire --init
+  - Perform integrity checks using tripwire --check
+  - Analyze reports using twprint
+
 ### Tripwire Report
 **Important sections in the report** <br>
 Under the Rule Summary heading;

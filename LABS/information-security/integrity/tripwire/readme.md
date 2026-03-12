@@ -134,6 +134,31 @@ Tripwire provides some ready-made masks;
 | `Growing`   | log files                        |
 | `IgnoreAll` | Completely ignore                |
 
+#### Example Policy
+The following example policy provides a simple, optimized structure
+
+Objectives;
+- Monitor critical system files
+- Exclude directories that generate noise
+- Make reports readable
+
+**Critical System Binaries** <br>
+```
+(
+  rulename = "Critical System Binaries",
+  severity = 100
+)
+{
+  /bin        -> $(ReadOnly);
+  /sbin       -> $(ReadOnly);
+  /usr/bin    -> $(ReadOnly);
+  /usr/sbin   -> $(ReadOnly);
+}
+```
+The above rule system monitors binary files
+
+
+
 ---
 
 ### Other Useful Commands

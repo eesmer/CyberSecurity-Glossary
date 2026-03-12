@@ -125,6 +125,15 @@ Tripwire can check not only the file's contents but also many of its properties
 | C        | SHA checksum      |
 | M        | MD5 checksum      |
 
+Tripwire provides some ready-made masks;
+
+| Mask        | Desc.                            |
+| ----------- | -------------------------------- |
+| `ReadOnly`  | Files that should not be changed |
+| `Dynamic`   | Files that change frequently     |
+| `Growing`   | log files                        |
+| `IgnoreAll` | Completely ignore                |
+
 ---
 
 ### Other Useful Commands

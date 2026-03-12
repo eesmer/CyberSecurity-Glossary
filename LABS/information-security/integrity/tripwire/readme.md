@@ -177,6 +177,9 @@ Changes in these directories usually mean;
 }
 ```
 
+The `/etc` directory is the center of system configuration. <br>
+However, some files are excluded because they change dynamically.
+
 ---
 
 ### Other Useful Commands

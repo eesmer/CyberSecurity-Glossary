@@ -53,8 +53,14 @@ Change -> May be due to an upgrade process. <br>
 Change -> May have been made by an admin process. <br>
 Change -> May be due to malware or a rootkit. <br>
 
-### twadmin
-### twprint
+### Tripwire Tools
+- twadmin <br>
+  `twadmin` is the administrative utility used to manage Tripwire configuration, policy files and cryptographic keys.
+  Tripwire does not use the plain text policy file (twpol.txt) directly. Instead, the policy must be signed and converted into an active policy file. <br>
+  This process is performed with twadmin.
+  
+- twprint <br>
+  `twprint` 
 
 ### Tripwire Configuration
 ##### /etc/tripwire

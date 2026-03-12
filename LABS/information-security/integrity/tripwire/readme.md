@@ -90,15 +90,14 @@ Change -> May be due to malware or a rootkit. <br>
     - removed objects
     - detailed file integrity information
 
-  
-  
-
-### Tripwire Configuration
-##### /etc/tripwire
+### Tripwire Policy Configuration
+##### Directory: /etc/tripwire
 - **$HOSTNAME-local.key and site.key** Keys used in policy/config and database operations
 - **tw.cfg ve twcfg.txt** Plain text and active/signed configuration files
 - **tw.pol** Policy file. This file is used for policy definition.
 - **twpol.txt** Encoded active policy used by Tripwire
+
+---
 
 ### Other Useful Commands
 - Deletes reports older than 30 days <br>

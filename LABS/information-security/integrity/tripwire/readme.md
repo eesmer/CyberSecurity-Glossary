@@ -39,10 +39,10 @@ tripwire-installer;
 
 #### Typical Workflow
   In a typical Tripwire workflow these tools are used as follows;
-  - Configure policy using twadmin
-  - Initialize the database using tripwire --init
-  - Perform integrity checks using tripwire --check
-  - Analyze reports using twprint
+  - Configure policy using `twadmin`
+  - Initialize the database using `tripwire --init`
+  - Perform integrity checks using `tripwire --check`
+  - Analyze reports using `twprint`
 
 ### Tripwire Report
 **Important sections in the report** <br>

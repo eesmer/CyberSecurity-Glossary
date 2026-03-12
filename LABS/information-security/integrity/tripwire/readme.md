@@ -28,7 +28,7 @@ The lab can be reproduced on any standard Debian installation.
 ## Setup and Use
 ### Tripwire Installer
 
-The test environment is set up using the [tripwire-installer](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/LABS/information-security/integrity/tripwire/tripwire-installer.sh) script.
+The test environment is set up using the [tripwire-installer.sh](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/LABS/information-security/integrity/tripwire/tripwire-installer.sh) script.
 
 tripwire-installer;
 - Performs installation in the test environment.
@@ -211,18 +211,25 @@ is used in this form <br>
 
 #### Applying Policy Changes
 After making changes to twpol.txt, the policy must be re-signed. <br>
-```
+```bash
 tripwire --update-policy /etc/tripwire/twpol.txt
 ```
-
 #### Rebuilding the Database
 When the policy is changed, the Tripwire database must be rebuilt. <br>
-```
+```bash
 tripwire --init
 ```
-
 This process creates a new baseline according to the new policy.
 
+### Applying the Example Policy
+The following helper script writes the example Tripwire policy used in this lab,
+updates the active signed policy, and rebuilds the Tripwire database.
+
+[tripwire-apply-policy.sh](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/LABS/information-security/integrity/tripwire/tripwire-apply-policy.sh)
+
+```bash
+bash scripts/apply-policy.sh
+```
 ---
 
 #### Other Useful Commands

@@ -98,12 +98,15 @@ This file defines which files and directories on the system will be monitored an
 **Tripwire policy file:** `/etc/tripwire/twpol.txt` <br>
 This file is a plaintext configuration file. <br>
 Tripwire does not use this file directly. It is first signed and converted into an active policy file. <br>
-**Active policy file:** `/etc/tripwire/tw.pol`
+**Active policy file:** `/etc/tripwire/tw.pol` <br>
 
-- **$HOSTNAME-local.key and site.key** Keys used in policy/config and database operations
-- **tw.cfg ve twcfg.txt** Plain text and active/signed configuration files
-- **tw.pol** Policy file. This file is used for policy definition.
-- **twpol.txt** Encoded active policy used by Tripwire
+Tripwire policy file typically consists of the following sections;
+- Variables
+- Rule definitions
+- Directories and files to monitor
+- Exclusions (stop points)
+
+This structure allows you to define which areas of the system will be monitored and which areas will be ignored.
 
 ---
 

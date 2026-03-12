@@ -180,6 +180,17 @@ Changes in these directories usually mean;
 The `/etc` directory is the center of system configuration. <br>
 However, some files are excluded because they change dynamically.
 
+**Boot Files** <br>
+```
+(
+  rulename = "Boot configuration",
+  severity = 95
+)
+{
+  /boot -> $(ReadOnly);
+}
+```
+
 ---
 
 ### Other Useful Commands

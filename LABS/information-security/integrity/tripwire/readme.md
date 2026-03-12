@@ -94,7 +94,12 @@ Change -> May be due to malware or a rootkit. <br>
 Tripwire's behavior is determined by the policy file. <br>
 This file defines which files and directories on the system will be monitored and which attributes will be compared. <br>
 
-##### Directory: /etc/tripwire
+**Tripwire Directory:** `/etc/tripwire` <br>
+**Tripwire policy file:** `/etc/tripwire/twpol.txt` <br>
+This file is a plaintext configuration file. <br>
+Tripwire does not use this file directly. It is first signed and converted into an active policy file. <br>
+**Active policy file:** `/etc/tripwire/tw.pol`
+
 - **$HOSTNAME-local.key and site.key** Keys used in policy/config and database operations
 - **tw.cfg ve twcfg.txt** Plain text and active/signed configuration files
 - **tw.pol** Policy file. This file is used for policy definition.

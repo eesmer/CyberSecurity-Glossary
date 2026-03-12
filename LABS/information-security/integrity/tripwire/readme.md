@@ -208,6 +208,12 @@ These are called stop points. <br>
 ```
 is used in this form <br>
 
+#### Applying Policy Changes
+After making changes to twpol.txt, the policy must be re-signed. <br>
+```
+tripwire --update-policy /etc/tripwire/twpol.txt
+```
+
 ---
 
 #### Other Useful Commands

@@ -62,7 +62,7 @@ Change -> May be due to malware or a rootkit. <br>
   **Creating a signed policy file** <br>
   `twadmin --create-polfile --site-keyfile /etc/tripwire/site.key /etc/tripwire/twpol.txt`
   
-    This command;
+    twadmin command;
     - reads the plain text policy file
     - signs it using the site key
     - generates the active policy file used by Tripwire
@@ -72,8 +72,18 @@ Change -> May be due to malware or a rootkit. <br>
   Tripwire reports are stored in a binary .twr format. <br>
   They must be converted to a human-readable format before analysis. <br>
   This is the main purpose of twprint. <br>
+  
   **Printing Report** <br>
   `twprint --print-report --twrfile /var/lib/tripwire/report/$REPORT_NAME.twr`
+
+    twprint command displays;
+    - rule summary
+    - modified files
+    - added objects
+    - removed objects
+    - detailed file integrity information
+
+  
   
 
 ### Tripwire Configuration

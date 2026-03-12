@@ -190,10 +190,16 @@ However, some files are excluded because they change dynamically.
   /boot -> $(ReadOnly);
 }
 ```
+Changes to boot files are a critical situation <br>
+For example;
+- kernel change
+- bootkit
+- unauthorized kernel module
+
 
 ---
 
-### Other Useful Commands
+#### Other Useful Commands
 - Deletes reports older than 30 days <br>
   `find /var/lib/tripwire/report -type f -name "*.twr" -mtime +30 -delete`
 - Tripwire reports can be filtered to focus only on modified files <br>

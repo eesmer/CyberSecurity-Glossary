@@ -162,6 +162,21 @@ Changes in these directories usually mean;
 - malicious software
 - malware or rootkit
 
+**Critical Configuration Files** <br>
+```
+(
+  rulename = "Critical configuration",
+  severity = 90
+)
+{
+  /etc -> $(ReadOnly);
+
+  !/etc/mtab;
+  !/etc/resolv.conf;
+  !/etc/adjtime;
+}
+```
+
 ---
 
 ### Other Useful Commands

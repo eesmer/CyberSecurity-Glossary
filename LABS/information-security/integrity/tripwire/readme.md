@@ -62,6 +62,11 @@ Change -> May be due to malware or a rootkit. <br>
   **Creating a signed policy file** <br>
   `twadmin --create-polfile --site-keyfile /etc/tripwire/site.key /etc/tripwire/twpol.txt`
   
+    This command;
+    - reads the plain text policy file
+    - signs it using the site key
+    - generates the active policy file used by Tripwire
+  
 - **twprint** <br>
   `twprint` 
 

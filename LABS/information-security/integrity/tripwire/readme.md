@@ -196,6 +196,16 @@ For example;
 - bootkit
 - unauthorized kernel module
 
+#### Excluding Noisy Directories
+Some directories constantly change and are not suitable for integrity monitoring. <br>
+These are called stop points. <br>
+```
+!/proc;
+!/sys;
+!/tmp;
+!/run;
+!/var/log;
+```
 
 ---
 

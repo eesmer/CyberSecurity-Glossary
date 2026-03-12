@@ -108,6 +108,23 @@ Tripwire policy file typically consists of the following sections;
 
 This structure allows you to define which areas of the system will be monitored and which areas will be ignored.
 
+#### Policy Masks
+Tripwire can check not only the file's contents but also many of its properties
+
+| Property | Desc.             |
+| -------- | ----------------- |
+| p        | file permissions  |
+| i        | inode number      |
+| n        | link count        |
+| u        | owner             |
+| g        | group             |
+| s        | file size         |
+| m        | modification time |
+| c        | change time       |
+| a        | access time       |
+| C        | SHA checksum      |
+| M        | MD5 checksum      |
+
 ---
 
 ### Other Useful Commands

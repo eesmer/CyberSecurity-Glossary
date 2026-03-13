@@ -290,3 +290,12 @@ twprint --print-report --twrfile "$LATEST" \
 
 This list identifies which objects changed compared to the baseline.
 
+#### Step 2 — Determine the File Category
+The first analytical step is to determine what type of file was modified.
+
+| Category            | Example                | Risk           |
+| ------------------- | ---------------------- | -------------- |
+| System binaries     | `/usr/bin/sudo`        | High           |
+| Configuration files | `/etc/ssh/sshd_config` | Medium         |
+| User data           | `/home/user/file`      | Low            |
+| Logs                | `/var/log/syslog`      | Usually normal |

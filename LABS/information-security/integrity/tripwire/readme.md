@@ -427,3 +427,6 @@ Debian provides detailed manual pages for Tripwire components including configur
 - https://manpages.debian.org/tripwire/twpolicy.4.en.html
 
 #### File Integrity Monitoring Concepts
+General concepts related to file integrity monitoring and host-based intrusion detection.
+NIST SP 800-53 – Security and Privacy Controls for Information Systems
+https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final

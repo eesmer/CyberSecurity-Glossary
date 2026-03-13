@@ -236,18 +236,28 @@ bash scripts/apply-policy.sh
 ---
 
 #### Other Useful Commands
-- Deletes reports older than 30 days <br>
+- **Deletes reports older than 30 days**
   ```bash
   find /var/lib/tripwire/report -type f -name "*.twr" -mtime +30 -delete
   ```
-- Tripwire reports can be filtered to focus only on modified files <br>
+  
+- **Tripwire reports can be filtered to focus only on modified files**
   ```bash
   twprint --print-report --twrfile /var/lib/tripwire/report/$REPORT_NAME.twr | grep -E "Modified"
 
   LATEST=$(ls -1t /var/lib/tripwire/report/*.twr | head -n1) && echo ".:: Modified Object and Files ::."
   twprint --print-report --twrfile "$LATEST" | grep "Modified object name:" | sed 's/Modified object name: //'
   ```
-- Prints the most recent report to the file <br>
+  **Note:** <br>
+  Seeing *Modified* in Tripwire reports does not always mean an attack.
+  There may be reasons for this:
+  - system update
+  - package installation
+  - configuration change
+  - log rotation
+  Therefore, Tripwire is classified as a *detective control*.
+  
+- **Prints the most recent report to the file**
 ```bash
 LATEST_REPORT="$(ls -1t /var/lib/tripwire/report/*.twr | head -n1)"
 `twprint --print-report --twrfile "$LATEST_REPORT" > tripwire-report.txt

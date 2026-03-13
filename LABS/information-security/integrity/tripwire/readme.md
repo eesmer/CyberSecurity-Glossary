@@ -291,7 +291,7 @@ twprint --print-report --twrfile "$LATEST" \
 
 This list identifies which objects changed compared to the baseline.
 
-#### Step 2 — Determine the File Category
+#### Step 2 - Determine the File Category
 The first analytical step is to determine what type of file was modified.
 
 | Category            | Example                | Risk           |
@@ -301,7 +301,7 @@ The first analytical step is to determine what type of file was modified.
 | User data           | `/home/user/file`      | Low            |
 | Logs                | `/var/log/syslog`      | Usually normal |
 
-#### Step 3 — Check System Package Changes
+#### Step 3 - Check System Package Changes
 Many Tripwire alerts are caused by legitimate package updates.
 Check whether the file belongs to a Debian package:
 ```bash
@@ -316,13 +316,13 @@ grep sudo /var/log/dpkg.log
 ```
 If the change matches a package upgrade, the change is probably not a problem.
 
-#### Step 4 — Verify File Integrity with Package Manager
+#### Step 4 - Verify File Integrity with Package Manager
 Debian can verify package files.
 debsums -s sudo
 
 If the file checksum differs from the package checksum, this may indicate tampering.
 
-#### Step 5 — Check File Metadata
+#### Step 5 - Check File Metadata
 Tripwire detects several attributes such as:
 - owner
 - permissions
@@ -335,14 +335,14 @@ stat /usr/bin/sudo
 ```
 Unexpected owner or permission changes may indicate compromise.
 
-#### Step 6 — Compare File Hash
+#### Step 6 - Compare File Hash
 Compute a hash manually:
 ```bash
 sha256sum /usr/bin/sudo
 ```
 Then compare with a trusted system or package repository.
 
-#### Step 7 — Investigate System Context
+#### Step 7 - Investigate System Context
 Modified file should always be evaluated together with system events.
 Check logs:
 ```bash
@@ -356,3 +356,15 @@ Check running processes:
 ```bash
 ps aux
 ```
+#### Step 8 - Identify Indicators of Compromise
+Certain modifications are particularly suspicious:
+- changes to system binaries
+- unexpected setuid binaries
+- unauthorized changes in /etc/passwd
+- modified SSH configuration
+- altered boot files
+
+These cases may indicate:
+- privilege escalation
+- rootkit installation
+- persistence mechanisms

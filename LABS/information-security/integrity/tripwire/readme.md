@@ -395,3 +395,16 @@ When used together with:
 - configuration auditing
 
 Tripwire becomes a powerful tool for incident investigation.
+
+### Conclusion
+This lab demonstrated how File Integrity Monitoring works in practice.
+
+The following concepts were covered:
+- integrity monitoring
+- Tripwire installation
+- policy configuration
+- baseline generation
+- automated checks
+- report analysis
+
+Tripwire allows administrators to detect unexpected modifications on critical system files and supports incident response investigations.

@@ -417,3 +417,8 @@ The following resources were used as references while preparing this lab and the
 #### Tripwire Documentation
 Tripwire official documentation and manuals provide detailed information about the architecture, policy configuration and command usage of Open Source Tripwire.
 - https://github.com/Tripwire/tripwire-open-source
+
+#### Debian Man Pages
+Debian provides detailed manual pages for Tripwire components including configuration files, policy syntax and command line utilities.
+- https://manpages.debian.org/tripwire
+- https://manpages.debian.org/tripwire/tripwire.8.en.html

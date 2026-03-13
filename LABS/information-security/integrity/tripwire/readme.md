@@ -368,3 +368,20 @@ These cases may indicate:
 - privilege escalation
 - rootkit installation
 - persistence mechanisms
+
+### Example Analysis
+Tripwire reports:
+```
+Modified object name: /etc/ssh/sshd_config
+```
+Possible explanations:
+| Scenario                         | Explanation |
+| -------------------------------- | ----------- |
+| Admin configuration change       | normal      |
+| package upgrade                  | normal      |
+| attacker enabling password login | suspicious  |
+
+Further analysis would include:
+```bash
+grep PasswordAuthentication /etc/ssh/sshd_config
+```

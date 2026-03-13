@@ -422,3 +422,8 @@ Tripwire official documentation and manuals provide detailed information about t
 Debian provides detailed manual pages for Tripwire components including configuration files, policy syntax and command line utilities.
 - https://manpages.debian.org/tripwire
 - https://manpages.debian.org/tripwire/tripwire.8.en.html
+- https://manpages.debian.org/tripwire/twadmin.8.en.html
+- https://manpages.debian.org/tripwire/twprint.8.en.html
+- https://manpages.debian.org/tripwire/twpolicy.4.en.html
+
+#### File Integrity Monitoring Concepts

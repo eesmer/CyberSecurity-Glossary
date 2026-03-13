@@ -301,7 +301,7 @@ The first analytical step is to determine what type of file was modified.
 | User data           | `/home/user/file`      | Low            |
 | Logs                | `/var/log/syslog`      | Usually normal |
 
-# Step 3 — Check System Package Changes
+#### Step 3 — Check System Package Changes
 Many Tripwire alerts are caused by legitimate package updates.
 Check whether the file belongs to a Debian package:
 ```bash
@@ -315,3 +315,9 @@ Then check when the package was last upgraded:
 grep sudo /var/log/dpkg.log
 ```
 If the change matches a package upgrade, the change is probably not a problem.
+
+#### Step 4 — Verify File Integrity with Package Manager
+Debian can verify package files.
+debsums -s sudo
+
+If the file checksum differs from the package checksum, this may indicate tampering.

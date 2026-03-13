@@ -408,3 +408,12 @@ The following concepts were covered:
 - report analysis
 
 Tripwire allows administrators to detect unexpected modifications on critical system files and supports incident response investigations.
+
+---
+
+## References
+The following resources were used as references while preparing this lab and the accompanying explanations about File Integrity Monitoring and Tripwire.
+
+#### Tripwire Documentation
+Tripwire official documentation and manuals provide detailed information about the architecture, policy configuration and command usage of Open Source Tripwire.
+- https://github.com/Tripwire/tripwire-open-source

@@ -341,3 +341,18 @@ Compute a hash manually:
 sha256sum /usr/bin/sudo
 ```
 Then compare with a trusted system or package repository.
+
+#### Step 7 — Investigate System Context
+Modified file should always be evaluated together with system events.
+Check logs:
+```bash
+journalctl -xe
+```
+Check login history:
+```bash
+last
+```
+Check running processes:
+```bash
+ps aux
+```

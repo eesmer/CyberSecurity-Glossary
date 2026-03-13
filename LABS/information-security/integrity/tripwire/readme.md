@@ -261,6 +261,7 @@ bash scripts/apply-policy.sh
 LATEST_REPORT="$(ls -1t /var/lib/tripwire/report/*.twr | head -n1)"
 `twprint --print-report --twrfile "$LATEST_REPORT" > tripwire-report.txt
 ```
+---
 
 ### Tripwire Report Analysis
 Tripwire integrity checks may report file modifications.
@@ -299,3 +300,18 @@ The first analytical step is to determine what type of file was modified.
 | Configuration files | `/etc/ssh/sshd_config` | Medium         |
 | User data           | `/home/user/file`      | Low            |
 | Logs                | `/var/log/syslog`      | Usually normal |
+
+# Step 3 — Check System Package Changes
+Many Tripwire alerts are caused by legitimate package updates.
+Check whether the file belongs to a Debian package:
+```bash
+dpkg -S /usr/bin/sudo
+```
+Example:
+sudo: /usr/bin/sudo
+
+Then check when the package was last upgraded:
+```bash
+grep sudo /var/log/dpkg.log
+```
+If the change matches a package upgrade, the change is probably not a problem.

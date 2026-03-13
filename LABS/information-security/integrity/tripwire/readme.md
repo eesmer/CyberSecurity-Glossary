@@ -237,9 +237,18 @@ bash scripts/apply-policy.sh
 
 #### Other Useful Commands
 - Deletes reports older than 30 days <br>
-  `find /var/lib/tripwire/report -type f -name "*.twr" -mtime +30 -delete`
+  ```bash
+  find /var/lib/tripwire/report -type f -name "*.twr" -mtime +30 -delete
+  ```
 - Tripwire reports can be filtered to focus only on modified files <br>
-  `twprint --print-report --twrfile /var/lib/tripwire/report/$REPORT_NAME.twr | grep -E "Modified"`
+  ```bash
+  twprint --print-report --twrfile /var/lib/tripwire/report/$REPORT_NAME.twr | grep -E "Modified"
+
+  LATEST=$(ls -1t /var/lib/tripwire/report/*.twr | head -n1) && echo ".:: Modified Object and Files ::."
+  twprint --print-report --twrfile "$LATEST" | grep "Modified object name:" | sed 's/Modified object name: //'
+  ```
 - Prints the most recent report to the file <br>
-`LATEST_REPORT="$(ls -1t /var/lib/tripwire/report/*.twr | head -n1)"` <br>
-`twprint --print-report --twrfile "$LATEST_REPORT" > tripwire-report.txt`
+```bash
+LATEST_REPORT="$(ls -1t /var/lib/tripwire/report/*.twr | head -n1)"
+`twprint --print-report --twrfile "$LATEST_REPORT" > tripwire-report.txt
+```

@@ -274,3 +274,19 @@ Changes detected by Tripwire may be caused by:
 - malicious activity
 
 For this reason, Tripwire reports must always be interpreted in context.
+
+#### Step 1 - Identify the Modified Object
+First extract the modified files:
+```bash
+LATEST=$(ls -1t /var/lib/tripwire/report/*.twr | head -n1)
+twprint --print-report --twrfile "$LATEST" \
+| grep "Modified object name:" \
+| sed 's/Modified object name: //'
+```
+**Example output:** <br>
+/etc/ssh/sshd_config <br>
+/usr/bin/sudo <br>
+/etc/passwd <br>
+
+This list identifies which objects changed compared to the baseline.
+

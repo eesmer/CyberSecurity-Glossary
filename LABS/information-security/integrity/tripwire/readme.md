@@ -334,3 +334,10 @@ ls -l /usr/bin/sudo
 stat /usr/bin/sudo
 ```
 Unexpected owner or permission changes may indicate compromise.
+
+#### Step 6 — Compare File Hash
+Compute a hash manually:
+```bash
+sha256sum /usr/bin/sudo
+```
+Then compare with a trusted system or package repository.

@@ -385,3 +385,13 @@ Further analysis would include:
 ```bash
 grep PasswordAuthentication /etc/ssh/sshd_config
 ```
+#### Security Insight
+Tripwire is a detective security control. <br>
+It does not prevent attacks, but it provides evidence of system changes.
+
+When used together with:
+- system logs
+- package verification
+- configuration auditing
+
+Tripwire becomes a powerful tool for incident investigation.

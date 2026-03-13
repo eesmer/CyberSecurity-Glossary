@@ -412,21 +412,25 @@ Tripwire allows administrators to detect unexpected modifications on critical sy
 ---
 
 ## References
-The following resources were used as references while preparing this lab and the accompanying explanations about File Integrity Monitoring and Tripwire.
 
-#### Tripwire Documentation
-Tripwire official documentation and manuals provide detailed information about the architecture, policy configuration and command usage of Open Source Tripwire.
+##### Tripwire Documentation
 - https://github.com/Tripwire/tripwire-open-source
 
-#### Debian Man Pages
-Debian provides detailed manual pages for Tripwire components including configuration files, policy syntax and command line utilities.
+##### Debian Man Pages
 - https://manpages.debian.org/tripwire
 - https://manpages.debian.org/tripwire/tripwire.8.en.html
 - https://manpages.debian.org/tripwire/twadmin.8.en.html
 - https://manpages.debian.org/tripwire/twprint.8.en.html
 - https://manpages.debian.org/tripwire/twpolicy.4.en.html
 
-#### File Integrity Monitoring Concepts
-General concepts related to file integrity monitoring and host-based intrusion detection.
+##### File Integrity Monitoring Concepts
 - NIST SP 800-53 – Security and Privacy Controls for Information Systems <br>
 https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
+- CIS Critical Security Controls – Integrity Monitoring <br>
+https://www.cisecurity.org/controls
+
+##### Debian System Administration Resources
+- Debian Administrator's Handbook <br>
+https://debian-handbook.info/
+- Debian Package Management documentation <br>
+https://www.debian.org/doc/manuals/debian-reference/

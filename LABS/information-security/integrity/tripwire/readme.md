@@ -248,8 +248,7 @@ bash scripts/apply-policy.sh
   LATEST=$(ls -1t /var/lib/tripwire/report/*.twr | head -n1) && echo ".:: Modified Object and Files ::."
   twprint --print-report --twrfile "$LATEST" | grep "Modified object name:" | sed 's/Modified object name: //'
   ```
-  **Note:** <br>
-  Seeing *Modified* in Tripwire reports does not always mean an attack.
+  **Note:** Seeing *Modified* in Tripwire reports does not always mean an attack. <br>
   There may be reasons for this:
   - system update
   - package installation

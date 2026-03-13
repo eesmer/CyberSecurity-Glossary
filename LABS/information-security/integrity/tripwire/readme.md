@@ -321,3 +321,16 @@ Debian can verify package files.
 debsums -s sudo
 
 If the file checksum differs from the package checksum, this may indicate tampering.
+
+#### Step 5 — Check File Metadata
+Tripwire detects several attributes such as:
+- owner
+- permissions
+- modification time
+- checksum
+Investigate the file manually:
+```bash
+ls -l /usr/bin/sudo
+stat /usr/bin/sudo
+```
+Unexpected owner or permission changes may indicate compromise.

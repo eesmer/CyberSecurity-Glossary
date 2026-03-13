@@ -261,3 +261,16 @@ bash scripts/apply-policy.sh
 LATEST_REPORT="$(ls -1t /var/lib/tripwire/report/*.twr | head -n1)"
 `twprint --print-report --twrfile "$LATEST_REPORT" > tripwire-report.txt
 ```
+
+### Tripwire Report Analysis
+Tripwire integrity checks may report file modifications.
+However, not every modification indicates a security incident.
+
+Changes detected by Tripwire may be caused by:
+- system updates
+- package installations
+- configuration changes
+- scheduled maintenance
+- malicious activity
+
+For this reason, Tripwire reports must always be interpreted in context.

@@ -2,3 +2,5 @@ The Labs directory is a workspace where concepts, techniques, and methodologies 
 
 ---
 
+
+[Tripwire - File Integrity Monitoring Lab.](https://github.com/eesmer/CyberSecurity-Glossary/tree/main/LABS/information-security/integrity/tripwire)

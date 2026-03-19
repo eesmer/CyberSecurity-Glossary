@@ -27,3 +27,13 @@ Properties:
 - Deterministic
 - One-way
 - Collision resistant
+
+### 1.2 Message Authentication Code (MAC)
+MAC is a combination of hash + secret key. <br>
+
+With this:
+- Has the data been modified?
+- Is the data really from the expected source?
+can be answered.
+If the hash value of a file changes, its content has changed.
+However, hash alone does not provide authentication; it only provides change detection.

@@ -120,3 +120,13 @@ A healthy model:
 **3.** FIM check <br>
 **4.** Report analysis <br>
 **5.** Baseline update if necessary <br>
+
+## 6. Example Scenario
+Example: Modification of ``/usr/sbin/sshd`` file on a Linux server. <br>
+
+Possible scenarios:
+- Package update
+- Unauthorized binary modification
+- Backdoor placement
+
+**Important:** Without integrity control, this change may not be detected.

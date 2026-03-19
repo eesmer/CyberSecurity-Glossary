@@ -89,3 +89,18 @@ Controls used to ensure integrity can be divided into two main groups:
 - File Integrity Monitoring (FIM)
 - Package signature verification
 - Configuration drift detection
+
+## 4. File Integrity Monitoring (FIM)
+File Integrity Monitoring (FIM) is a method of detecting changes by comparing files and directories on a system with a predefined reference state (baseline).
+
+Core principles of FIM: <br>
+**1.** Creating a baseline <br>
+**2.** Periodic comparison <br> 
+**3.** Reporting <br>
+**4.** Change management <br>
+
+FIM systems generally use mechanisms such as: <br>
+- Hash comparison
+- File metadata control
+- Permission change control
+- Ownership change control

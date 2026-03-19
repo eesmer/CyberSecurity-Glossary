@@ -37,3 +37,21 @@ With this:
 can be answered.
 If the hash value of a file changes, its content has changed.
 However, hash alone does not provide authentication; it only provides change detection.
+
+### 1.3 Digital Signature
+Digital signature provides both integrity and non-repudiation.
+
+Example use cases:
+- Software package signatures
+- Update mechanisms
+- TLS certificates
+
+### 1.4 Checksum vs Cryptographic Hash
+Checksum algorithms (e.g., CRC32):
+- Designed for error detection
+- Not for security purposes
+
+Cryptographic hash:
+- Resistant to intentional manipulation
+
+This distinction is critical in security design.

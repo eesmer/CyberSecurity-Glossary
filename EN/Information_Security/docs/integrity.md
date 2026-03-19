@@ -104,3 +104,19 @@ FIM systems generally use mechanisms such as: <br>
 - File metadata control
 - Permission change control
 - Ownership change control
+
+## 5. Integrity and Change Management
+Integrity monitoring must work together with change management.
+
+Otherwise: <br>
+- Planned updates generate “alerts”
+- Noise increases
+- Security teams become insensitive to alerts
+
+A healthy model:
+
+**1.** Change request (change ticket)
+**2.** Planned implementation <br>
+**3.** FIM check <br>
+**4.** Report analysis <br>
+**5.** Baseline update if necessary <br>

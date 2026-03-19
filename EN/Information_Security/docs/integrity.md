@@ -74,3 +74,18 @@ Integrity can be broken not only by attackers but also by operational errors.
 - Ransomware
 - Backdoor
 - Unauthorized configuration changes
+
+## 3. Integrity Controls
+Controls used to ensure integrity can be divided into two main groups:
+
+### 3.1 Preventive Controls
+- Access control mechanisms
+- File permissions
+- Immutable flag (chattr +i)
+- Version control systems
+
+### 3.2 Detective Controls
+- Log monitoring
+- File Integrity Monitoring (FIM)
+- Package signature verification
+- Configuration drift detection

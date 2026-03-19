@@ -55,3 +55,22 @@ Cryptographic hash:
 - Resistant to intentional manipulation
 
 This distinction is critical in security design.
+
+## 2. Factors That Threaten Integrity
+Integrity can be broken not only by attackers but also by operational errors.
+
+### 2.1 Intentional Manipulation
+- Rootkit installation
+- System file modification
+- Log manipulation
+- Web application defacement
+
+### 2.2 Accidental Corruption
+- Disk errors
+- Misconfiguration
+- Human error
+
+### 2.3 Malware
+- Ransomware
+- Backdoor
+- Unauthorized configuration changes

@@ -20,3 +20,10 @@ This document aims to explain integrity by moving from conceptual level to techn
 ## 1. What is Integrity Technically?
 In technical terms, integrity is the ability to verify whether a data object (file, database record, network packet, configuration file, etc.) has been changed after it was created.
 This verification is generally done using cryptographic methods:
+
+### 1.1 Hash Functions
+Hash functions (e.g., SHA-256) generate a fixed-length digest from a dataset.
+Properties:
+- Deterministic
+- One-way
+- Collision resistant

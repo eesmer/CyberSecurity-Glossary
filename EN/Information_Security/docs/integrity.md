@@ -152,3 +152,11 @@ Today, integrity is not limited to file level:
 - GitOps integrity
 
 Therefore, integrity control is not only a file check; it is a core security component of modern system architectures.
+
+## 9. Conclusion
+Integrity is one of the most critical principles of information security.
+
+Technically ensured by:
+- Hash and signature mechanisms
+- FIM systems
+- Change management processes

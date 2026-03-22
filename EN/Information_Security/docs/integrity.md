@@ -160,3 +160,8 @@ Technically ensured by:
 - Hash and signature mechanisms
 - FIM systems
 - Change management processes
+
+Operationally requires:
+- Continuous monitoring
+- Report analysis
+- Secure baseline management

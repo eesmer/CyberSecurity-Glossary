@@ -165,3 +165,5 @@ Operationally requires:
 - Continuous monitoring
 - Report analysis
 - Secure baseline management
+
+This document aims to move the concept of integrity from theoretical level to technical implementation level.

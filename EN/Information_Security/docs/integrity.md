@@ -150,3 +150,5 @@ Today, integrity is not limited to file level:
 - SBOM verification
 - Infrastructure as Code drift detection
 - GitOps integrity
+
+Therefore, integrity control is not only a file check; it is a core security component of modern system architectures.

@@ -130,3 +130,15 @@ Possible scenarios:
 - Backdoor placement
 
 **Important:** Without integrity control, this change may not be detected.
+
+## 7. Practical Study
+Implementation of this concept on Debian: <br>
+LABS -> Information Security -> Integrity -> Tripwire [link to be added]
+
+This lab study includes:
+- Baseline creation
+- Policy definition
+- Periodic checks
+- Report generation
+- JSON/Markdown output
+- Hardening recommendations

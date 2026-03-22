@@ -142,3 +142,11 @@ This lab study includes:
 - Report generation
 - JSON/Markdown output
 - Hardening recommendations
+
+## 8. Modern Approaches
+Today, integrity is not limited to file level:
+- Container image signing
+- Supply chain security
+- SBOM verification
+- Infrastructure as Code drift detection
+- GitOps integrity

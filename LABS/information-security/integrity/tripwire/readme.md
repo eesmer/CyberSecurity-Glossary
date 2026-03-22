@@ -13,6 +13,14 @@ The purpose of this lab is to observe how **File Integrity Monitoring (FIM)** wo
 
 ---
 
+#### Scripts
+- [tripwire-installer.sh](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/LABS/information-security/integrity/tripwire/tripwire-installer.sh)
+- [tripwire-apply-policy.sh](https://github.com/eesmer/CyberSecurity-Glossary/blob/main/LABS/information-security/integrity/tripwire/tripwire-apply-policy.sh)
+
+``bash tripwire-installer.sh``
+
+---
+
 ## Lab Environment
 This lab was performed on a minimal Debian system.
 

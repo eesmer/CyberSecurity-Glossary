@@ -19,6 +19,22 @@
 # 4. Initializes the Tripwire database
 # 5. Runs the first integrity check
 # 6. Prints the location of the latest Tripwire report if available
+#
+# Usage:
+# - Run as root
+# - Intended for lab, testing, and educational environments
+# - Suitable for reproducible Debian-based Tripwire lab installations
+#
+# Security Notice:
+# - This script embeds default lab passphrases for automation purposes
+# - This is acceptable only in controlled lab or training environments
+# - In production environments, Tripwire site/local keys and passphrases must
+#   never be embedded in scripts and must be handled securely
+#
+# Notes:
+# - The first integrity check may report violations depending on system state
+# - The script does not stop if the initial check reports changes
+# - Generated reports can be reviewed later with twprint
 # ------------------------------------------------------------------------------
 
 set -euo pipefail

@@ -10,6 +10,11 @@
 # - To create a clean and understandable Tripwire policy for integrity monitoring
 # - To focus on critical system areas (binaries, configuration, boot files)
 # - To exclude noisy and frequently changing paths to produce meaningful reports
+#
+# What this script does:
+# 1. Backs up the current Tripwire policy file
+# 2. Writes a predefined lab-oriented policy to /etc/tripwire/twpol.txt
+# 3. Reinitializes the Tripwire database using the new policy
 # ------------------------------------------------------------------------------
 
 set -euo pipefail

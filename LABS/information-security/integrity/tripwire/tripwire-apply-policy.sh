@@ -25,6 +25,15 @@
 # - Run as root
 # - Intended for lab, testing, and educational environments
 # - Requires an already installed and initialized Tripwire setup
+#
+# Security Notice:
+# - This policy is intentionally simplified and NOT suitable for production use
+# - In production environments, policies must be customized per system role
+# - Excluding too many paths may reduce detection capability
+#
+# Notes:
+# - Existing policy is backed up with timestamp before modification
+# - After execution, use 'tripwire --check' to verify integrity state
 # ------------------------------------------------------------------------------
 
 set -euo pipefail

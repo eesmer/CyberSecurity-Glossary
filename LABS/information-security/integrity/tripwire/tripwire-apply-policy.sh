@@ -34,6 +34,10 @@
 # Notes:
 # - Existing policy is backed up with timestamp before modification
 # - After execution, use 'tripwire --check' to verify integrity state
+#
+# Tested on:
+# - Debian 12 (Bookworm)
+# - Debian 13 (Trixie)
 # ------------------------------------------------------------------------------
 
 set -euo pipefail

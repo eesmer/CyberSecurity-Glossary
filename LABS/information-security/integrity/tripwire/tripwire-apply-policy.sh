@@ -1,5 +1,17 @@
 #!/usr/bin/env bash
 
+# ------------------------------------------------------------------------------
+# Tripwire Lab Policy Deployment Script
+#
+# This script replaces the default Tripwire policy (twpol.txt) with a simplified
+# and controlled policy designed for Debian-based lab environments.
+#
+# Purpose:
+# - To create a clean and understandable Tripwire policy for integrity monitoring
+# - To focus on critical system areas (binaries, configuration, boot files)
+# - To exclude noisy and frequently changing paths to produce meaningful reports
+# ------------------------------------------------------------------------------
+
 set -euo pipefail
 
 [[ "$EUID" -eq 0 ]] || { echo "Please run this script as root."; exit 1; }

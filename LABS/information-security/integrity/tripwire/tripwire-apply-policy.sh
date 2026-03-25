@@ -15,6 +15,16 @@
 # 1. Backs up the current Tripwire policy file
 # 2. Writes a predefined lab-oriented policy to /etc/tripwire/twpol.txt
 # 3. Reinitializes the Tripwire database using the new policy
+#
+# Policy Characteristics:
+# - High severity monitoring for critical system paths
+# - Read-only rules for system binaries and configurations
+# - Excludes dynamic directories such as /proc, /sys, /run, /tmp, /var/log
+#
+# Usage:
+# - Run as root
+# - Intended for lab, testing, and educational environments
+# - Requires an already installed and initialized Tripwire setup
 # ------------------------------------------------------------------------------
 
 set -euo pipefail

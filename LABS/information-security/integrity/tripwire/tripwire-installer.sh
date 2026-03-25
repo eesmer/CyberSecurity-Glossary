@@ -1,10 +1,25 @@
 #!/usr/bin/env bash
 
-# This script installs Tripwire, initializes its database, and performs an initial integrity check on a Debian lab system.
-# Tested for Debian 12 and Debian 13 based lab environments. This script should be used in a lab or test environment.
-# The script predefines Tripwire site and local passphrases in order to make the installation non-interactive and reproducible.
-# This is done only for laboratory purposes.
-# In production environments, Tripwire keys and passphrases must be protected carefully and should never be embedded in scripts.
+# ------------------------------------------------------------------------------
+# Tripwire Lab Installation Script
+#
+# This script installs Tripwire on a Debian-based lab system, preconfigures its
+# required passphrases non-interactively, initializes the Tripwire database,
+# and performs the first integrity check.
+#
+# Purpose:
+# - To automate Tripwire installation in lab and test environments
+# - To make the setup process reproducible and non-interactive
+# - To prepare a ready-to-use baseline for integrity monitoring exercises
+#
+# What this script does:
+# 1. Updates the package index
+# 2. Preseeds Tripwire debconf answers for site and local passphrases
+# 3. Installs the Tripwire package
+# 4. Initializes the Tripwire database
+# 5. Runs the first integrity check
+# 6. Prints the location of the latest Tripwire report if available
+# ------------------------------------------------------------------------------
 
 set -euo pipefail
 

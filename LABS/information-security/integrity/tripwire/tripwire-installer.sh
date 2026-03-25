@@ -35,6 +35,10 @@
 # - The first integrity check may report violations depending on system state
 # - The script does not stop if the initial check reports changes
 # - Generated reports can be reviewed later with twprint
+#
+# Tested on:
+# - Debian 12 (Bookworm)
+# - Debian 13 (Trixie)
 # ------------------------------------------------------------------------------
 
 set -euo pipefail

@@ -51,4 +51,7 @@ Another goal of the repository is to provide technical cybersecurity content in 
 
 ---
 
-Lisans / License: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+Lisans / License: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) <br>
+![GitHub License](https://img.shields.io/github/license/eesmer/CyberSecurity-Glossary)
+
+
